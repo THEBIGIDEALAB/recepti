@@ -1,0 +1,79 @@
+{
+  "id": "pasticada",
+  "title": "Pašticada",
+  "category": "Meso",
+  "servings": 4,
+  "photo": "",
+  "youtube": "",
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "kg",
+      "name": "govedina (but)"
+    },
+    {
+      "amount": 4,
+      "unit": "režnja",
+      "name": "češnjak"
+    },
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "sušenih šljiva"
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "panceta"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "mrkva"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "celer (korijen)"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "luk"
+    },
+    {
+      "amount": 200,
+      "unit": "ml",
+      "name": "prošek"
+    },
+    {
+      "amount": 500,
+      "unit": "ml",
+      "name": "crno vino"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "mast ili ulje"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sol"
+    },
+    {
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "papar"
+    }
+  ],
+  "steps": [
+    "Meso izbosti nožem i u zareze utisnuti češnjak i komadiće pancete. Preliti octom, pokriti i ostaviti u hladnjaku preko noći.",
+    "Izvaditi meso, dobro osušiti papirnatim ubrusom.",
+    "Zagrijati mast/ulje u teškoj posudi i pržiti meso sa svih strana dok lijepo ne porumeni (oko 10 minuta).",
+    "Dodati nasjeckani luk, mrkvu i celer. Pržiti zajedno još 10 minuta na srednje jakoj vatri.",
+    "Dodati šljive, prošek i vino. Začiniti solju i paprom. Poklopiti i pirjati na tihoj vatri 3–4 sata, povremeno okrenuti meso.",
+    "Izvaditi meso i ostaviti sa strane. Umak pasirati kroz cjedilo ili blendati, pa kuhati otklopljeno dok se ne zgusne.",
+    "Meso narezati na deblje šnite, vratiti u umak i zagrijati. Servirati s njokima ili domaćim rezancima."
+  ]
+}
