@@ -1,0 +1,68 @@
+{
+  "id": "curry-udon",
+  "title": "Curry Udon",
+  "category": "Japan",
+  "servings": 4,
+  "photo": "https://www.justonecookbook.com/wp-content/uploads/2024/09/Curry-Udon-II.jpg",
+  "youtube": "",
+  "notes": "Priprema: 10 min | Kuhanje: 40 min. Debeli chewy udon rezanci u bogatom, mirisnom curry umaku. Možeš koristiti bilo koji protein po izboru.",
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "luk, tanko narezan (oko 320 g)"
+    },
+    {
+      "amount": 4,
+      "unit": "kom",
+      "name": "mladi luk, narezan na kolutiće"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "neutralno ulje (repičino, suncokretovo...)"
+    },
+    {
+      "amount": 340,
+      "unit": "g",
+      "name": "svinjska lungića ili protein po izboru, na sitne komadiće"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sake"
+    },
+    {
+      "amount": 1440,
+      "unit": "ml",
+      "name": "dashi"
+    },
+    {
+      "amount": 4,
+      "unit": "kom",
+      "name": "kocke japanskog curry rouxa (ukupno oko 100 g)"
+    },
+    {
+      "amount": 4,
+      "unit": "tsp",
+      "name": "sojin umak"
+    },
+    {
+      "amount": 360,
+      "unit": "g",
+      "name": "suhi udon rezanci (ili 1 kg zamrznutih)"
+    }
+  ],
+  "steps": [
+    "Pripremiti <strong>dashi</strong> prema odabranoj metodi ako već nije gotov. <strong>Kocke curry rouxa</strong> isjeckati na komade i imati pri ruci.",
+    "Tanko narezati <strong>luk</strong> i <strong>mladi luk</strong>.",
+    "U loncu zagrijati <strong>ulje</strong> na srednje jakoj vatri. Dodati <strong>luk</strong> i pržiti 2–3 minute.",
+    "Dodati <strong>meso</strong> i pržiti dok više ne bude ružičasto. Dodati <strong>sake</strong> i promiješati.",
+    "Dodati <strong>dashi</strong>, pokriti poklopcem, smanjiti vatru na srednje laganu i kuhati 5 minuta.",
+    "Za vrijeme kuhanja skidati pjenu i mast s površine juhe te nastaviti s kuhanjem.",
+    "Nakon 5 minuta ugasiti vatru. Staviti kocke <strong>curry rouxa</strong> u kutlaču i otapati ih jednu po jednu u juhi pomoću štapića za jelo dok se potpuno ne otope.",
+    "Dodati <strong>sojin umak</strong> i dobro promiješati. Ugasiti vatru i pokriti poklopcem da ostane toplo.",
+    "U posebnom velikom loncu zakuhati vodu i skuhati <strong>udon rezance</strong> prema uputama na pakiranju.",
+    "Ocijediti rezance i rasporediti u četiri zdjele. Preliti curry juhom, ukrasiti s <strong>mladim lukom</strong> i odmah poslužiti."
+  ]
+}
