@@ -1,0 +1,41 @@
+{
+  "id": "japanska-majoneza",
+  "title": "Japanska majoneza",
+  "category": "Japan",
+  "servings": 4,
+  "photo": "https://int.japanesetaste.com/cdn/shop/articles/simple-easy-japanese-mayonnaise-recipe-japanese-taste_dc4aded4-8b64-4a27-98e4-c7c5377f45df.jpg?v=1763621324&width=1440",
+  "youtube": "",
+  "notes": "Brza verzija japanske majoneze napravljena od američke majoneze, bogata umamijem. Savršen preljev za sushi, onigiri ili takoyaki. Priprema: 5 min.",
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "šalica",
+      "name": "majoneza, npr. Hellman's ili veganska"
+    },
+    {
+      "amount": 0.125,
+      "unit": "tsp",
+      "name": "dashi prah, izostavi za vegansku varijantu"
+    },
+    {
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "dijon gorčica"
+    },
+    {
+      "amount": 1.5,
+      "unit": "tbsp",
+      "name": "rižin ocat ili ocat od jabučnjaka"
+    },
+    {
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "šećer"
+    }
+  ],
+  "steps": [
+    "Sve sastojke — <strong>majonezu</strong>, <strong>dashi prah</strong>, <strong>dijon gorčicu</strong>, <strong>rižin ocat</strong> i <strong>šećer</strong> — staviti u zdjelu.",
+    "Miksati vilicom ili pjenjačom dok se ne dobije glatka, jednolična smjesa.",
+    "Koristiti odmah ili pohraniti u zatvorenoj posudi u hladnjaku do tjedan dana."
+  ]
+}
