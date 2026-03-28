@@ -1,7 +1,7 @@
 {
   "id": "poke-bowl",
   "title": "Havajski Poke Bowl",
-  "category": "Japan",
+  "category": "Havaji",
   "servings": 4,
   "photo": "https://www.afarmgirlsdabbles.com/wp-content/uploads/2020/03/easy-hawaiian-poke-bowl_AFarmgirlsDabbles_AFD-7-sq.jpg",
   "youtube": "",
@@ -46,7 +46,7 @@
     {
       "amount": 1,
       "unit": "tbsp",
-      "name": "tostirno sezamovo ulje"
+      "name": "tostirano sezamovo ulje"
     },
     {
       "amount": 1,
@@ -72,16 +72,24 @@
       "name": "engleski krastavac, narezan na tanke polu-kružiće"
     },
     {
+      "amount": 1,
+      "unit": "šalica",
       "name": "wakame salata"
     },
     {
-      "name": "edamame, kuhano"
+      "amount": 1,
+      "unit": "šalica",
+      "name": "edamame, očišćeno"
     },
     {
-      "name": "ananas, na kockice"
+      "amount": 1,
+      "unit": "šalica",
+      "name": "svježi ananas, na kockice"
     },
     {
-      "name": "kiseli đumbir za sushi"
+      "amount": 0.25,
+      "unit": "šalica",
+      "name": "kiseli đumbir za sushi, na kriškice"
     },
     {
       "amount": 1,
@@ -89,18 +97,24 @@
       "name": "avokado, narezan"
     },
     {
-      "amount": 200,
+      "amount": 340,
       "unit": "g",
-      "name": "svježi losos, na kockice"
+      "name": "svježi losos ili tuna sushi kvalitete, na kockice"
     },
     {
+      "amount": 0.5,
+      "unit": "šalica",
       "name": "prženi luk (crispy fried onion)"
     },
     {
-      "name": "sezam, tostirani"
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sezam, crni i/ili bijeli, tostirani"
     },
     {
-      "name": "mladi luk, narezan na kolutiće"
+      "amount": 2,
+      "unit": "kom",
+      "name": "mladi luk, tanko narezan"
     }
   ],
   "steps": [
