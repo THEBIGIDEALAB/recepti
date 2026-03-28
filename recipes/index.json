@@ -1,0 +1,16 @@
+[
+  {
+    "id": "pasticada",
+    "title": "Pašticada",
+    "category": "Meso",
+    "servings": 4,
+    "photo": ""
+  },
+  {
+    "id": "cokoladni-kolac",
+    "title": "Čokoladni kolač",
+    "category": "Deserti",
+    "servings": 8,
+    "photo": ""
+  }
+]
