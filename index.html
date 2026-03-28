@@ -128,6 +128,7 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
   }
 
   function renderHome() {
+    history.pushState({v:'home'}, '', location.pathname);
     hideAll(); view = 'home';
     var counts = {};
     all.forEach(function(r) { counts[r.category] = (counts[r.category] || 0) + 1; });
@@ -142,6 +143,7 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
   }
 
   function renderCat(cat) {
+    history.pushState({v:'cat',cat:cat}, '', '#cat-' + cat);
     hideAll(); view = 'cat'; curCat = cat;
     var recipes = all.filter(function(r) { return r.category === cat; });
     recipes.sort(function(a, b) { return a.title.localeCompare(b.title, 'hr'); });
@@ -220,17 +222,12 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
   function loadRecipe(id) {
     fetch('recipes/' + id + '.json?t=' + Date.now())
       .then(function(r) { return r.json(); })
-      .then(function(recipe) { openRecipe(recipe); location.hash = id; })
+      .then(function(recipe) { openRecipe(recipe); history.pushState({v:'recipe',id:id}, '', '#' + id); })
       .catch(function() { alert('Ne mogu učitati recept.'); });
   }
 
   function goBack() {
-    location.hash = '';
-    if (view === 'recipe') {
-      if (prevView === 'cat' && curCat) renderCat(curCat);
-      else if (prevView === 'search') renderSearch($('search-input').value.toLowerCase());
-      else renderHome();
-    } else { renderHome(); }
+    history.back();
   }
 
   $('logo').addEventListener('click', renderHome);
@@ -264,6 +261,28 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
     })
     .catch(function(e) { $('loading').textContent = 'Greška pri učitavanju.'; console.error(e); });
 })();
+
+  // popstate — browser back/forward & swipe
+  window.addEventListener('popstate', function(e) {
+    var st = e.state;
+    if (!st) { renderHome(); return; }
+    if (st.v === 'home') { renderHome(); }
+    else if (st.v === 'cat') { renderCat(st.cat); }
+    else if (st.v === 'recipe') { loadRecipe(st.id); }
+  });
+
+  // swipe left/right
+  (function() {
+    var tx = 0;
+    document.addEventListener('touchstart', function(e) { tx = e.touches[0].clientX; }, {passive:true});
+    document.addEventListener('touchend', function(e) {
+      var dx = e.changedTouches[0].clientX - tx;
+      if (Math.abs(dx) < 60) return;
+      if (dx < 0) history.forward();
+      else history.back();
+    }, {passive:true});
+  })();
+
 </script>
 </body>
 </html>
