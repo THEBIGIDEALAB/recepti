@@ -1,0 +1,116 @@
+{
+  "id": "lovacki-sos-vepar",
+  "title": "Lovački sos za vepra",
+  "category": "Hrvatska",
+  "servings": 4,
+  "photo": "https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_auto,s_webp:avif/thewildgamegourmet.com/wp-content/uploads/2025/03/beer-braised-hog-shank-recipe.jpg",
+  "youtube": "",
+  "notes": "Kuhanje: 40–50 min. Prinos: oko 6–7 dl — dosta za 2 kg mesa i 4 porcije. Savjet za meso: posoli 12–24 h unaprijed (dry brine), tek onda vakumiraj. Za 2 kg vepra u vrećicu stavi: 40 g soli, 1 žlica papra, 5 bobica kleke, 2 lovora, 3 grančice timijana, 4 češnjeva češnjaka, 2,5 žlice svinjske masti, 1 žličica senfa. Kuhaj sous vide na 72°C / 18 h. Kad izvađeš meso, osuši ga papirnatim ručnikom i zapeči u pećnici na 220–230°C dok ne uhvati koricu.",
+  "ingredients": [
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "luk, sitno narezan"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "mrkva, sitno narezana"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "celer, manji komad — ili korijen peršina"
+    },
+    {
+      "amount": 3,
+      "unit": "režnja",
+      "name": "češnjak"
+    },
+    {
+      "amount": 240,
+      "unit": "g",
+      "name": "gljive, šampinjoni ili miks, narezane"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "svinjska mast ili ulje"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "koncentrat rajčice"
+    },
+    {
+      "amount": 250,
+      "unit": "ml",
+      "name": "crno vino"
+    },
+    {
+      "name": "sav sok iz vrećice od mesa, procijeđen"
+    },
+    {
+      "amount": 350,
+      "unit": "ml",
+      "name": "temeljač ili voda, po potrebi"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "lovorov list"
+    },
+    {
+      "amount": 5,
+      "unit": "kom",
+      "name": "bobice kleke, lagano zgnječene"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "grančica ružmarina ili 2–3 grančice timijana"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "senf"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "slatka paprika"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "džem od brusnice ili ribiza"
+    },
+    {
+      "name": "svježe mljeveni papar"
+    },
+    {
+      "name": "sol, po potrebi"
+    },
+    {
+      "group": "Za završetak (po izboru)"
+    },
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "hladan maslac"
+    },
+    {
+      "name": "gustin, razmućen u hladnoj vodi — alternativa maslacu"
+    }
+  ],
+  "steps": [
+    "Kad izvađeš <strong>vepra</strong> iz vrećice, procijedi sav sok i skini višak masnoće žlicom. Ostavi sa strane — nemoj odmah dosoljavati jer je taj sok već jak i slan.",
+    "U široj posudi zagrij <strong>mast ili ulje</strong>. Dodaj <strong>luk</strong>, <strong>mrkvu</strong> i <strong>celer</strong> te pirjaj 10–15 minuta na srednje jakoj vatri dok povrće omekša i primi tamniju boju — to je bitno za dubinu sosa.",
+    "Ubaci narezane <strong>gljive</strong> i peči 6–8 minuta dok puste vodu pa se lagano zapeku.",
+    "Dodaj <strong>češnjak</strong>, <strong>koncentrat rajčice</strong>, <strong>papriku</strong> i <strong>senf</strong>. Miješaj oko 1 minutu da se koncentrat lagano karamelizira.",
+    "Ulij <strong>crno vino</strong> i kuhaj 5–7 minuta dok se reducira otprilike za trećinu.",
+    "Ulij procijeđeni <strong>sok iz vrećice</strong> i dodaj <strong>lovor</strong>, <strong>kleku</strong> i <strong>ružmarin ili timijan</strong>. Po potrebi dolij <strong>temeljač</strong> do željene količine sosa.",
+    "Kuhaj lagano 25–35 minuta bez poklopca. Pred kraj probaj i po potrebi dodaj <strong>sol</strong>, <strong>papar</strong> i malo <strong>džema od brusnice</strong> — malo po malo, samo da zaokružiš okus.",
+    "Izvadi <strong>lovor</strong> i grančice. Odaberi završetak: rustikalni — ostavi kako jest; glatki — izblendaj; klasični fini — procijedi i pritisni povrće pa vrati tekući dio na vatru. Za sjaj umiješaj <strong>hladan maslac</strong>, ili za gušći sos dodaj malo <strong>gustina</strong>. Za tamniji, dublji okus po želji dodaj jednu kockicu tamne čokolade, pola žličice aceta balsamica ili još pola žličice <strong>džema od brusnice</strong> — samo jedno od toga."
+  ]
+}
