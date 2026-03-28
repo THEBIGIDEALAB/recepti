@@ -61,5 +61,19 @@
     "category": "Japan",
     "servings": 4,
     "photo": "https://www.justonecookbook.com/wp-content/uploads/2024/04/California-Roll-7082-II.jpg"
+  },
+  {
+    "id": "poke-bowl",
+    "title": "Havajski Poke Bowl",
+    "category": "Japan",
+    "servings": 4,
+    "photo": "https://www.afarmgirlsdabbles.com/wp-content/uploads/2020/03/easy-hawaiian-poke-bowl_AFarmgirlsDabbles_AFD-7-sq.jpg"
+  },
+  {
+    "id": "unagi-umak",
+    "title": "Unagi umak",
+    "category": "Japan",
+    "servings": 4,
+    "photo": "https://www.justonecookbook.com/wp-content/uploads/2020/06/Homemade-Unagi-Sauce-6173-I.jpg"
   }
 ]
