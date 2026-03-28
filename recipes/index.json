@@ -1,7 +1,7 @@
 [
   {
     "id": "pasticada",
-    "title": "PaÃÂ¡ticada",
+    "title": "Pašticada",
     "category": "Hrvatska",
     "servings": 4,
     "photo": "https://www.camping-simuni.hr/wp-content/uploads/bf-advanced-images/24378/shutterstock-2367344631-1-1920x0.jpg"
@@ -17,14 +17,42 @@
     "id": "sunomono",
     "title": "Sunomono",
     "category": "Japan",
-    "servings": 2,
+    "servings": 4,
     "photo": "https://cinnamonsnail.com/wp-content/uploads/2024/12/sunomono-17.jpg"
   },
   {
-    "id": "yakitori-piletina",
-    "title": "Japanska Yakitori Piletina",
+    "id": "japanska-majoneza",
+    "title": "Japanska majoneza",
     "category": "Japan",
     "servings": 4,
-    "photo": "https://www.lordbyronskitchen.com/wp-content/uploads/2023/02/Japanese-Yakitori-Chicken-c-100.jpg"
+    "photo": "https://int.japanesetaste.com/cdn/shop/articles/simple-easy-japanese-mayonnaise-recipe-japanese-taste_dc4aded4-8b64-4a27-98e4-c7c5377f45df.jpg?v=1763621324&width=1440"
+  },
+  {
+    "id": "curry-udon",
+    "title": "Curry Udon",
+    "category": "Japan",
+    "servings": 4,
+    "photo": "https://www.justonecookbook.com/wp-content/uploads/2024/09/Curry-Udon-II.jpg"
+  },
+  {
+    "id": "dashi",
+    "title": "Dashi",
+    "category": "Japan",
+    "servings": 4,
+    "photo": "https://www.justonecookbook.com/wp-content/uploads/2019/04/Awase-Dashi-II.jpg"
+  },
+  {
+    "id": "dragon-roll",
+    "title": "Dragon Roll",
+    "category": "Japan",
+    "servings": 4,
+    "photo": "https://www.justonecookbook.com/wp-content/uploads/2020/06/Dragon-Roll-0293-II.jpg"
+  },
+  {
+    "id": "california-roll",
+    "title": "California Roll",
+    "category": "Japan",
+    "servings": 4,
+    "photo": "https://www.justonecookbook.com/wp-content/uploads/2024/04/California-Roll-7082-II.jpg"
   }
 ]
