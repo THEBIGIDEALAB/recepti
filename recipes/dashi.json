@@ -1,0 +1,35 @@
+{
+  "id": "dashi",
+  "title": "Dashi",
+  "category": "Japan",
+  "servings": 4,
+  "photo": "https://www.justonecookbook.com/wp-content/uploads/2019/04/Awase-Dashi-II.jpg",
+  "youtube": "",
+  "notes": "Priprema: 5 min | Kuhanje: 15 min. Osnovna japanska juha bogata umamijem koja se koristi u bezbroj jela. Prinos: oko 800 ml.",
+  "ingredients": [
+    {
+      "amount": 10,
+      "unit": "g",
+      "name": "kombu (sušeni kelp), komad oko 10×10 cm"
+    },
+    {
+      "amount": 10,
+      "unit": "g",
+      "name": "katsuobushi, sušene pahuljice bonita"
+    },
+    {
+      "amount": 1000,
+      "unit": "ml",
+      "name": "voda"
+    }
+  ],
+  "steps": [
+    "Lagano obrisati <strong>kombu</strong> vlažnou krpom — ne prati ga jer bijela praškasta tvar (manitol) daje umami okus. Zarežati nekoliko zareza na kombu da otpusti više okusa.",
+    "Neobavezan korak — hladna ekstrakcija: <strong>kombu</strong> i <strong>vodu</strong> staviti u bocu i ostaviti 2–3 sata na sobnoj temperaturi (ili 4–5 sati zimi, ili preko noći u hladnjaku).",
+    "Staviti <strong>kombu</strong> i <strong>vodu</strong> u lonac i polako zagrijavati na srednje laganoj vatri oko 10 minuta, dok ne dođe blizu vrelišta. Skimati pjenu s površine.",
+    "Izvaditi <strong>kombu</strong> tik prije nego počne vrelište. Ako ostane, juhica postaje sluzava i gorka.",
+    "Dodati <strong>katsuobushi</strong> i dovesti do laganog ključanja. Smanjiti vatru i kuhati 30 sekundi, zatim ugasiti.",
+    "Ostaviti da <strong>katsuobushi</strong> potone na dno, oko 10 minuta.",
+    "Procijediti juhicu kroz gustu cjediljku ili gazu u zdjelu ili mjernu čašu. Dashi je spreman za upotrebu. Pohraniti u hladnjak do 3–5 dana, ili zamrznuti do 2 tjedna."
+  ]
+}
