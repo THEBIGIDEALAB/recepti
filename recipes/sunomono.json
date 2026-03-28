@@ -8,49 +8,55 @@
   "notes": "Sunomono (salata od krastavca) je lagana, osvježavajuća salata s octom koja je odličan početak obroka. Kiselost octa potiče apetit. Priprema: 10 min, kuhanje: 5 min.",
   "ingredients": [
     {
+      "group": "Salata"
+    },
+    {
       "amount": 2,
       "unit": "tbsp",
-      "name": "wakame, osušena i rehidrirana (salata)"
+      "name": "wakame, osušena i rehidrirana (morska trava)"
     },
     {
       "amount": 2,
       "unit": "kom",
-      "name": "japanski krastavac, tanko narezan — ili 1 engleski krastavac (salata)"
+      "name": "japanski krastavac, tanko narezan — ili 1 engleski krastavac"
     },
     {
       "amount": 2,
       "unit": "tsp",
-      "name": "sol (salata)"
+      "name": "sol"
     },
     {
       "amount": 1,
       "unit": "tsp",
-      "name": "đumbir, julienne — opcionalno (salata)"
+      "name": "đumbir, julienne — opcionalno"
+    },
+    {
+      "group": "Preljev"
     },
     {
       "amount": 6,
       "unit": "tbsp",
-      "name": "rižin ocat (preljev)"
+      "name": "rižin ocat"
     },
     {
       "amount": 4,
       "unit": "tbsp",
-      "name": "dashi ili voda (preljev)"
+      "name": "dashi ili voda"
     },
     {
       "amount": 2,
       "unit": "tbsp",
-      "name": "šećer (preljev)"
+      "name": "šećer"
     },
     {
       "amount": 2,
       "unit": "tbsp",
-      "name": "soja umak (preljev)"
+      "name": "soja umak"
     },
     {
       "amount": 1,
       "unit": "tbsp",
-      "name": "sezamovo ulje (preljev)"
+      "name": "sezamovo ulje"
     }
   ],
   "steps": [
