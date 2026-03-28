@@ -21,6 +21,13 @@
     "photo": "https://cinnamonsnail.com/wp-content/uploads/2024/12/sunomono-17.jpg"
   },
   {
+    "id": "yakitori-piletina",
+    "title": "Japanska Yakitori Piletina",
+    "category": "Japan",
+    "servings": 4,
+    "photo": "https://www.lordbyronskitchen.com/wp-content/uploads/2023/02/Japanese-Yakitori-Chicken-c-100.jpg"
+  },
+  {
     "id": "japanska-majoneza",
     "title": "Japanska majoneza",
     "category": "Japan",
