@@ -1,0 +1,53 @@
+{
+  "id": "cokoladni-kolac",
+  "title": "Čokoladni kolač",
+  "category": "Deserti",
+  "servings": 8,
+  "photo": "",
+  "youtube": "",
+  "ingredients": [
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "tamna čokolada (70%)"
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "maslac"
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "šećer"
+    },
+    {
+      "amount": 3,
+      "unit": "kom",
+      "name": "jaja"
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "brašno"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "prašak za pecivo"
+    },
+    {
+      "amount": 1,
+      "unit": "pinch",
+      "name": "sol"
+    }
+  ],
+  "steps": [
+    "Zagrijati pećnicu na 170°C. Namazati kalup (24cm) maslacem i posuti brašnom.",
+    "Rastopiti čokoladu i maslac na pari, stalno miješati. Maknuti s vatre i ostaviti da se ohladi 10 minuta.",
+    "Dodati šećer u čokoladu i promiješati. Dodavati jaja jedno po jedno, svaki put dobro umutiti.",
+    "Prosijati brašno, prašak za pecivo i sol u smjesu. Lagano promiješati špatulom.",
+    "Izliti u kalup i peći 25–30 minuta. Čačkalica treba izaći s nekoliko mokrih mrvica.",
+    "Ostaviti u kalupu 10 minuta pa prebaciti na rešetku. Poslužiti mlako ili hladno, po želji s šlagom."
+  ]
+}
