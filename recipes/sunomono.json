@@ -1,0 +1,62 @@
+{
+  "id": "sunomono",
+  "title": "Sunomono",
+  "category": "Japan",
+  "servings": 2,
+  "photo": "",
+  "youtube": "",
+  "notes": "Sunomono (salata od krastavca) je lagana, osvježavajuća salata s octom koja je odličan početak obroka. Kiselost octa potiče apetit. Priprema: 10 min, kuhanje: 5 min.",
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "wakame, osušena i rehidrirana (morska trava)"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "japanski krastavac, tanko narezan (ili ½ engleskog krastavca)"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sol"
+    },
+    {
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "đumbir, julienne (opcionalno)"
+    },
+    {
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "rižin ocat (preljev)"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "dashi ili voda (preljev)"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "šećer (preljev)"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "soja umak (preljev)"
+    },
+    {
+      "amount": 0.5,
+      "unit": "tbsp",
+      "name": "sezamovo ulje (preljev)"
+    }
+  ],
+  "steps": [
+    "Oguliti <strong>krastavac</strong> i narezati na vrlo tanke ploške. Posuti <strong>solju</strong> i masirati. Ostaviti par minuta pa istisnuti višak vode. Prebaciti u zdjelu i dodati <strong>wakame</strong>.",
+    "U malom loncu spojiti sve sastojke <strong>preljeva</strong> (<strong>rižin ocat</strong>, <strong>dashi</strong>, <strong>šećer</strong>, <strong>soja umak</strong>, <strong>sezamovo ulje</strong>) i kuhati na jakoj vatri dok se šećer potpuno ne otopi. Ostaviti da se ohladi.",
+    "Prije posluživanja preliti <strong>preljev</strong> preko krastavca i wakame te dobro promiješati.",
+    "Poslužiti u manjim zdjelicama i ukrasti s <strong>đumbirom</strong> na vrhu."
+  ]
+}
