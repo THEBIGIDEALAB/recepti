@@ -11,10 +11,18 @@ nav { position: sticky; top: 0; background: #fff; border-bottom: 2px solid #111;
 nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-block; }
 #search-bar { margin-top: 8px; }
 #search-input { width: 100%; border: 1.5px solid #111; padding: 7px 10px; font-size: 1rem; font-family: Georgia, serif; background: #fff; outline: none; }
-.categories { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
-.cat-btn { border: 1.5px solid #111; background: #fff; padding: 4px 10px; font-size: 0.8rem; font-family: Georgia, serif; cursor: pointer; }
-.cat-btn.active { background: #111; color: #fff; }
-#list-view { padding-top: 16px; }
+
+/* HOME - category list */
+#home-view { padding-top: 16px; }
+.cat-item { border-bottom: 1px solid #ddd; padding: 16px 0; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.05rem; font-weight: bold; }
+.cat-item:active { background: #f5f5f5; }
+.cat-item .cat-arrow { color: #999; font-size: 0.9rem; }
+.cat-count { font-size: 0.8rem; color: #888; font-weight: normal; margin-left: 8px; }
+
+/* CATEGORY VIEW - recipe list */
+#cat-view { display: none; padding-top: 16px; }
+.back-btn { background: none; border: none; font-size: 0.95rem; font-family: Georgia, serif; cursor: pointer; padding: 0; margin-bottom: 16px; display: block; }
+#cat-title { font-size: 1.3rem; font-weight: bold; margin-bottom: 16px; border-bottom: 2px solid #111; padding-bottom: 8px; }
 .recipe-card { border-bottom: 1px solid #ddd; padding: 14px 0; cursor: pointer; display: flex; gap: 14px; align-items: center; }
 .recipe-card:active { background: #f5f5f5; }
 .card-thumb { width: 70px; height: 70px; object-fit: cover; border: 1px solid #ddd; flex-shrink: 0; }
@@ -22,8 +30,9 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
 .card-info h2 { font-size: 1.05rem; font-weight: bold; line-height: 1.3; }
 .card-info small { color: #666; font-size: 0.8rem; }
 #no-results { padding: 40px 0; text-align: center; color: #888; display: none; }
+
+/* RECIPE VIEW */
 #recipe-view { display: none; padding-top: 16px; padding-bottom: 60px; }
-.back-btn { background: none; border: none; font-size: 0.95rem; font-family: Georgia, serif; cursor: pointer; padding: 0; margin-bottom: 16px; }
 #recipe-view h1 { font-size: 1.6rem; line-height: 1.2; margin-bottom: 12px; }
 .recipe-photo { width: 100%; max-height: 280px; object-fit: cover; display: block; margin-bottom: 16px; border: 1px solid #ddd; }
 .servings-bar { border: 1.5px solid #111; padding: 10px 14px; margin-bottom: 20px; display: flex; align-items: center; gap: 12px; }
@@ -41,9 +50,14 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
 .step-n { font-weight: bold; font-size: 1.2rem; min-width: 24px; flex-shrink: 0; }
 .print-btn { border: 1.5px solid #111; background: #fff; padding: 10px 20px; font-family: Georgia, serif; font-size: 0.95rem; cursor: pointer; width: 100%; margin-top: 8px; }
 #loading { text-align: center; padding: 60px 0; color: #888; }
+
+/* SEARCH RESULTS */
+#search-view { display: none; padding-top: 16px; }
+#search-results-title { font-size: 0.9rem; color: #666; margin-bottom: 12px; }
+
 @media print {
   nav,.back-btn,.servings-bar,.print-btn,.yt-wrap{display:none!important;}
-  #list-view{display:none!important;}
+  #home-view,#cat-view,#search-view{display:none!important;}
   #recipe-view{display:block!important;padding:0;}
   body{max-width:100%;padding:0;font-size:11pt;}
   #recipe-view h1{font-size:18pt;margin-bottom:8pt;}
@@ -57,12 +71,18 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
 <nav>
   <h1 id="logo">&#x1F374; Recepti</h1>
   <div id="search-bar"><input id="search-input" type="search" placeholder="Pretra&#382;i recepte..." autocomplete="off"></div>
-  <div class="categories" id="categories"></div>
 </nav>
 <div id="loading">U&#269;itavam recepte...</div>
-<div id="list-view" style="display:none"></div>
+<div id="home-view" style="display:none"></div>
+<div id="cat-view" style="display:none">
+  <button class="back-btn" id="back-to-home">&#8592; Natrag</button>
+  <div id="cat-title"></div>
+</div>
+<div id="search-view" style="display:none">
+  <div id="search-results-title"></div>
+</div>
 <div id="no-results">Nema prona&#273;enih recepata.</div>
-<div id="recipe-view">
+<div id="recipe-view" style="display:none">
   <button class="back-btn" id="back-btn">&#8592; Natrag</button>
   <h1 id="r-title"></h1>
   <img id="r-photo" class="recipe-photo" style="display:none" alt="">
@@ -83,9 +103,23 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
 </div>
 <script>
 (function() {
-  var all = [], cur = null, curSrv = 4, baseSrv = 4, activeCat = 'Sve';
+  var all = [], cur = null, curSrv = 4, baseSrv = 4;
+  var currentView = 'home'; // home | cat | recipe | search
+  var currentCat = null;
+  var prevView = 'home';
+
+  // Fixed category order (sorted ABC, * at end treated as * for sort)
+  var CAT_ORDER = ['Hrvatska','Hawaii','Japan','Kina','Portugal','Thailand','Vietnam','*Slatko i kolači'];
 
   function $(id) { return document.getElementById(id); }
+
+  function hideAll() {
+    $('home-view').style.display = 'none';
+    $('cat-view').style.display = 'none';
+    $('recipe-view').style.display = 'none';
+    $('search-view').style.display = 'none';
+    $('no-results').style.display = 'none';
+  }
 
   function fmt(a, r) {
     var v = a * r;
@@ -93,39 +127,81 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
     return parseFloat(v.toFixed(2)).toString();
   }
 
-  function buildCats() {
-    var cats = ['Sve'];
-    all.forEach(function(r) { if (r.category && cats.indexOf(r.category) < 0) cats.push(r.category); });
-    $('categories').innerHTML = cats.map(function(c) {
-      return '<button class="cat-btn' + (c === 'Sve' ? ' active' : '') + '" data-cat="' + c + '">' + c + '</button>';
+  function renderHome() {
+    hideAll();
+    currentView = 'home';
+    // Count recipes per category
+    var counts = {};
+    all.forEach(function(r) { counts[r.category] = (counts[r.category] || 0) + 1; });
+    // Show all CAT_ORDER categories (even empty ones)
+    var el = $('home-view');
+    el.innerHTML = CAT_ORDER.map(function(cat) {
+      var n = counts[cat] || 0;
+      return '<div class="cat-item" data-cat="' + cat + '">'
+        + '<span>' + cat + (n > 0 ? '<span class="cat-count">(' + n + ')</span>' : '') + '</span>'
+        + '<span class="cat-arrow">&#8250;</span></div>';
     }).join('');
-    $('categories').addEventListener('click', function(e) {
-      var btn = e.target.closest('.cat-btn');
-      if (!btn) return;
-      activeCat = btn.dataset.cat;
-      document.querySelectorAll('.cat-btn').forEach(function(b) { b.classList.toggle('active', b === btn); });
-      filter();
-    });
+    el.style.display = 'block';
+    $('search-input').value = '';
   }
 
-  function renderList(recipes) {
-    var el = $('list-view');
-    el.innerHTML = recipes.map(function(r) {
-      return '<div class="recipe-card" data-id="' + r.id + '">'
-        + (r.photo ? '<img class="card-thumb" src="' + r.photo + '" loading="lazy" alt="">' : '<div class="card-ph">&#x1F37D;</div>')
-        + '<div class="card-info"><h2>' + r.title + '</h2><small>' + (r.category || '') + ' &middot; ' + (r.servings || 4) + ' osobe</small></div>'
-        + '</div>';
-    }).join('');
-    $('no-results').style.display = recipes.length === 0 ? 'block' : 'none';
+  function renderCat(cat) {
+    hideAll();
+    currentView = 'cat';
+    currentCat = cat;
+    var recipes = all.filter(function(r) { return r.category === cat; });
+    // Sort ABC
+    recipes.sort(function(a, b) { return a.title.localeCompare(b.title, 'hr'); });
+    $('cat-title').textContent = cat;
+    var container = $('cat-view');
+    // Remove old recipe cards (keep back button and title)
+    var old = container.querySelectorAll('.recipe-card,.cat-empty');
+    old.forEach(function(el) { el.remove(); });
+    if (recipes.length === 0) {
+      var empty = document.createElement('p');
+      empty.className = 'cat-empty';
+      empty.style.cssText = 'color:#888;padding:40px 0;text-align:center;';
+      empty.textContent = 'Nema recepata u ovoj kategoriji.';
+      container.appendChild(empty);
+    } else {
+      recipes.forEach(function(r) {
+        var div = document.createElement('div');
+        div.className = 'recipe-card';
+        div.dataset.id = r.id;
+        div.innerHTML = (r.photo ? '<img class="card-thumb" src="' + r.photo + '" loading="lazy" alt="">'
+          : '<div class="card-ph">&#x1F37D;</div>')
+          + '<div class="card-info"><h2>' + r.title + '</h2><small>' + (r.servings || 4) + ' osobe</small></div>';
+        container.appendChild(div);
+      });
+    }
+    container.style.display = 'block';
   }
 
-  function filter() {
-    var q = $('search-input').value.toLowerCase();
+  function renderSearch(q) {
+    hideAll();
+    currentView = 'search';
     var f = all.filter(function(r) {
-      return (activeCat === 'Sve' || r.category === activeCat)
-        && (!q || r.title.toLowerCase().indexOf(q) >= 0 || (r.category || '').toLowerCase().indexOf(q) >= 0);
+      return r.title.toLowerCase().indexOf(q) >= 0 || (r.category || '').toLowerCase().indexOf(q) >= 0;
     });
-    renderList(f);
+    f.sort(function(a,b){ return a.title.localeCompare(b.title,'hr'); });
+    $('search-results-title').textContent = 'Rezultati za "' + q + '": ' + f.length + ' recept(a)';
+    var container = $('search-view');
+    var old = container.querySelectorAll('.recipe-card');
+    old.forEach(function(el){ el.remove(); });
+    if (f.length === 0) {
+      $('no-results').style.display = 'block';
+    } else {
+      f.forEach(function(r) {
+        var div = document.createElement('div');
+        div.className = 'recipe-card';
+        div.dataset.id = r.id;
+        div.innerHTML = (r.photo ? '<img class="card-thumb" src="' + r.photo + '" loading="lazy" alt="">'
+          : '<div class="card-ph">&#x1F37D;</div>')
+          + '<div class="card-info"><h2>' + r.title + '</h2><small>' + (r.category||'') + ' &middot; ' + (r.servings||4) + ' osobe</small></div>';
+        container.appendChild(div);
+      });
+    }
+    container.style.display = 'block';
   }
 
   function renderIng() {
@@ -138,11 +214,12 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
 
   function renderSteps() {
     $('step-list').innerHTML = (cur.steps || []).map(function(s, i) {
-      return '<li><span class="step-n">' + (i + 1) + '.</span><span>' + s + '</span></li>';
+      return '<li><span class="step-n">' + (i+1) + '.</span><span>' + s + '</span></li>';
     }).join('');
   }
 
   function openRecipe(recipe) {
+    prevView = currentView;
     cur = recipe;
     baseSrv = recipe.servings || 4;
     curSrv = baseSrv;
@@ -153,19 +230,11 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
     if (recipe.youtube) { yt.style.display = 'block'; yt.innerHTML = '<iframe src="' + recipe.youtube + '" allowfullscreen loading="lazy"></iframe>'; }
     else { yt.style.display = 'none'; yt.innerHTML = ''; }
     $('srv-count').textContent = curSrv;
-    renderIng();
-    renderSteps();
-    $('list-view').style.display = 'none';
-    $('no-results').style.display = 'none';
+    renderIng(); renderSteps();
+    hideAll();
     $('recipe-view').style.display = 'block';
+    currentView = 'recipe';
     window.scrollTo(0, 0);
-  }
-
-  function showList() {
-    $('recipe-view').style.display = 'none';
-    $('list-view').style.display = 'block';
-    history.pushState('', document.title, window.location.pathname);
-    cur = null;
   }
 
   function loadRecipe(id) {
@@ -175,16 +244,44 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
       .catch(function() { alert('Ne mogu učitati recept.'); });
   }
 
-  // Event listeners
-  $('logo').addEventListener('click', showList);
-  $('back-btn').addEventListener('click', showList);
-  $('search-input').addEventListener('input', filter);
-  $('srv-minus').addEventListener('click', function() { curSrv = Math.max(1, curSrv - 1); $('srv-count').textContent = curSrv; renderIng(); });
-  $('srv-plus').addEventListener('click', function() { curSrv++; $('srv-count').textContent = curSrv; renderIng(); });
+  function goBack() {
+    location.hash = '';
+    if (currentView === 'recipe') {
+      if (prevView === 'cat' && currentCat) { renderCat(currentCat); }
+      else if (prevView === 'search') { renderSearch($('search-input').value.toLowerCase()); }
+      else { renderHome(); }
+    } else {
+      renderHome();
+    }
+  }
+
+  // Events
+  $('logo').addEventListener('click', renderHome);
+  $('back-to-home').addEventListener('click', function() { renderHome(); location.hash = ''; });
+  $('back-btn').addEventListener('click', goBack);
   $('print-btn').addEventListener('click', function() { window.print(); });
-  $('list-view').addEventListener('click', function(e) {
+  $('srv-minus').addEventListener('click', function() { curSrv = Math.max(1, curSrv-1); $('srv-count').textContent = curSrv; renderIng(); });
+  $('srv-plus').addEventListener('click', function() { curSrv++; $('srv-count').textContent = curSrv; renderIng(); });
+
+  $('home-view').addEventListener('click', function(e) {
+    var item = e.target.closest('.cat-item');
+    if (item) renderCat(item.dataset.cat);
+  });
+
+  $('cat-view').addEventListener('click', function(e) {
     var card = e.target.closest('.recipe-card');
     if (card) loadRecipe(card.dataset.id);
+  });
+
+  $('search-view').addEventListener('click', function(e) {
+    var card = e.target.closest('.recipe-card');
+    if (card) loadRecipe(card.dataset.id);
+  });
+
+  $('search-input').addEventListener('input', function() {
+    var q = this.value.trim().toLowerCase();
+    if (q.length === 0) { renderHome(); return; }
+    if (q.length >= 2) renderSearch(q);
   });
 
   // Init
@@ -192,15 +289,12 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
     .then(function(r) { return r.json(); })
     .then(function(d) {
       all = d;
-      buildCats();
-      renderList(all);
       $('loading').style.display = 'none';
-      $('list-view').style.display = 'block';
-      var h = location.hash.replace('#', '');
-      if (h) loadRecipe(h);
+      var h = location.hash.replace('#','');
+      if (h) { loadRecipe(h); } else { renderHome(); }
     })
     .catch(function(e) {
-      $('loading').textContent = 'Greška pri učitavanju recepti/index.json';
+      $('loading').textContent = 'Greška pri učitavanju.';
       console.error(e);
     });
 })();
