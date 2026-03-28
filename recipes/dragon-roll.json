@@ -1,0 +1,88 @@
+{
+  "id": "dragon-roll",
+  "title": "Dragon Roll",
+  "category": "Japan",
+  "servings": 4,
+  "photo": "https://www.justonecookbook.com/wp-content/uploads/2020/06/Dragon-Roll-0293-II.jpg",
+  "youtube": "",
+  "notes": "Priprema: 1 sat. Klasična sushi rolica s tempura škampima iznutra i narezanim avokadom izvana. Za ovaj recept trebat ćeš i sushi rižu i škampe tempura.",
+  "ingredients": [
+    {
+      "group": "Rolica"
+    },
+    {
+      "amount": 2,
+      "unit": "šalica",
+      "name": "sushi riža, kuhana i začinjena"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "nori list, prerezani poprečno na pola (4 polovice ukupno)"
+    },
+    {
+      "amount": 8,
+      "unit": "kom",
+      "name": "škampi tempura"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "krastavac, perzijski ili japanski"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tobiko (ikre letjeće ribe)"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "avokado"
+    },
+    {
+      "amount": 0.5,
+      "unit": "kom",
+      "name": "limun, za prelijevanje avokada — opcionalno"
+    },
+    {
+      "name": "unagi (jegulja) — opcionalno"
+    },
+    {
+      "group": "Preljev"
+    },
+    {
+      "name": "spicy mayo"
+    },
+    {
+      "name": "unagi umak"
+    },
+    {
+      "name": "prženi crni sezam"
+    },
+    {
+      "group": "Tezu (voda za ruke)"
+    },
+    {
+      "amount": 0.25,
+      "unit": "šalica",
+      "name": "voda"
+    },
+    {
+      "amount": 2,
+      "unit": "tsp",
+      "name": "rižin ocat"
+    }
+  ],
+  "steps": [
+    "Pripremiti sve sastojke. Pomiješati <strong>vodu</strong> i <strong>rižin ocat</strong> za tezu i ostaviti sa strane.",
+    "<strong>Krastavac</strong> narezati uzduže na četiri dijela, ukloniti sjemenke, pa svaki dio prerezati uzduže na pola.",
+    "<strong>Avokado</strong> prerezati uz sjemenku, odvojiti polovice i izvaditi sjemenku. Skinuti koru i narezati poprečno. Prstima, a zatim rubom noža, lagano spljoštiti kriške dok duljina ne odgovara duljini sushi rolice. Istisnuti <strong>limun</strong> na avokado ako se ne poslužuje odmah.",
+    "Bambusov prostirač zamotati plastičnom folijom. Postaviti pola lista norija, sjajnom stranom prema dolje. Umočiti prste u <strong>tezu</strong> i ravnomjerno rasporediti pola šalice <strong>sushi riže</strong> po noriju.",
+    "Preokrenuti (riža prema dolje, nori prema gore). Na donji rub staviti <strong>škampe tempura</strong>, trakice <strong>krastavca</strong> i <strong>tobiko</strong>. Po želji dodati i <strong>unagi</strong>.",
+    "Rolati čvrsto od donjeg ruba bambusovim prostiračem dok dno ne dosegne nori. Podignuti prostirač i nastaviti rolati. Na kraju čvrsto stisnuti rolicu.",
+    "Rubom noža složiti kriške <strong>avokada</strong> na vrh rolice. Prekriti plastičnom folijom i bambusovim prostiračem te lagano stisnuti dok se avokado ne omota oko rolice.",
+    "Rezati na 8 komada, brišući nož vlažnou krpom nakon svakog reza. Ako se rolica raspadne, stisnuti je još jednom prostiračem. Ukloniti foliju i prenijeti na tanjur.",
+    "Na svaki komad staviti <strong>tobiko</strong>, preliti <strong>spicy mayom</strong> i posuti <strong>crnim sezamom</strong>. Po želji poslužiti uz <strong>unagi umak</strong> za umakanje."
+  ]
+}
