@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recepti</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Georgia, serif; background: #fff; color: #111; max-width: 640px; margin: 0 auto; padding: 0 16px; }
+nav { position: sticky; top: 0; background: #fff; border-bottom: 2px solid #111; padding: 12px 0 8px; z-index: 100; }
+nav h1 { font-size: 1.4rem; font-weight: bold; letter-spacing: 0.05em; cursor: pointer; display: inline-block; }
+#search-bar { margin-top: 8px; }
+#search-input { width: 100%; border: 1.5px solid #111; padding: 7px 10px; font-size: 1rem; font-family: Georgia, serif; background: #fff; border-radius: 0; outline: none; }
+#search-input:focus { background: #f9f9f9; }
+.categories { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.cat-btn { border: 1.5px solid #111; background: #fff; padding: 4px 10px; font-size: 0.8rem; font-family: Georgia, serif; cursor: pointer; }
+.cat-btn.active { background: #111; color: #fff; }
+#list-view { padding-top: 16px; }
+.recipe-card { border-bottom: 1px solid #ddd; padding: 14px 0; cursor: pointer; display: flex; gap: 14px; align-items: center; }
+.card-thumb { width: 70px; height: 70px; object-fit: cover; border: 1px solid #ddd; flex-shrink: 0; }
+.card-thumb-placeholder { width: 70px; height: 70px; background: #eee; border: 1px solid #ddd; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; }
+.card-info h2 { font-size: 1.05rem; font-weight: bold; line-height: 1.3; }
+.card-info small { color: #666; font-size: 0.8rem; }
+#no-results { padding: 40px 0; text-align: center; color: #888; display: none; }
+#recipe-view { display: none; padding-top: 16px; padding-bottom: 60px; }
+.back-btn { background: none; border: none; font-size: 0.95rem; font-family: Georgia, serif; cursor: pointer; padding: 0; margin-bottom: 16px; }
+#recipe-view h1 { font-size: 1.6rem; line-height: 1.2; margin-bottom: 12px; }
+.recipe-photo { width: 100%; max-height: 280px; object-fit: cover; display: block; margin-bottom: 16px; border: 1px solid #ddd; }
+.servings-bar { border: 1.5px solid #111; padding: 10px 14px; margin-bottom: 20px; display: flex; align-items: center; gap: 12px; }
+.servings-controls { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+.srv-btn { width: 32px; height: 32px; border: 1.5px solid #111; background: #fff; font-size: 1.2rem; cursor: pointer; font-family: Georgia, serif; }
+#srv-count { font-size: 1.1rem; font-weight: bold; min-width: 24px; text-align: center; }
+.yt-wrap { position: relative; padding-bottom: 56.25%; margin-bottom: 20px; background: #000; }
+.yt-wrap iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+.section-title { font-size: 1rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.08em; border-bottom: 2px solid #111; padding-bottom: 4px; margin-bottom: 12px; }
+#ingredients-list { list-style: none; margin-bottom: 24px; }
+#ingredients-list li { padding: 8px 0; border-bottom: 1px solid #eee; font-size: 1rem; display: flex; gap: 8px; }
+.ing-amount { font-weight: bold; min-width: 80px; flex-shrink: 0; }
+#steps-list { list-style: none; margin-bottom: 24px; }
+#steps-list li { padding: 12px 0; border-bottom: 1px solid #eee; font-size: 1rem; line-height: 1.6; display: flex; gap: 14px; }
+.step-num { font-weight: bold; font-size: 1.2rem; min-width: 24px; flex-shrink: 0; }
+.print-btn { border: 1.5px solid #111; background: #fff; padding: 10px 20px; font-family: Georgia, serif; font-size: 0.95rem; cursor: pointer; width: 100%; margin-top: 8px; }
+#loading { text-align: center; padding: 60px 0; color: #888; }
+@media print {
+  nav, .back-btn, .servings-bar, .print-btn, .yt-wrap { display: none !important; }
+  #list-view { display: none !important; }
+  #recipe-view { display: block !important; padding: 0; }
+  body { max-width: 100%; padding: 0; font-size: 11pt; }
+  #recipe-view h1 { font-size: 18pt; margin-bottom: 8pt; }
+  .recipe-photo { max-height: 180px; margin-bottom: 10pt; }
+  .section-title { font-size: 10pt; margin-bottom: 6pt; }
+  #ingredients-list li, #steps-list li { font-size: 10pt; padding: 4pt 0; }
+  #ingredients-list, #steps-list { margin-bottom: 14pt; }
+  @page { margin: 1.5cm; size: A4; }
+}
+</style>
+</head>
+<body>
+<nav>
+  <h1 onclick="showList()">&#x1F374; Recepti</h1>
+  <div id="search-bar"><input id="search-input" type="search" placeholder="Pretra&#382;i recepte..." oninput="filterRecipes()" autocomplete="off"></div>
+  <div class="categories" id="categories"></div>
+</nav>
+<div id="loading">U&#269;itavam recepte...</div>
+<div id="list-view" style="display:none"></div>
+<div id="no-results">Nema prona&#273;enih recepata.</div>
+<div id="recipe-view">
+  <button class="back-btn" onclick="showList()">&#8592; Natrag</button>
+  <h1 id="r-title"></h1>
+  <img id="r-photo" class="recipe-photo" style="display:none" alt="">
+  <div id="r-youtube" class="yt-wrap" style="display:none"></div>
+  <div class="servings-bar">
+    <span>Osobe:</span>
+    <div class="servings-controls">
+      <button class="srv-btn" onclick="changeServings(-1)">&#8722;</button>
+      <span id="srv-count">4</span>
+      <button class="srv-btn" onclick="changeServings(1)">+</button>
+    </div>
+  </div>
+  <p class="section-title">Sastojci</p>
+  <ul id="ingredients-list"></ul>
+  <p class="section-title">Priprema</p>
+  <ol id="steps-list"></ol>
+  <button class="print-btn" onclick="window.print()">&#9113; Ispisi recept (A4)</button>
+</div>
+<script>
+var allRecipes=[],currentRecipe=null,currentServings=4,baseServings=4,activeCategory='Sve';
+function init(){fetch('recipes/index.json?t='+Date.now()).then(function(r){return r.json();}).then(function(d){allRecipes=d;buildCats();renderList(allRecipes);document.getElementById('loading').style.display='none';document.getElementById('list-view').style.display='block';var h=location.hash.replace('#','');if(h)openById(h);}).catch(function(){document.getElementById('loading').textContent='Greška pri učitavanju.';});}
+function buildCats(){var cats=['Sve'];allRecipes.forEach(function(r){if(r.category&&cats.indexOf(r.category)<0)cats.push(r.category);});var w=document.getElementById('categories');w.innerHTML=cats.map(function(c){return '<button class="cat-btn'+(c==='Sve'?' active':'')+'" onclick="setCat(''+c+'')">'+c+'</button>';}).join('');}
+function setCat(c){activeCategory=c;document.querySelectorAll('.cat-btn').forEach(function(b){b.classList.toggle('active',b.textContent===c);});filterRecipes();}
+function filterRecipes(){var q=document.getElementById('search-input').value.toLowerCase();var f=allRecipes.filter(function(r){return(activeCategory==='Sve'||r.category===activeCategory)&&(!q||r.title.toLowerCase().indexOf(q)>=0||(r.category||'').toLowerCase().indexOf(q)>=0);});renderList(f);document.getElementById('no-results').style.display=f.length===0?'block':'none';}
+function renderList(recipes){var el=document.getElementById('list-view');el.innerHTML=recipes.map(function(r){return '<div class="recipe-card" onclick="openById(''+r.id+'')">'+(r.photo?'<img class="card-thumb" src="'+r.photo+'" alt="'+r.title+'" loading="lazy">'  :'<div class="card-thumb-placeholder">🍽</div>')+'<div class="card-info"><h2>'+r.title+'</h2><small>'+(r.category||'')+' · '+(r.servings||4)+' osobe</small></div></div>';}).join('');}
+function openById(id){fetch('recipes/'+id+'.json?t='+Date.now()).then(function(r){return r.json();}).then(function(recipe){openRecipe(recipe);location.hash=id;}).catch(function(){alert('Ne mogu učitati recept.');});}
+function openRecipe(r){currentRecipe=r;baseServings=r.servings||4;currentServings=baseServings;document.getElementById('r-title').textContent=r.title;var p=document.getElementById('r-photo');if(r.photo){p.src=r.photo;p.style.display='block';}else p.style.display='none';var yt=document.getElementById('r-youtube');if(r.youtube){yt.style.display='block';yt.innerHTML='<iframe src="'+r.youtube+'" allowfullscreen loading="lazy"></iframe>';}else{yt.style.display='none';yt.innerHTML='';}document.getElementById('srv-count').textContent=currentServings;renderIng();renderSteps();document.getElementById('list-view').style.display='none';document.getElementById('no-results').style.display='none';document.getElementById('recipe-view').style.display='block';window.scrollTo(0,0);}
+function showList(){document.getElementById('recipe-view').style.display='none';document.getElementById('list-view').style.display='block';location.hash='';currentRecipe=null;}
+function changeServings(d){currentServings=Math.max(1,currentServings+d);document.getElementById('srv-count').textContent=currentServings;renderIng();}
+function fmt(a,r){var v=a*r;return v===Math.round(v)?String(Math.round(v)):parseFloat(v.toFixed(2)).toString();}
+function renderIng(){var ratio=currentServings/baseServings;var l=document.getElementById('ingredients-list');l.innerHTML=(currentRecipe.ingredients||[]).map(function(i){var a=i.amount?fmt(i.amount,ratio)+' '+(i.unit||''):'';return '<li><span class="ing-amount">'+a.trim()+'</span><span>'+i.name+'</span></li>';}).join('');}
+function renderSteps(){var l=document.getElementById('steps-list');l.innerHTML=(currentRecipe.steps||[]).map(function(s,i){return '<li><span class="step-num">'+(i+1)+'.</span><span>'+s+'</span></li>';}).join('');}
+init();
+</script>
+</body>
+</html>
