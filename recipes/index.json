@@ -75,5 +75,12 @@
     "category": "Japan",
     "servings": 4,
     "photo": "https://www.justonecookbook.com/wp-content/uploads/2020/06/Homemade-Unagi-Sauce-6173-I.jpg"
+  },
+  {
+    "id": "lovacki-sos-vepar",
+    "title": "Lovački sos za vepra",
+    "category": "Hrvatska",
+    "servings": 4,
+    "photo": "https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_auto,s_webp:avif/thewildgamegourmet.com/wp-content/uploads/2025/03/beer-braised-hog-shank-recipe.jpg"
   }
 ]
