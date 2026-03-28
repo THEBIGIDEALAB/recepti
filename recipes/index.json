@@ -19,5 +19,12 @@
     "category": "Japan",
     "servings": 2,
     "photo": "https://cinnamonsnail.com/wp-content/uploads/2024/12/sunomono-17.jpg"
+  },
+  {
+    "id": "yakitori-piletina",
+    "title": "Japanska Yakitori Piletina",
+    "category": "Japan",
+    "servings": 4,
+    "photo": ""
   }
 ]
