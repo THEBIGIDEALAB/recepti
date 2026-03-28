@@ -1,0 +1,94 @@
+{
+  "id": "yakitori-piletina",
+  "title": "Japanska Yakitori Piletina",
+  "category": "Japan",
+  "servings": 4,
+  "photo": "",
+  "youtube": "",
+  "notes": "Klasičan japanski street food recept s pilećim bedrima u slatko-slanom yakitori umaku. Priprema: 15 min | Kuhanje: 10 min",
+  "ingredients": [
+    {
+      "group": "Piletina i začini"
+    },
+    {
+      "amount": 6,
+      "unit": "kom",
+      "name": "pileća bedra, bez kostiju i kože, narezana na trake"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "biljno ulje"
+    },
+    {
+      "amount": 6,
+      "unit": "režnja",
+      "name": "česnjak, svježi, sitno nasjeckan"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "đumbir, svježi, sitno nariban"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "đumbir u prahu"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "crni papar, mljeveni"
+    },
+    {
+      "group": "Yakitori umak"
+    },
+    {
+      "amount": 80,
+      "unit": "ml",
+      "name": "soja umak, nizak udio natrija"
+    },
+    {
+      "amount": 80,
+      "unit": "ml",
+      "name": "voda"
+    },
+    {
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "mirin"
+    },
+    {
+      "amount": 6,
+      "unit": "tbsp",
+      "name": "smeđi šećer"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rižin ocat"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "kukuruzni škrob"
+    },
+    {
+      "group": "Garniranje"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "tostirana sezamova sjemenka"
+    }
+  ],
+  "steps": [
+    "U zdjeli pomiješajte <strong>soja umak</strong>, <strong>vodu</strong>, <strong>mirin</strong>, <strong>smeđi šećer</strong> i <strong>rižin ocat</strong>. Miješajte dok se šećer potpuno ne otopi. Odložite sa strane.",
+    "Stavite <strong>pileća bedra</strong> u zasebnu zdjelu i dodajte <strong>biljno ulje</strong>, <strong>crni papar</strong>, <strong>česnjak</strong>, <strong>svježi đumbir</strong> i <strong>đumbir u prahu</strong>. Promiješajte dok se sve dobro ne sjedini.",
+    "Ulijte ¼ šalice pripremljene mješavine umaka u piletinu — to će biti marinada. Dobro promiješajte i marinirajte 10 minuta.",
+    "Zagrijte tavu na srednju vatru. Kada je vruća, stavite marinirane <strong>pileće komade</strong> i razdvojite ih po tavi. Pržite 7 minuta, povremeno okrećući, dok piletina nije skuhana i lagano porumenjela.",
+    "U međuvremenu pomiješajte <strong>kukuruzni škrob</strong> s jednom žlicom vode dok ne postane glatko. Ulijte u preostali umak i promiješajte.",
+    "Ulijte umak u tavu s piletinom i promiješajte. Kuhajte još 2 minute dok se umak ne zgusne i ne prijanja uz piletinu.",
+    "Maknite s vatre, poslužite i ukrasite s <strong>tostiranom sezamovom sjemenkom</strong>. Poslužiti odmah."
+  ]
+}
