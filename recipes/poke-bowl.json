@@ -1,0 +1,112 @@
+{
+  "id": "poke-bowl",
+  "title": "Havajski Poke Bowl",
+  "category": "Japan",
+  "servings": 4,
+  "photo": "https://www.afarmgirlsdabbles.com/wp-content/uploads/2020/03/easy-hawaiian-poke-bowl_AFarmgirlsDabbles_AFD-7-sq.jpg",
+  "youtube": "",
+  "notes": "Priprema: 15 min | Kuhanje: 20 min. Havajski poke bowl je kao dekonstruirana sushi rolica u zdjeli — riža, riba i razni dodaci s umakom. Svi dodaci su opcionalni.",
+  "ingredients": [
+    {
+      "amount": 2,
+      "unit": "šalica",
+      "name": "bijela sushi riža ili smeđa riža"
+    },
+    {
+      "group": "Spicy aioli"
+    },
+    {
+      "amount": 0.25,
+      "unit": "šalica",
+      "name": "majoneza"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "Sriracha"
+    },
+    {
+      "group": "Sezamski vinaigrete"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sojin umak"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "rižin ocat"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "maslinovo ulje"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tostirno sezamovo ulje"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "med"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sok od limete, svježe iscijeđen"
+    },
+    {
+      "group": "Zdjele"
+    },
+    {
+      "amount": 2,
+      "unit": "šalica",
+      "name": "mišano zeleno lisnato povrće"
+    },
+    {
+      "amount": 0.5,
+      "unit": "kom",
+      "name": "engleski krastavac, narezan na tanke polu-kružiće"
+    },
+    {
+      "name": "wakame salata"
+    },
+    {
+      "name": "edamame, kuhano"
+    },
+    {
+      "name": "ananas, na kockice"
+    },
+    {
+      "name": "kiseli đumbir za sushi"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "avokado, narezan"
+    },
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "svježi losos, na kockice"
+    },
+    {
+      "name": "prženi luk (crispy fried onion)"
+    },
+    {
+      "name": "sezam, tostirani"
+    },
+    {
+      "name": "mladi luk, narezan na kolutiće"
+    }
+  ],
+  "steps": [
+    "Skuhati <strong>rižu</strong> u kužalici za rižu. Držati toplom dok se pripremaju umaci i ostali sastojci.",
+    "Za <strong>sezamski vinaigrete</strong>: staviti <strong>sojin umak</strong>, <strong>rižin ocat</strong>, <strong>maslinovo ulje</strong>, <strong>sezamovo ulje</strong>, <strong>med</strong> i <strong>sok od limete</strong> u teglu s poklopcem i dobro protresti. Ohladiti do posluživanja.",
+    "Za <strong>spicy aioli</strong>: umutiti <strong>majonezu</strong> i <strong>Srirachu</strong> u glatku smjesu. Pohraniti pokriveno u hladnjak do posluživanja.",
+    "Za slaganje zdjela: rasporediti <strong>zeleno lisnato povrće</strong> u četiri zdjele. Dodati toplu <strong>rižu</strong>, zatim poslagati <strong>krastavac</strong>, <strong>wakame salatu</strong>, <strong>edamame</strong>, <strong>ananas</strong>, <strong>kiseli đumbir</strong>, <strong>avokado</strong> i <strong>losos</strong>. Posuti <strong>prženim lukom</strong>, <strong>sezamom</strong> i <strong>mladim lukom</strong>. Na kraju preliti <strong>sezamskim vinaigretom</strong> i <strong>spicy aiolijem</strong>."
+  ]
+}
