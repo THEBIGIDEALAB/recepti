@@ -5,8 +5,54 @@
   "servings": 4,
   "photo": "https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_auto,s_webp:avif/thewildgamegourmet.com/wp-content/uploads/2025/03/beer-braised-hog-shank-recipe.jpg",
   "youtube": "",
-  "notes": "Kuhanje: 40–50 min. Prinos: oko 6–7 dl — dosta za 2 kg mesa i 4 porcije. Savjet za meso: posoli 12–24 h unaprijed (dry brine), tek onda vakumiraj. Za 2 kg vepra u vrećicu stavi: 40 g soli, 1 žlica papra, 5 bobica kleke, 2 lovora, 3 grančice timijana, 4 češnjeva češnjaka, 2,5 žlice svinjske masti, 1 žličica senfa. Kuhaj sous vide na 72°C / 18 h. Kad izvađeš meso, osuši ga papirnatim ručnikom i zapeči u pećnici na 220–230°C dok ne uhvati koricu.",
+  "notes": "Kuhanje: 40–50 min. Prinos: oko 6–7 dl — dosta za 2 kg mesa i 4 porcije. Savjet za meso: posoli 12–24 h unaprijed (dry brine), tek onda vakumiraj. Kuhaj sous vide na 72°C / 18 h. Kad izvađeš meso, osuši ga papirnatim ručnikom i zapeči u pećnici na 220–230°C dok ne uhvati koricu.",
   "ingredients": [
+    {
+      "group": "ZAČINI ZA MESO"
+    },
+    {
+      "amount": 40,
+      "unit": "g",
+      "name": "sol"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "papar"
+    },
+    {
+      "amount": 5,
+      "unit": "kom",
+      "name": "bobice kleke"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "lovorov list"
+    },
+    {
+      "amount": 3,
+      "unit": "kom",
+      "name": "grančica timijana"
+    },
+    {
+      "amount": 4,
+      "unit": "režnja",
+      "name": "češnjak"
+    },
+    {
+      "amount": 2.5,
+      "unit": "tbsp",
+      "name": "svinjska mast"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "senf"
+    },
+    {
+      "group": "SOS"
+    },
     {
       "amount": 2,
       "unit": "kom",
