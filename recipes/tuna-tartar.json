@@ -1,0 +1,91 @@
+{
+  "id": "tuna-tartar",
+  "title": "Tuna Tartar",
+  "category": "Japan",
+  "servings": 4,
+  "photo": "https://choosingchia.com/jessh-jessh/uploads/2015/03/tunatarare.jpg",
+  "youtube": "",
+  "ingredients": [
+    {
+      "amount": 600,
+      "unit": "g",
+      "name": "tuna sushi kvalitete, narezana na male kocke"
+    },
+    {
+      "amount": 8,
+      "unit": "kom",
+      "name": "mladi luk, sitno narezan"
+    },
+    {
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "preprženi sezam"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "avokado, narezan na male kocke"
+    },
+    {
+      "amount": 1,
+      "unit": "šalica",
+      "name": "krastavac, narezan na kocke"
+    },
+    {
+      "amount": 1,
+      "unit": "šaka",
+      "name": "cilantro, narezan"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sok od limete"
+    },
+    {
+      "amount": 1,
+      "unit": "pinch",
+      "name": "sol i papar"
+    },
+    {
+      "amount": 4,
+      "unit": "režnja",
+      "name": "češnjak, sitno narezan (umak)"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "ribani đumbir (umak)"
+    },
+    {
+      "amount": 4,
+      "unit": "kom",
+      "name": "mladi luk, narezan (umak)"
+    },
+    {
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "soja umak (umak)"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sezamovo ulje (umak)"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "rižin ocat (umak)"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "med (umak)"
+    }
+  ],
+  "steps": [
+    "U zdjelu dodati <strong>češnjak</strong>, <strong>đumbir</strong>, <strong>mladi luk</strong>, <strong>soja umak</strong>, <strong>sezamovo ulje</strong>, <strong>rižin ocat</strong> i <strong>med</strong>. Dobro promiješati i ostaviti sa strane.",
+    "Narezanu <strong>tunu</strong>, <strong>mladi luk</strong> i <strong>sezam</strong> dodati direktno u zdjelu s umakom i promiješati dok se sve ne sjedini.",
+    "U zasebnoj zdjeli pomiješati <strong>avokado</strong>, <strong>krastavac</strong>, <strong>cilantro</strong>, <strong>sok od limete</strong>, <strong>sol i papar</strong>.",
+    "Tartar posložiti u kalup na tanjur. Avorkatov mix dodati oko ili ispod tartara po želji. Odmah poslužiti."
+  ]
+}
