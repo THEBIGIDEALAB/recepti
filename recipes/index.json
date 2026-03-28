@@ -12,5 +12,12 @@
     "category": "*Slatko i kolači",
     "servings": 8,
     "photo": ""
+  },
+  {
+    "id": "tuna-tartar",
+    "title": "Tuna Tartar",
+    "category": "Japan",
+    "servings": 4,
+    "photo": "https://choosingchia.com/jessh-jessh/uploads/2015/03/tunatarare.jpg"
   }
 ]
