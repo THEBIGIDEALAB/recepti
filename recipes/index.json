@@ -1,7 +1,7 @@
 [
   {
     "id": "pasticada",
-    "title": "Pašticada",
+    "title": "PaÅ¡ticada",
     "category": "Hrvatska",
     "servings": 4,
     "photo": "https://www.camping-simuni.hr/wp-content/uploads/bf-advanced-images/24378/shutterstock-2367344631-1-1920x0.jpg"
@@ -12,5 +12,12 @@
     "category": "Japan",
     "servings": 4,
     "photo": "https://choosingchia.com/jessh-jessh/uploads/2015/03/tunatarare.jpg"
+  },
+  {
+    "id": "sunomono",
+    "title": "Sunomono",
+    "category": "Japan",
+    "servings": 2,
+    "photo": ""
   }
 ]
