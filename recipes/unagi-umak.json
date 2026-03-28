@@ -1,0 +1,37 @@
+{
+  "id": "unagi-umak",
+  "title": "Unagi umak",
+  "category": "Japan",
+  "servings": 4,
+  "photo": "https://www.justonecookbook.com/wp-content/uploads/2020/06/Homemade-Unagi-Sauce-6173-I.jpg",
+  "youtube": "",
+  "notes": "Kuhanje: 20 min. Slatki, slani umak bogat okusom — savršen za japansku pečenu jegulju, grilane riceball kuglice i BBQ jela. Potrebna su samo 4 sastojka. Pohranjen u hladnjaku drži se do 3 mjeseca.",
+  "ingredients": [
+    {
+      "amount": 0.75,
+      "unit": "šalica",
+      "name": "mirin"
+    },
+    {
+      "amount": 0.25,
+      "unit": "šalica",
+      "name": "sake"
+    },
+    {
+      "amount": 0.5,
+      "unit": "šalica",
+      "name": "šećer"
+    },
+    {
+      "amount": 0.75,
+      "unit": "šalica",
+      "name": "sojin umak"
+    }
+  ],
+  "steps": [
+    "Pripremiti sve sastojke.",
+    "U malom lonču sjediniti <strong>mirin</strong>, <strong>sake</strong> i <strong>šećer</strong>. Upaliti na srednju vatru i miješati dok se sve ne spoji.",
+    "Dodati <strong>sojin umak</strong> i dovesti do vrelišta. Kada proključa, smanjiti vatru na lagano i kuhati još 10 minuta. Pri kraju kuhanja vidjet će se više mjehurića.",
+    "Ugasiti vatru. Ostaviti da se umak ohladi — gustim i sjajnim postat će tek kad se ohladi. Preliti u teglu i pohraniti u hladnjak."
+  ]
+}
