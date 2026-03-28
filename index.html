@@ -105,7 +105,7 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
 <script>
 (function() {
   var all = [], cur = null, curSrv = 4, baseSrv = 4;
-  var view = 'home', prevView = 'home', curCat = null;
+  var view = 'home', prevView = 'home', curCat = null, _fromPop = false;
   var CAT_ORDER = ['Hrvatska','Hawaii','Japan','Kina','Portugal','Thailand','Vietnam','*Slatko i kolači'];
 
   function $(id) { return document.getElementById(id); }
@@ -128,7 +128,7 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
   }
 
   function renderHome() {
-    history.pushState({v:'home'}, '', location.pathname);
+    if (!_fromPop) history.pushState({v:'home'}, '', location.pathname);
     hideAll(); view = 'home';
     var counts = {};
     all.forEach(function(r) { counts[r.category] = (counts[r.category] || 0) + 1; });
@@ -143,7 +143,7 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
   }
 
   function renderCat(cat) {
-    history.pushState({v:'cat',cat:cat}, '', '#cat-' + cat);
+    if (!_fromPop) history.pushState({v:'cat',cat:cat}, '', '#cat-' + cat);
     hideAll(); view = 'cat'; curCat = cat;
     var recipes = all.filter(function(r) { return r.category === cat; });
     recipes.sort(function(a, b) { return a.title.localeCompare(b.title, 'hr'); });
@@ -222,7 +222,7 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
   function loadRecipe(id) {
     fetch('recipes/' + id + '.json?t=' + Date.now())
       .then(function(r) { return r.json(); })
-      .then(function(recipe) { openRecipe(recipe); history.pushState({v:'recipe',id:id}, '', '#' + id); })
+      .then(function(recipe) { openRecipe(recipe); if (!_fromPop) history.pushState({v:'recipe',id:id}, '', '#' + id); })
       .catch(function() { alert('Ne mogu učitati recept.'); });
   }
 
@@ -264,11 +264,12 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
 
   // popstate — browser back/forward & swipe
   window.addEventListener('popstate', function(e) {
+    _fromPop = true;
     var st = e.state;
-    if (!st) { renderHome(); return; }
-    if (st.v === 'home') { renderHome(); }
+    if (!st || st.v === 'home') { renderHome(); }
     else if (st.v === 'cat') { renderCat(st.cat); }
     else if (st.v === 'recipe') { loadRecipe(st.id); }
+    _fromPop = false;
   });
 
   // swipe left/right
