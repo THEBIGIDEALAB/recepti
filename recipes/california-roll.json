@@ -1,0 +1,52 @@
+{
+  "id": "california-roll",
+  "title": "California Roll",
+  "category": "Japan",
+  "servings": 4,
+  "photo": "https://www.justonecookbook.com/wp-content/uploads/2024/04/California-Roll-7082-II.jpg",
+  "youtube": "",
+  "notes": "Inside-out rolica — riža je izvana, nori iznutra. Poslužiti uz sojin umak i wasabi.",
+  "ingredients": [
+    {
+      "amount": 2,
+      "unit": "šalica",
+      "name": "sushi riža, kuhana i začinjena"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "avokado, narezan na 20 kriški"
+    },
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "rakovo meso ili imitacija rakova"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "krastavac, julienne"
+    },
+    {
+      "amount": 3,
+      "unit": "kom",
+      "name": "nori list, nesezašminiran"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sezam, pržen"
+    }
+  ],
+  "steps": [
+    "Skuhati i začiniti <strong>sushi rižu</strong>. Bambusov prostirač (makisu) prekriti plastičnom folijom. Pripremiti zdjelicu s vodom za kvašenje prstiju.",
+    "Svaki <strong>nori list</strong> presaviti na pola. Ako je svjež, trebao bi se prekinuti duž preklopa. Ako je star, lagano ga tostirati iznad plamena ili isjeći škarama.",
+    "Jedan komad norija postaviti na dno prostirača. Navlažiti prste i rasporediti tanki, ravnomjerni sloj <strong>riže</strong> do rubova. Ne pritiskati prestrogo.",
+    "Pospati rižu <strong>sezamom</strong>. Preokrenuti (riža prema dolje, nori prema gore).",
+    "Uz donji rub norija posložiti trakice <strong>krastavca</strong>, kriške <strong>avokada</strong> i <strong>rakovo meso</strong>. Ne puniti previše — rolica se neće zapečatiti.",
+    "Palcima podići bambusov prostirač s dna i koristiti ih da se riža prebači preko nadjeva, držeći nadjev prstima. Nastaviti rolati dok riža ne dodirne nori.",
+    "Nakon što je rolica formirana, čvrsto je stisnuti prostiračem sa svih strana. Ako se ne jede odmah, zamotati u plastičnu foliju.",
+    "Za rezanje koristiti dug, oštar nož. Postaviti stražnjicu oštrice na sredinu rolice i povlačiti prema sebi — ne pritiskati. Svaku polovicu prerezati na trećine (6 komada po rolici).",
+    "Poslužiti uz <strong>sojin umak</strong> i wasabi."
+  ]
+}
