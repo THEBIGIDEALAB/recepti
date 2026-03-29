@@ -96,5 +96,61 @@
     "category": "Germany",
     "servings": 8,
     "photo": "https://www.sipandfeast.com/wp-content/uploads/2024/08/german-red-cabbage-recipe-3.jpg"
+  },
+  {
+    "id": "cashew-piletina",
+    "title": "Piletina s indijskim oraščićima",
+    "category": "Thailand",
+    "servings": 4,
+    "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2022/05/cashew-chicken-sq.jpg"
+  },
+  {
+    "id": "pad-kra-pao",
+    "title": "Pad Kra Pao",
+    "category": "Thailand",
+    "servings": 4,
+    "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2016/01/pad-gaprao-new-sq-3.jpg"
+  },
+  {
+    "id": "tom-yum-juha",
+    "title": "Tom Yum juha sa škampima",
+    "category": "Thailand",
+    "servings": 4,
+    "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2013/03/tom-yum-goong-blog.jpg"
+  },
+  {
+    "id": "tom-kha-gai",
+    "title": "Tom Kha Gai",
+    "category": "Thailand",
+    "servings": 4,
+    "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2014/06/Tom-kha-gai-new-sq.jpg"
+  },
+  {
+    "id": "massaman-curry",
+    "title": "Masaman curry s govedinom",
+    "category": "Thailand",
+    "servings": 4,
+    "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2019/01/massaman-beef-sq.jpg"
+  },
+  {
+    "id": "som-tum",
+    "title": "Som Tum (salata od zelene papaje)",
+    "category": "Thailand",
+    "servings": 4,
+    "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2016/06/papaya-salad-new-sq.jpg"
+  },
+  {
+    "id": "zeleni-curry",
+    "title": "Zeleni curry s piletinom",
+    "category": "Thailand",
+    "servings": 4,
+    "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2022/04/Green-curry-chicken-sq-2.jpg"
+  },
+  {
+    "id": "pad-thai",
+    "title": "Pad Thai",
+    "category": "Thailand",
+    "servings": 4,
+    "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2019/09/pad-thai-blog.jpg"
   }
 ]
