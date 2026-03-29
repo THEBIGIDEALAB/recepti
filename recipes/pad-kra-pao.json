@@ -1,0 +1,95 @@
+{
+  "id": "pad-kra-pao",
+  "title": "Pad Kra Pao",
+  "category": "Thailand",
+  "servings": 4,
+  "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2016/01/pad-gaprao-new-sq-3.jpg",
+  "youtube": "",
+  "notes": "Tajlandsko nacionalno jelo — brzi wok s mljevenom piletinom i svetim bosiljkom. Posluženo s rižom i prženim jajetom. Sveti bosiljak (gaprao) može se zamijeniti običnim talijanskim bosiljkom.",
+  "ingredients": [
+    {
+      "name": "tajlandski čili, 7–10 kom, po ukusu"
+    },
+    {
+      "amount": 7,
+      "unit": "režanj",
+      "name": "češnjak"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "spur čili ili blaga crvena paprika, nasjeckana"
+    },
+    {
+      "amount": 400,
+      "unit": "g",
+      "name": "piletina, grubo mljevena"
+    },
+    {
+      "amount": 22.5,
+      "unit": "ml",
+      "name": "umak od ostriga"
+    },
+    {
+      "amount": 22.5,
+      "unit": "ml",
+      "name": "soja umak"
+    },
+    {
+      "amount": 15,
+      "unit": "ml",
+      "name": "riblja omaka"
+    },
+    {
+      "amount": 10,
+      "unit": "ml",
+      "name": "crni soja umak"
+    },
+    {
+      "amount": 45,
+      "unit": "ml",
+      "name": "voda"
+    },
+    {
+      "amount": 2,
+      "unit": "tsp",
+      "name": "šećer"
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "dugi grah, narezan na 3 cm"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "mali luk, nasjeckan"
+    },
+    {
+      "amount": 2,
+      "unit": "šalica",
+      "name": "listovi svetog bosiljka (gaprao), rahlo naslagano"
+    },
+    {
+      "amount": 4,
+      "unit": "kom",
+      "name": "jaje"
+    },
+    {
+      "name": "biljno ulje, po potrebi"
+    },
+    {
+      "name": "jasmin riža, za posluživanje"
+    }
+  ],
+  "steps": [
+    "U mužaru stući <strong>tajlandski čili</strong> u finu pastu. Dodati <strong>češnjak</strong> i <strong>spur čili</strong> te stući u grubu pastu.",
+    "Pomiješati <strong>umak od ostriga</strong>, <strong>soja umak</strong>, <strong>riblja omaku</strong>, <strong>crni soja umak</strong>, <strong>vodu</strong> i <strong>šećer</strong> u zdjelici; miješati dok se šećer ne otopi.",
+    "U woku na srednje jakoj vatri zagrijati malo <strong>ulja</strong> i pržiti mješavinu <strong>češnjaka i čilija</strong> dok češnjak ne počne zlatniti.",
+    "Dodati <strong>piletinu</strong> i miješati dok se ne raspadne u komađiće i više nije ružičasta.",
+    "Dodati <strong>umak</strong> i nastaviti miješati dok piletina nije gotovo kuhana. Dodati <strong>luk</strong> i <strong>dugi grah</strong> te miješati dok piletina nije potpuno gotova.",
+    "Maknuti s vatre i umiješati <strong>sveti bosiljak</strong>. Probati i po potrebi začiniti.",
+    "Za prženo jaje: u manjem tavčanu zagrijati oko 1 cm <strong>biljnog ulja</strong> na jako jakoj vatri. Kad je ulje jako vruće, razbiti <strong>jaje</strong> direktno i pržiti dok rubovi nisu smeđasti i hrškavi.",
+    "Poslužiti uz <strong>jasmin rižu</strong> i prženim <strong>jajetom</strong> na vrhu."
+  ]
+}
