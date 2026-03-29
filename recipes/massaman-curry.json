@@ -1,0 +1,109 @@
+{
+  "id": "massaman-curry",
+  "title": "Masaman curry s govedinom",
+  "category": "Thailand",
+  "servings": 4,
+  "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2019/01/massaman-beef-sq.jpg",
+  "youtube": "",
+  "notes": "Klasični tajlandski masaman curry u Instant Potu. Polu-domaća pasta od gotove crvene curry paste i začina daleko je ukusnija od gotove masaman paste. Preporuča se Maeploy ili Aroy-D brand.",
+  "ingredients": [
+    {
+      "group": "Masaman curry pasta"
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "crvena curry pasta iz trgovine"
+    },
+    {
+      "amount": 5,
+      "unit": "ml",
+      "name": "pečeni korijander, sjemenke"
+    },
+    {
+      "amount": 5,
+      "unit": "ml",
+      "name": "pečeni kumin, sjemenke"
+    },
+    {
+      "amount": 5,
+      "unit": "ml",
+      "name": "mljeveni cimet"
+    },
+    {
+      "amount": 1.25,
+      "unit": "ml",
+      "name": "mljeveni klinčić"
+    },
+    {
+      "amount": 0.6,
+      "unit": "ml",
+      "name": "mljeveni muškatni oraščić"
+    },
+    {
+      "amount": 1.25,
+      "unit": "ml",
+      "name": "mljeveni kardamom"
+    },
+    {
+      "amount": 5,
+      "unit": "ml",
+      "name": "fermentirana pasta od kozica (gapi), opcionalno"
+    },
+    {
+      "group": "Curry"
+    },
+    {
+      "amount": 680,
+      "unit": "g",
+      "name": "govedina (but), narezana na kocke 5 cm"
+    },
+    {
+      "amount": 600,
+      "unit": "ml",
+      "name": "kokosovo mlijeko"
+    },
+    {
+      "amount": 37.5,
+      "unit": "ml",
+      "name": "riblja omaka"
+    },
+    {
+      "amount": 35,
+      "unit": "g",
+      "name": "palmini šećer, nasjeckan"
+    },
+    {
+      "amount": 37.5,
+      "unit": "ml",
+      "name": "tamarind pasta"
+    },
+    {
+      "amount": 300,
+      "unit": "g",
+      "name": "krumpir, narezan na komađe 4 cm"
+    },
+    {
+      "amount": 0.5,
+      "unit": "kom",
+      "name": "veći luk, narezan u trake 1 cm"
+    },
+    {
+      "amount": 60,
+      "unit": "ml",
+      "name": "pečeni kikiriki"
+    },
+    {
+      "name": "jasmin riža, za posluživanje"
+    }
+  ],
+  "steps": [
+    "Za <strong>curry pastu</strong>: Cijele začine samljet u prah u mužaru ili mlinu za kavu. Pomiješati s <strong>crvenom curry pastom</strong> i <strong>fermentiranom pastom od kozica</strong>.",
+    "Opcionalno: Propržiti <strong>govedinu</strong> u većoj tavi s malo ulja dok ne porumeni s obje strane. Deglazirati tavu s malo vode i sačuvati tu tekućinu.",
+    "U Instant Potu na Sauté modu (srednja toplina): dodati ½ šalice <strong>kokosovog mlijeka</strong> i zagrijati do vrenja. Dodati <strong>curry pastu</strong> i miješati često dok se smjesa ne zgusne ili se kokosovo ulje ne odvoji (3–5 minuta).",
+    "Dodati ostatak <strong>kokosovog mlijeka</strong>, <strong>govedinu</strong>, sačuvanu tekućinu od prženja (ako ima), 2 žlice <strong>riblje omake</strong>, <strong>palmini šećer</strong> i <strong>tamarind</strong>. Zatvoriti Instant Pot i kuhati na visokom tlaku 30 minuta.",
+    "Nakon zvuka tajmera, prirodno puštati tlak 10 minuta, zatim brzo otpustiti preostali tlak i otvoriti poklopac. Provjeriti je li <strong>govedina</strong> mekana.",
+    "Dodati <strong>krumpir</strong>, <strong>luk</strong> i <strong>kikiriki</strong> te dinstati na Sauté modu 10–15 minuta dok krumpir nije gotov.",
+    "Probati i dotjerati s još <strong>riblje omake</strong> ili <strong>tamarinda</strong> po ukusu. Poslužiti uz <strong>jasmin rižu</strong>."
+  ]
+}
