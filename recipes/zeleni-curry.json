@@ -1,0 +1,91 @@
+{
+  "id": "zeleni-curry",
+  "title": "Zeleni curry s piletinom",
+  "category": "Thailand",
+  "servings": 4,
+  "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2022/04/Green-curry-chicken-sq-2.jpg",
+  "youtube": "",
+  "notes": "Autentični tajlandski zeleni curry s tehnikom koja iz gotove paste izvlači maksimum arome. Preporuča se Maeploy ili Aroy-D brand. Makrut listovi ostaju u curryju kao ukras, ali se ne jedu.",
+  "ingredients": [
+    {
+      "group": "Pojačana zelena curry pasta"
+    },
+    {
+      "amount": 15,
+      "unit": "kom",
+      "name": "listovi tajlandskog bosiljka, tanko julienne narezani"
+    },
+    {
+      "name": "krachai (fingerroot), komad 10 cm, opcionalno"
+    },
+    {
+      "amount": 5,
+      "unit": "ml",
+      "name": "fermentirana pasta od kozica (gapi)"
+    },
+    {
+      "amount": 65,
+      "unit": "g",
+      "name": "zelena curry pasta iz trgovine"
+    },
+    {
+      "group": "Curry"
+    },
+    {
+      "amount": 420,
+      "unit": "ml",
+      "name": "kokosovo mlijeko"
+    },
+    {
+      "amount": 240,
+      "unit": "ml",
+      "name": "pileći temeljac, nezasoljen"
+    },
+    {
+      "amount": 450,
+      "unit": "g",
+      "name": "pileći batak bez kosti i kože, narezan na komađe 2–3 cm"
+    },
+    {
+      "amount": 24,
+      "unit": "g",
+      "name": "palmini šećer, sitno nasjeckan"
+    },
+    {
+      "amount": 27,
+      "unit": "ml",
+      "name": "riblja omaka"
+    },
+    {
+      "amount": 5,
+      "unit": "kom",
+      "name": "makrut limetini listovi"
+    },
+    {
+      "amount": 225,
+      "unit": "g",
+      "name": "tajlandski patlidžan, ili bambus iz konzerve"
+    },
+    {
+      "amount": 22,
+      "unit": "g",
+      "name": "listovi tajlandskog bosiljka"
+    },
+    {
+      "amount": 0.25,
+      "unit": "kom",
+      "name": "crvena paprika, julienne narezana"
+    },
+    {
+      "name": "jasmin riža, za posluživanje"
+    }
+  ],
+  "steps": [
+    "Za <strong>curry pastu</strong>: Stući <strong>bosiljak</strong> u mužaru do fine paste. Dodati <strong>krachai</strong> i tucati. Dodati <strong>gapi</strong> i <strong>zelenu curry pastu</strong> te izmiješati. Alternativa: blendati bosiljak, krachai i gapi s malo temeljca pa uliti u curry zajedno s ostatkom temeljca.",
+    "U debelom loncu zagrijati ¾ šalice <strong>kokosovog mlijeka</strong> do vrenja na srednje jakoj vatri. Dodati <strong>curry pastu</strong> i dinstati miješajući često dok se smjesa ne zgusne ili se kokosovo ulje ne odvoji (3–5 minuta).",
+    "Dodati <strong>pileće batake</strong> i promiješati s curry pastom.",
+    "Dodati ostatak <strong>kokosovog mlijeka</strong>, <strong>temeljac</strong>, <strong>palmini šećer</strong> i 1 žlicu <strong>riblje omake</strong>. Makrut listove stisnuti u dlanu, potrgati i dodati (baciti žilac). Kuhati lagano 10–15 minuta dok piletina nije mekana.",
+    "<strong>Patlidžan</strong> narezati na zalogaje i dodati u curry, prve minute gurajući ga u tekućinu. Kuhati još 2 minute — ne prekuhati!",
+    "Isključiti vatru, dodati <strong>crvenu papriku</strong> i <strong>tajlandski bosiljak</strong>, promiješati. Probati i dotjerati s još <strong>riblje omake</strong>. Poslužiti uz <strong>jasmin rižu</strong>."
+  ]
+}
