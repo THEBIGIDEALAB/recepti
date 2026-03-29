@@ -1,0 +1,81 @@
+{
+  "id": "tom-kha-gai",
+  "title": "Tom Kha Gai",
+  "category": "Thailand",
+  "servings": 4,
+  "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2014/06/Tom-kha-gai-new-sq.jpg",
+  "youtube": "",
+  "notes": "Udobna tajlandska juha obogaćena kokosovim mlijekom i aromatizirana limunskom travom, galangalom i makrut listovima. Galangal, limunska trava i makrut listovi služe samo za aromatiziranje i ne jedu se.",
+  "ingredients": [
+    {
+      "amount": 480,
+      "unit": "ml",
+      "name": "pileći temeljac, nezasoljen"
+    },
+    {
+      "amount": 350,
+      "unit": "ml",
+      "name": "kokosovo mlijeko"
+    },
+    {
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sol"
+    },
+    {
+      "amount": 450,
+      "unit": "g",
+      "name": "pileći batak bez kosti i kože, narezan na komađe 2–3 cm"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "limunska trava, samo donja polovica, razmrvljena i narezana na 5 cm"
+    },
+    {
+      "amount": 10,
+      "unit": "kom",
+      "name": "galangal, tanke kriške"
+    },
+    {
+      "amount": 5,
+      "unit": "kom",
+      "name": "makrut limetini listovi"
+    },
+    {
+      "name": "tajlandski čili, 3–4 kom, po ukusu, razmrvljeni"
+    },
+    {
+      "amount": 30,
+      "unit": "ml",
+      "name": "riblja omaka"
+    },
+    {
+      "amount": 5,
+      "unit": "ml",
+      "name": "palmini šećer ili obični šećer"
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "gljive bukovače, pokidane na zalogaje"
+    },
+    {
+      "amount": 37.5,
+      "unit": "ml",
+      "name": "svježi sok od limete"
+    },
+    {
+      "name": "mladi luk i/ili korijander, nasjeckan, za ukras"
+    },
+    {
+      "name": "jasmin riža, za posluživanje (opcionalno)"
+    }
+  ],
+  "steps": [
+    "<strong>Pileći temeljac</strong> dovesti do vrenja, dodati <strong>sol</strong> i <strong>pileće batake</strong>. Kuhati lagano 15 minuta dok piletina nije mekana.",
+    "Dodati <strong>kokosovo mlijeko</strong>, <strong>limunsku travu</strong>, <strong>galangal</strong>, <strong>makrut listove</strong>, <strong>čili</strong>, <strong>gljive</strong>, pola <strong>riblje omake</strong> i <strong>šećer</strong>. Kuhati lagano 5 minuta da arome prođu.",
+    "Probati i po potrebi dodati još <strong>riblje omake</strong>. Isključiti vatru i dodati oko 2 žlice <strong>soka od limete</strong>, probati i dodati još po ukusu.",
+    "Ukrasiti <strong>mladim lukom</strong> i/ili <strong>korijanderom</strong> te poslužiti uz <strong>jasmin rižu</strong>."
+  ]
+}
