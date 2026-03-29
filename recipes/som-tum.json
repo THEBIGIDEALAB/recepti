@@ -1,0 +1,72 @@
+{
+  "id": "som-tum",
+  "title": "Som Tum (salata od zelene papaje)",
+  "category": "Thailand",
+  "servings": 4,
+  "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2016/06/papaya-salad-new-sq.jpg",
+  "youtube": "",
+  "notes": "Klasična tajlandska salata od zelene papaje — ljuto, kiselo, slatko i slano u jednom. Savršena uz ljepljivu rižu i BBQ piletinu.",
+  "ingredients": [
+    {
+      "amount": 3,
+      "unit": "šalica",
+      "name": "zelena papaja, julienne narezana"
+    },
+    {
+      "amount": 4,
+      "unit": "režanj",
+      "name": "češnjak"
+    },
+    {
+      "name": "tajlandski čili, po ukusu"
+    },
+    {
+      "amount": 36,
+      "unit": "g",
+      "name": "palmini šećer, sitno nasjeckan"
+    },
+    {
+      "amount": 6,
+      "unit": "kom",
+      "name": "dugi grah, narezan na 5 cm"
+    },
+    {
+      "amount": 90,
+      "unit": "ml",
+      "name": "pečeni kikiriki"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sušene kozice, grubo nasjeckane"
+    },
+    {
+      "amount": 60,
+      "unit": "ml",
+      "name": "svježi sok od limete"
+    },
+    {
+      "amount": 20,
+      "unit": "ml",
+      "name": "tamarind pasta"
+    },
+    {
+      "amount": 45,
+      "unit": "ml",
+      "name": "riblja omaka"
+    },
+    {
+      "amount": 1,
+      "unit": "šalica",
+      "name": "cherry rajčica, prepolovljene"
+    }
+  ],
+  "steps": [
+    "Opcionalno: Namočiti <strong>papaju</strong> u ledenoj vodi 15 minuta da ostane hrškava. Dobro ocijediti i osušiti papirnatim ubrusom.",
+    "U velikom mužaru stući <strong>češnjak</strong> i <strong>čili</strong> u grubu pastu. Dodati <strong>palmini šećer</strong> i tucati dok ne postane mokra pasta.",
+    "Dodati <strong>dugi grah</strong> i tucati dok se ne razbije. Dodati <strong>sušene kozice</strong> i <strong>kikiriki</strong> te tucati tek toliko da se kikiriki grubo razbije.",
+    "Dodati <strong>riblja omaku</strong>, <strong>tamarind pastu</strong> i <strong>sok od limete</strong>. Miješati velikom žlicom dok se šećer ne otopi.",
+    "Dodati <strong>papaju</strong> i <strong>rajčicu</strong>. Miješati metodom tucanja i prevrtanja dok se sve ne poveže i rajčica lagano ne raspadne.",
+    "Servirati i posuti dodatnim <strong>kikirikijem</strong>."
+  ]
+}
