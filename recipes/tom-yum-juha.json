@@ -1,0 +1,104 @@
+{
+  "id": "tom-yum-juha",
+  "title": "Tom Yum juha sa škampima",
+  "category": "Thailand",
+  "servings": 4,
+  "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2013/03/tom-yum-goong-blog.jpg",
+  "youtube": "",
+  "notes": "Svjetski poznata tajlandska juha — ljuto-kisela s aromom limunske trave, galangala i makrut listova. Galangal, limunska trava i makrut listovi služe samo za aromatiziranje i ne jedu se.",
+  "ingredients": [
+    {
+      "group": "Škampi temeljac"
+    },
+    {
+      "name": "ljuske i glave škampa (od donje stavke)"
+    },
+    {
+      "amount": 15,
+      "unit": "ml",
+      "name": "neutralno ulje"
+    },
+    {
+      "amount": 1,
+      "unit": "l",
+      "name": "voda"
+    },
+    {
+      "amount": 30,
+      "unit": "g",
+      "name": "daikon, sitno nasjeckan (opcionalno)"
+    },
+    {
+      "amount": 30,
+      "unit": "g",
+      "name": "luk, sitno nasjeckan (opcionalno)"
+    },
+    {
+      "group": "Tom Yum"
+    },
+    {
+      "amount": 960,
+      "unit": "ml",
+      "name": "škampi temeljac (gore) ili nezasoljeni pileći temeljac"
+    },
+    {
+      "name": "škampi, 12–15 kom srednji do veliki, s glavom i ljuskom"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "limunska trava, samo donja polovica, razmrvljena i narezana na 5 cm"
+    },
+    {
+      "amount": 6,
+      "unit": "kom",
+      "name": "makrut limetini listovi"
+    },
+    {
+      "amount": 8,
+      "unit": "kom",
+      "name": "galangal, tanke kriške"
+    },
+    {
+      "name": "tajlandski čili, 2–5 kom, po ukusu, grubo istučen"
+    },
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "gljive bukovače, pokidane na zalogaje"
+    },
+    {
+      "amount": 60,
+      "unit": "ml",
+      "name": "tajlandska čili pasta (nam prik pao)"
+    },
+    {
+      "amount": 45,
+      "unit": "ml",
+      "name": "riblja omaka"
+    },
+    {
+      "amount": 120,
+      "unit": "ml",
+      "name": "svježi sok od limete"
+    },
+    {
+      "amount": 5,
+      "unit": "ml",
+      "name": "šećer"
+    },
+    {
+      "name": "korijander, nasjeckan, za ukras"
+    },
+    {
+      "name": "jasmin riža, za posluživanje"
+    }
+  ],
+  "steps": [
+    "Za <strong>škampi temeljac</strong>: U loncu pržiti <strong>ljuske i glave škampa</strong> s <strong>uljem</strong> i po želji <strong>daikonom</strong> i <strong>lukom</strong> na srednje jakoj vatri, pritiskajući glave. Kad dno lonca počne rumenjeti, doliti <strong>vodu</strong> i kuhati 5 minuta. Procijediti i izmjeriti — treba biti 960 ml.",
+    "Dodati <strong>temeljac</strong>, <strong>limunsku travu</strong>, <strong>galangal</strong>, <strong>čili</strong> i <strong>gljive</strong> u lonac. Makrut listove stisnuti u rukama, potrgati na komade (baciti žilac) i dodati. Kuhati lagano 5 minuta.",
+    "Pojačati vatru. Malo tople juhe umiješati s <strong>čili pastom</strong> da se razrijedi, pa uliti natrag u juhu. Dodati <strong>riblja omaku</strong> i <strong>škampe</strong>. Kuhati 30–50 sekundi, isključiti vatru i pustiti da ostatna toplina dovrši kuhanje škampa još minutu.",
+    "Dodati <strong>sok od limete</strong>, probati i prilagoditi začin. Juha treba biti kisela s blagom slatkoćom. Dodati <strong>šećer</strong> ako je preokisela.",
+    "Umiješati <strong>korijander</strong> i poslužiti uz <strong>jasmin rižu</strong>."
+  ]
+}
