@@ -82,5 +82,19 @@
     "category": "Hrvatska",
     "servings": 4,
     "photo": "https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_auto,s_webp:avif/thewildgamegourmet.com/wp-content/uploads/2025/03/beer-braised-hog-shank-recipe.jpg"
+  },
+  {
+    "id": "bijeli-kiseli-kupus",
+    "title": "Bijeli kiseli kupus, njemački stil",
+    "category": "Germany",
+    "servings": 8,
+    "photo": "https://piovariations.cdn.podravka.net/33127b36-eca3-11ef-90d5-d60fe2f78059/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.webp"
+  },
+  {
+    "id": "crveni-kiseli-kupus",
+    "title": "Crveni kiseli kupus, njemački stil",
+    "category": "Germany",
+    "servings": 8,
+    "photo": "https://www.sipandfeast.com/wp-content/uploads/2024/08/german-red-cabbage-recipe-3.jpg"
   }
 ]
