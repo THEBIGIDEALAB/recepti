@@ -1,0 +1,60 @@
+{
+  "id": "bijeli-kiseli-kupus",
+  "title": "Bijeli kiseli kupus, njemački stil",
+  "category": "Germany",
+  "servings": 8,
+  "photo": "https://piovariations.cdn.podravka.net/33127b36-eca3-11ef-90d5-d60fe2f78059/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.webp",
+  "youtube": "",
+  "notes": "Klasičan njemački slatko-kiseli bijeli kupus. Umjereno slatko — ne desertno. Odličan uz pečenu svinjetinu ili vepra.",
+  "ingredients": [
+    {
+      "amount": 600,
+      "unit": "g",
+      "name": "kiseli kupus"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "luk"
+    },
+    {
+      "amount": 1.5,
+      "unit": "tbsp",
+      "name": "mast ili maslac"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "jabuka, mala, naribana ili sitno narezana"
+    },
+    {
+      "amount": 1.5,
+      "unit": "tsp",
+      "name": "šećer"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "lovor"
+    },
+    {
+      "amount": 75,
+      "unit": "ml",
+      "name": "bijelo vino ili voda"
+    },
+    {
+      "name": "papar"
+    },
+    {
+      "name": "kim, po želji"
+    }
+  ],
+  "steps": [
+    "Isperi <strong>kupus</strong> ako je jako kiseo, ali ne previše — zadrži malo kiselosti.",
+    "Na <strong>masti ili maslacu</strong> prodinstaj <strong>luk</strong> da omekša.",
+    "Dodaj <strong>jabuku</strong> i kratko promiješaj.",
+    "Ubaci <strong>kupus</strong>, <strong>lovor</strong>, <strong>papar</strong> i po želji malo <strong>kima</strong>.",
+    "Dodaj <strong>šećer</strong> i <strong>bijelo vino ili vodu</strong>. Poklopi i dinstaj 30–45 min na laganoj vatri, povremeno promiješaj.",
+    "Probaj i dotjeraj po ukusu: ako je presolo — dodaj još malo šećera; ako je preslatko — kap octa ili malo soka od kupusa."
+  ]
+}
