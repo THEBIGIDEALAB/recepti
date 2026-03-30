@@ -1,0 +1,60 @@
+{
+  "id": "spinach-gomaae",
+  "title": "Spinach Gomaae",
+  "category": "Japan",
+  "servings": 4,
+  "photo": "https://www.justonecookbook.com/wp-content/uploads/2023/07/Japanese-Spinach-Salad-with-Sesame-Dressing-Gomaae-0639-II.jpg",
+  "youtube": "",
+  "notes": "Prep: 15 min | Cook: 5 min. Špinat ili mahune poslužene u sezam umaku (gomaae) klasičan su japanski prilog. Delikatna tekstura svježe samljevenog sezama odlično se slaže s povrćem. Napomena: američki špinat vrlo je mekan — minuta kuhanja je sasvim dovoljna.",
+  "ingredients": [
+    {
+      "group": "Špinat"
+    },
+    {
+      "amount": 220,
+      "unit": "g",
+      "name": "špinat, temeljito opran"
+    },
+    {
+      "amount": 1,
+      "unit": "pinch",
+      "name": "sol"
+    },
+    {
+      "group": "Sezam umak"
+    },
+    {
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "pečene bijele sezam sjemenke"
+    },
+    {
+      "amount": 1.5,
+      "unit": "tbsp",
+      "name": "soja umak"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "šećer"
+    },
+    {
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sake"
+    },
+    {
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "mirin"
+    }
+  ],
+  "steps": [
+    "U velikom lonču zakuhaj lagano posoljenu vodu. Dodaj <strong>špinat</strong> stabljikama prema dolje i kuhaj 1 minutu.",
+    "Ocijedi <strong>špinat</strong> i potopi ga u hladnu vodu dok se ne ohladi. Skupi i dobro iscijedi. Nareži na komade duljine oko 5 cm.",
+    "Za sezam umak, stavi <strong>sezam sjemenke</strong> na suhu tavu i prži na laganoj vatri. Kad 2–3 sjemenke počnu skočiti iz tave, makni s vatre.",
+    "Samelji tostirane <strong>sezam sjemenke</strong> u tarioniku dok ne postanu glatke.",
+    "U zdjeli pomižeaj samljeveni <strong>sezam</strong> sa <strong>soja umakom</strong>, <strong>šećerom</strong>, <strong>sakeom</strong> i <strong>mirinom</strong>.",
+    "Pomižeaj <strong>špinat</strong> sa sezam umakom i posluži na sobnoj temperaturi ili hladan."
+  ]
+}
