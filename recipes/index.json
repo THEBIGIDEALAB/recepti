@@ -152,5 +152,12 @@
     "category": "Thailand",
     "servings": 4,
     "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2019/09/pad-thai-blog.jpg"
+  },
+  {
+    "id": "spinach-gomaae",
+    "title": "Spinach Gomaae",
+    "category": "Japan",
+    "servings": 4,
+    "photo": "https://www.justonecookbook.com/wp-content/uploads/2023/07/Japanese-Spinach-Salad-with-Sesame-Dressing-Gomaae-0639-II.jpg"
   }
 ]
