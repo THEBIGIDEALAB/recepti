@@ -166,5 +166,61 @@
     "category": "Portugal",
     "servings": 6,
     "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjevqYdp5xZ3Yfww1ww6WLnejcKQ_OhB_UUfJvGGWPSOVE4neExwbStBWVnSvybLmW8lC4h4eMJDOtEQ3yydIXpIZ_sNreWFOHDNyk22wBlTiGuSzC4qgkd9_mJwtpVT0jmjOmijtfMR6k/s1600/20140922_181830.jpg"
+  },
+  {
+    "id": "sticky-svinjska-trbusina",
+    "title": "Sticky Svinjska Trbušina",
+    "category": "Kina",
+    "servings": 4,
+    "photo": "https://www.kitchensanctuary.com/wp-content/uploads/2018/10/Sticky-Spicy-Pork-Belly-square-FS.jpg"
+  },
+  {
+    "id": "gua-bao",
+    "title": "Gua Bao",
+    "category": "Kina",
+    "servings": 10,
+    "photo": "https://www.kitchensanctuary.com/wp-content/uploads/2019/07/Gua-Bao-Buns-Pork-Belly-square-FS-7271.jpg"
+  },
+  {
+    "id": "shiitake-knedlice",
+    "title": "Shiitake Knedlice",
+    "category": "Kina",
+    "servings": 4,
+    "photo": "https://www.dishbyrish.co.uk/wp-content/uploads/2025/02/20211105173757_IMG_6071.jpg"
+  },
+  {
+    "id": "pirjani-riz-s-jajetom",
+    "title": "Pirjani Riž s Jajetom",
+    "category": "Kina",
+    "servings": 4,
+    "photo": "https://www.kitchensanctuary.com/wp-content/uploads/2021/03/Egg-fried-rice-square-FS-40.jpg"
+  },
+  {
+    "id": "hrskava-piletina-sezam",
+    "title": "Hrskava Piletina Sezam",
+    "category": "Kina",
+    "servings": 4,
+    "photo": "https://www.kitchensanctuary.com/wp-content/uploads/2016/06/Crispy-Sesame-Chicken-square-FS.jpg"
+  },
+  {
+    "id": "siu-yuk",
+    "title": "Siu Yuk – Hrskava Svinjska Trbušina",
+    "category": "Kina",
+    "servings": 4,
+    "photo": "https://i.ytimg.com/vi/yGKFqO1aY78/hqdefault.jpg"
+  },
+  {
+    "id": "har-gow",
+    "title": "Har Gow – Kozice u Prozirnom Ovitku",
+    "category": "Kina",
+    "servings": 4,
+    "photo": "https://www.thespruceeats.com/thmb/osi3Js95z5PRVKR9WnW_oXrA0Hk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/har-gow-shrimp-dumplings-recipe-694503-Hero_01-db5847b769a64c0ebdf963c875e32297.jpg"
+  },
+  {
+    "id": "jiaozi",
+    "title": "Jiaozi – Kineske Knedlice sa Svinjetinom",
+    "category": "Kina",
+    "servings": 8,
+    "photo": "https://app.adamliaw.com/app/uploads/2022/12/Jiaozi-Web-1-of-1.jpg"
   }
 ]
