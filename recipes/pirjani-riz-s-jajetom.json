@@ -1,0 +1,72 @@
+{
+  "id": "pirjani-riz-s-jajetom",
+  "title": "Pirjani Riž s Jajetom",
+  "category": "Kina",
+  "servings": 4,
+  "photo": "https://www.kitchensanctuary.com/wp-content/uploads/2021/03/Egg-fried-rice-square-FS-40.jpg",
+  "youtube": "",
+  "notes": "Klasični kineski pirjani riž u stilu restoranskog takeouta. Ključ uspjeha: koristite hladan, ohladen kuhani riž — nikad svježe kuhanog. Prep: 10 min | Kuhanje: 15 min | Recept: https://www.kitchensanctuary.com/egg-fried-rice/",
+  "ingredients": [
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "neutralno ulje (avokado ili suncokretovo)"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "luk, sitno narezan"
+    },
+    {
+      "amount": 2,
+      "unit": "režanja",
+      "name": "češnjak, sitno narezan"
+    },
+    {
+      "amount": 800,
+      "unit": "g",
+      "name": "kuhani i ohlađeni riž dugog zrna (od cca 300 g suhog riža)"
+    },
+    {
+      "amount": 0.5,
+      "unit": "tbsp",
+      "name": "sezamovo ulje"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "jaja"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tamni soja umak"
+    },
+    {
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "sol"
+    },
+    {
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "sol s češnjakom (garlic salt)"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sok limuna"
+    },
+    {
+      "name": "mladi luk, nasjeckan, za posluživanje"
+    }
+  ],
+  "steps": [
+    "Zagrijte 1 žlicu <strong>ulja</strong> u velikom woku. Dodajte <strong>luk</strong> i pržite na srednje jakoj vatri 5 minuta dok ne omekša.",
+    "Dodajte ostatak <strong>ulja</strong> i <strong>češnjak</strong>. Pržite još 30 sekundi.",
+    "Dodajte <strong>riž</strong> i povećajte vatru na jaku. Prelijte <strong>sezamovim uljem</strong>. Loptaticom prebacujte riž (ne miješajte žicom) i grijte 5 minuta do vrućeg.",
+    "Riž gurajte na stranu woka. U slobodnom dijelu razbijte <strong>jaja</strong>, dodajte malo <strong>soja umaka</strong> i miješajte dok se ne počnu stezati, ali su još malo surovata.",
+    "Umiješajte <strong>jaja</strong> u riž. Prelijte ostatkom <strong>soja umaka</strong>, pospite <strong>soli</strong> i <strong>solču s češnjakom</strong> te sve pomiješajte.",
+    "Dodajte <strong>sok limuna</strong>, promiješajte i pookusite. Rasporedite u zdjele i pospite <strong>mladim lukom</strong>."
+  ]
+}
