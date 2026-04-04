@@ -159,5 +159,12 @@
     "category": "Japan",
     "servings": 4,
     "photo": "https://www.justonecookbook.com/wp-content/uploads/2023/07/Japanese-Spinach-Salad-with-Sesame-Dressing-Gomaae-0639-II.jpg"
+  },
+  {
+    "id": "alcatra-de-carne",
+    "title": "Alcatra de Carne",
+    "category": "Portugal",
+    "servings": 6,
+    "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjevqYdp5xZ3Yfww1ww6WLnejcKQ_OhB_UUfJvGGWPSOVE4neExwbStBWVnSvybLmW8lC4h4eMJDOtEQ3yydIXpIZ_sNreWFOHDNyk22wBlTiGuSzC4qgkd9_mJwtpVT0jmjOmijtfMR6k/s1600/20140922_181830.jpg"
   }
 ]
