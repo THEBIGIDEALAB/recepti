@@ -222,5 +222,19 @@
     "category": "Kina",
     "servings": 8,
     "photo": "https://app.adamliaw.com/app/uploads/2022/12/Jiaozi-Web-1-of-1.jpg"
+  },
+  {
+    "id": "shogayaki",
+    "title": "Shogayaki – Svinjski File s Đumbirom",
+    "category": "Japan",
+    "servings": 4,
+    "photo": "https://www.justonecookbook.com/wp-content/uploads/2021/09/Ginger-Pork-1773-I-2.jpg"
+  },
+  {
+    "id": "glazirana-sunka-limunovac",
+    "title": "Glazirana Šunka s Limunovcem i Đumbirom",
+    "category": "Thailand",
+    "servings": 15,
+    "photo": "https://sunporkfreshfoods.com.au/wp-content/uploads/2024/11/SFF_VA-LegHamHalf_LemongrassandGingerGlazedHam-6107-1Edited_WEB1x1-scaled.jpg"
   }
 ]
