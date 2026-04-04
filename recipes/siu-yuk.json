@@ -1,0 +1,48 @@
+{
+  "id": "siu-yuk",
+  "title": "Siu Yuk – Hrskava Svinjska Trbušina",
+  "category": "Kina",
+  "servings": 4,
+  "photo": "https://i.ytimg.com/vi/yGKFqO1aY78/hqdefault.jpg",
+  "youtube": "https://www.youtube.com/embed/yGKFqO1aY78",
+  "notes": "Kineska pečena svinjska trbušina s nevjerojatno hrskavom koricom — kantonski klasik. Ključ: puno rupica u koži i sušenje u hladnjaku preko noći. Priprema se dan ranije.",
+  "ingredients": [
+    {
+      "amount": 800,
+      "unit": "g",
+      "name": "svinjska trbušina s kožom"
+    },
+    {
+      "name": "kineski·rižino vino (Shaoxing), malo za ispiranje"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "prašak pet začina (five spice powder)"
+    },
+    {
+      "amount": 2,
+      "unit": "tsp",
+      "name": "šećer"
+    },
+    {
+      "amount": 3,
+      "unit": "tsp",
+      "name": "sol"
+    },
+    {
+      "name": "rižin ocat ili sok limuna, za premaz kože"
+    }
+  ],
+  "steps": [
+    "Blanširajte <strong>svinjsku trbušinu</strong> u kipćoj vodi 5 minuta. Odmah prebacite u hladnu vodu s ledom još 5 minuta. Osušite.",
+    "Nožom ostružite kožu da uklonite nečistoće i dlačice. Dobro osušite kuhinjskim papirom.",
+    "Tankim šiljastim predmetom (nakovanj za meso, vilicom) izbodite kožu s što više rupica — što više rupica, hrskavije će biti.",
+    "Okrenite trbušinu kožom prema dolje. Narežite meso (ne kožu) u trakice. Utrlajte <strong>rižino vino</strong> po mesu.",
+    "Pomiješajte <strong>prašak pet začina</strong>, <strong>šećer</strong> i <strong>sol</strong>. Utrlajte začone ravnomjerno po mesu (ne po koži).",
+    "Okrenite kožom prema gore. Zaomotajte meso (ne kožu) alu-folijom. Pospite kožu s još malo <strong>soli</strong>. Stavite u hladnjak bez poklopca, kožom prema gore, najmanje 6 sati ili preko noći.",
+    "Sutradan uklonite sol s kože. Premžite kožu <strong>rižinim octom ili sokom limuna</strong>. Zagrijte pećnicu na 200 °C.",
+    "Pecite 25 minuta na 200 °C dok koža ne porumeni i nabubri. Povećajte na 250 °C i pecite još 5 minuta.",
+    "Izvadite i ostavite da se ohladi 20 minuta prije rezanja — koža će se inače lomiti. Narežite na komadiće i poslužite."
+  ]
+}
