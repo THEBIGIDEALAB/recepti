@@ -1,0 +1,76 @@
+{
+  "id": "jiaozi",
+  "title": "Jiaozi – Kineske Knedlice sa Svinjetinom",
+  "category": "Kina",
+  "servings": 8,
+  "photo": "https://app.adamliaw.com/app/uploads/2022/12/Jiaozi-Web-1-of-1.jpg",
+  "youtube": "",
+  "notes": "Klasične kineske domaće knedlice od svinjskog mljevenog mesa i kupusa. Recept je za veliku obiteljsku seriju od oko 100 knedlica — višak se smrzava. Mogu se kuhati, pariti ili pržiti. Recept: https://adamliaw.com/recipe/how-to-make-basic-dumplings",
+  "ingredients": [
+    {
+      "group": "Tijesto"
+    },
+    {
+      "amount": 3,
+      "unit": "šalice",
+      "name": "glatko brašno, plus više za posipanje"
+    },
+    {
+      "amount": 1.5,
+      "unit": "šalice",
+      "name": "kipća voda"
+    },
+    {
+      "group": "Fil"
+    },
+    {
+      "amount": 0.25,
+      "unit": "kom",
+      "name": "kineski kupus"
+    },
+    {
+      "amount": 1,
+      "unit": "kg",
+      "name": "masno svinjsko mljeveno meso"
+    },
+    {
+      "name": "đumbir, 2 cm, oguljen i narezan na rende"
+    },
+    {
+      "amount": 2,
+      "unit": "režanja",
+      "name": "češnjak, sitno nasjeckan (neobavezno)"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sol"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "Shaoxing vino (kineski rižin ocat)"
+    },
+    {
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "šećer"
+    },
+    {
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "bijeli papar"
+    },
+    {
+      "name": "vlasac ili mladi luk, narezan na 1 cm — pregršt"
+    }
+  ],
+  "steps": [
+    "Za tijesto: stavite <strong>brašno</strong> u zdjelu miksera s kukom za tijesto. Dodajte <strong>kipću vodu</strong> i mijesite 10 minuta do glatkog tijesta. Umotajte u pobrašnjenu prozirnu foliju i ostavite 30 minuta.",
+    "Za fil: prokuhajte vodu, dodajte <strong>kupus</strong> i kuhajte 5 minuta. Ocijedite, ohladite i rukama čvrsto iscjedite svu tekućinu. Sitno nasjeckajte i ponovo iscjedite.",
+    "Pomiješajte <strong>svinjsko mljeveno meso</strong>, <strong>đumbir</strong>, <strong>češnjak</strong>, <strong>sol</strong>, <strong>Shaoxing vino</strong>, <strong>šećer</strong> i <strong>papar</strong> u mikseru i miješajte 10 minuta dok masa ne postane elastična. Umiješajte <strong>kupus</strong> i <strong>vlasac</strong>. Ostavite u hladnjaku 30 minuta. Obavezno probajte fil i prilagodite začin.",
+    "Otkidajte čvrtvrtinu tijesta, razvaljajte u valjak promjera 2 cm i režite na 1 cm kolutove. Svaki kolut razvaljajte u krug promjera 7 cm. Na sredinu stavite 2 žličice <strong>fila</strong>. Presavijte i naborajte rub. Višak smrznite na tepsiji s papirom za pečenje.",
+    "Za kuhanje: stavite <strong>knedlice</strong> u kipću vodu. Svaki put kad voda opet zakuha, dodajte pola šalice hladne vode (ponovite 3 puta). Kad isplivaju, kuhajte još 1 minutu i ocijedite.",
+    "Alternativno: parene 10–15 minuta u paruši, ili pržene na ulju pa parene s malo vode ispod poklopca (gyoza stil)."
+  ]
+}
