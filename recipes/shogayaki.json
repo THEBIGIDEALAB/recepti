@@ -1,0 +1,87 @@
+{
+  "id": "shogayaki",
+  "title": "Shogayaki – Svinjski File s Đumbirom",
+  "category": "Japan",
+  "servings": 4,
+  "photo": "https://www.justonecookbook.com/wp-content/uploads/2021/09/Ginger-Pork-1773-I-2.jpg",
+  "youtube": "",
+  "notes": "Klasično japansko jelo od tanko rezanog svinjskog filea u slatko-đumbirovom umaku. Brzo, jednostavno i nevjerojatno ukusno. Prep: 10 min | Kuhanje: 10 min | Recept: https://www.justonecookbook.com/ginger-pork-shogayaki/",
+  "ingredients": [
+    {
+      "group": "Umak"
+    },
+    {
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "soja umak"
+    },
+    {
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "mirin"
+    },
+    {
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "sake"
+    },
+    {
+      "amount": 2,
+      "unit": "tsp",
+      "name": "šećer"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sok đumbira (narezan đumbir 5 cm, iscijediti)"
+    },
+    {
+      "amount": 2,
+      "unit": "tsp",
+      "name": "rendani đumbir, po ukusu"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "luk, polovica narendana s sokom za umak, ostatak tanko narezan"
+    },
+    {
+      "group": "Svinjetina"
+    },
+    {
+      "amount": 700,
+      "unit": "g",
+      "name": "svinjski file, tanko narezan (oko 3 mm)"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sake"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "glatko brašno"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "neutralno ulje"
+    },
+    {
+      "group": "Za posluživanje"
+    },
+    {
+      "name": "kupus, tanko narezan na trakice"
+    }
+  ],
+  "steps": [
+    "Pomiješajte <strong>soja umak</strong>, <strong>mirin</strong>, <strong>sake</strong> i <strong>šećer</strong> u zdjeli. Dodajte polovicu <strong>soka đumbira</strong>, <strong>rendani đumbir</strong> i 2 žlice <strong>narendanog luka s sokom</strong>. Dobro promiješajte.",
+    "Ostatak <strong>luka</strong> tanko narežite. Ako su reževi svinjskog filea deblji od 3 mm, narežite nekoliko ureza na bijelom vezivnom tkivu između mesa i masti da meso ne bi skupčalo.",
+    "Pospite <strong>svinjske reževe</strong> preostalim <strong>sokom đumbira</strong> i <strong>sakeom</strong>. Ostavite 5 minuta. Potom lagano pospite <strong>brašnom</strong> (preskočite ako je meso tanje od 3 mm).",
+    "Zagrijte tavu na srednje jakoj vatri s <strong>uljem</strong>. Pržite <strong>svinjske reževe</strong> u serijama — u jednom sloju — okrećući jednom dok ne prestanu biti roza. Izvadite na tanjur.",
+    "Dodajte još malo <strong>ulja</strong> i pržite <strong>narezani luk</strong> na srednjoj vatri 6–8 minuta dok ne omekša i porumeni.",
+    "Vratite <strong>svinjske reževe</strong> u tavu. Prelijte <strong>umakom</strong>, lagano krčajte 2 minute i žličom prelijevajte meso dok se umak ne zgusne.",
+    "Poslužite odmah uz <strong>tanko narezani kupus</strong>."
+  ]
+}
