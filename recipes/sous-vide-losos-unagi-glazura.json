@@ -1,0 +1,71 @@
+{
+  "id": "sous-vide-losos-unagi-glazura",
+  "title": "Sous-vide losos s unagi glazurom",
+  "category": "Japan",
+  "servings": 1,
+  "photo": "https://cdn-akamai.lkk.com/foodservices/-/media/recipe-japanese-style-glazed-salmon.jpg?h=465&iar=0&w=600&hash=8816C10549AFA81CC15181D946CE7F8F",
+  "youtube": "",
+  "notes": "Mekani i so\u010dni losos pripreman sous-vide tehnikom, zavr\u0161en na ro\u0161tilju uz dim i karamelizaciju unagi glazure. Priprema: 10 min, sous-vide: 15-20 min, zavr\u0161no pe\u010denje: 3-5 min.",
+  "ingredients": [
+    {
+      "group": "Losos"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "filet lososa, vakumiran ili za vakumiranje"
+    },
+    {
+      "amount": 1,
+      "unit": "pinch",
+      "name": "sol, fina (cca 0.8-1% te\u017eine ribe)"
+    },
+    {
+      "name": "\u0161e\u0107er, za balans (opcionalno)"
+    },
+    {
+      "name": "mirin ili sake, par kapi (opcionalno)"
+    },
+    {
+      "group": "Glazura"
+    },
+    {
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "unagi umak"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "soja umak"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "med ili \u0161e\u0107er"
+    },
+    {
+      "group": "Zavr\u0161etak"
+    },
+    {
+      "name": "neutralno ulje"
+    },
+    {
+      "name": "tostirani sezam, po \u017eelji"
+    },
+    {
+      "name": "mladi luk, nasjeckan, po \u017eelji"
+    },
+    {
+      "name": "limeta, po \u017eelji"
+    }
+  ],
+  "steps": [
+    "Priprema (vakum): Ako <strong>losos</strong> jo\u0161 nije vakumiran, lagano ga posolite (oko 0.8-1% te\u017eine ribe), dodajte par kapi <strong>mirina</strong> ili <strong>sakea</strong> i vakumirajte. Ako nemate vakumator, mo\u017eete koristiti zip-lock vre\u0107icu i metodu istiskivanja zraka vodom.",
+    "Sous-vide: Kuhajte <strong>losos</strong> na 47\u00b0C, 15-20 minuta. Rezultat je mekana, so\u010dna tekstura, gotovo 'buttery', ali ne sirova.",
+    "Su\u0161enje: Izvadite <strong>losos</strong> iz vre\u0107ice i nje\u017eno ga posu\u0161ite papirnatim ru\u010dnikom. Ovo je klju\u010dno da riba dobro primi dim i glazuru.",
+    "Glazura: U manjem loncu pomije\u0161ajte <strong>unagi umak</strong>, <strong>soja umak</strong> i <strong>med</strong>. Lagano zagrijte dok se smjesa malo ne zgusne.",
+    "Dimljenje i zavr\u0161etak: Zagrijte elektri\u010dni ro\u0161tilj na visoko (200-230\u00b0C). Ako imate, dodajte drvnu sje\u010dku (tre\u0161nja ili jabuka su najbolje). Prema\u017eite <strong>losos</strong> tankim slojem glazure. Pecite 2-3 minute ukupno, okre\u0107u\u0107i i glaziraju\u0107i jo\u0161 1-2 puta. Cilj je dobiti dim i karamelizaciju, bez dodatnog kuhanja ribe.",
+    "Zavr\u0161etak i poslu\u017eivanje: Prema\u017eite jo\u0161 jednim tankim slojem glazure. Po \u017eelji pospite tostiranim <strong>sezamom</strong>, narezanim <strong>mladim lukom</strong> i iscijedite malo <strong>limete</strong> za svje\u017ei kontrast."
+  ]
+}
