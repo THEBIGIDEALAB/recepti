@@ -1,7 +1,7 @@
 [
   {
     "id": "pasticada",
-    "title": "Pašticada",
+    "title": "Pa\u00c5\u00a1ticada",
     "category": "Hrvatska",
     "servings": 4,
     "photo": "https://www.camping-simuni.hr/wp-content/uploads/bf-advanced-images/24378/shutterstock-2367344631-1-1920x0.jpg"
@@ -78,28 +78,28 @@
   },
   {
     "id": "lovacki-sos-vepar",
-    "title": "Lovački sos za vepra",
+    "title": "Lova\u00c4\u008dki sos za vepra",
     "category": "Hrvatska",
     "servings": 4,
     "photo": "https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_auto,s_webp:avif/thewildgamegourmet.com/wp-content/uploads/2025/03/beer-braised-hog-shank-recipe.jpg"
   },
   {
     "id": "bijeli-kiseli-kupus",
-    "title": "Bijeli kiseli kupus, njemački stil",
+    "title": "Bijeli kiseli kupus, njema\u00c4\u008dki stil",
     "category": "Germany",
     "servings": 8,
     "photo": "https://piovariations.cdn.podravka.net/33127b36-eca3-11ef-90d5-d60fe2f78059/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.webp"
   },
   {
     "id": "crveni-kiseli-kupus",
-    "title": "Crveni kiseli kupus, njemački stil",
+    "title": "Crveni kiseli kupus, njema\u00c4\u008dki stil",
     "category": "Germany",
     "servings": 8,
     "photo": "https://www.sipandfeast.com/wp-content/uploads/2024/08/german-red-cabbage-recipe-3.jpg"
   },
   {
     "id": "cashew-piletina",
-    "title": "Piletina s indijskim oraščićima",
+    "title": "Piletina s indijskim ora\u00c5\u00a1\u00c4\u008di\u00c4\u0087ima",
     "category": "Thailand",
     "servings": 4,
     "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2022/05/cashew-chicken-sq.jpg"
@@ -113,7 +113,7 @@
   },
   {
     "id": "tom-yum-juha",
-    "title": "Tom Yum juha sa škampima",
+    "title": "Tom Yum juha sa \u00c5\u00a1kampima",
     "category": "Thailand",
     "servings": 4,
     "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2013/03/tom-yum-goong-blog.jpg"
@@ -169,7 +169,7 @@
   },
   {
     "id": "sticky-svinjska-trbusina",
-    "title": "Sticky Svinjska Trbušina",
+    "title": "Sticky Svinjska Trbu\u00c5\u00a1ina",
     "category": "Kina",
     "servings": 4,
     "photo": "https://www.kitchensanctuary.com/wp-content/uploads/2018/10/Sticky-Spicy-Pork-Belly-square-FS.jpg"
@@ -190,7 +190,7 @@
   },
   {
     "id": "pirjani-riz-s-jajetom",
-    "title": "Pirjani Riž s Jajetom",
+    "title": "Pirjani Ri\u00c5\u00be s Jajetom",
     "category": "Kina",
     "servings": 4,
     "photo": "https://www.kitchensanctuary.com/wp-content/uploads/2021/03/Egg-fried-rice-square-FS-40.jpg"
@@ -204,37 +204,44 @@
   },
   {
     "id": "siu-yuk",
-    "title": "Siu Yuk – Hrskava Svinjska Trbušina",
+    "title": "Siu Yuk \u00e2\u0080\u0093 Hrskava Svinjska Trbu\u00c5\u00a1ina",
     "category": "Kina",
     "servings": 4,
     "photo": "https://i.ytimg.com/vi/yGKFqO1aY78/hqdefault.jpg"
   },
   {
     "id": "har-gow",
-    "title": "Har Gow – Kozice u Prozirnom Ovitku",
+    "title": "Har Gow \u00e2\u0080\u0093 Kozice u Prozirnom Ovitku",
     "category": "Kina",
     "servings": 4,
     "photo": "https://www.thespruceeats.com/thmb/osi3Js95z5PRVKR9WnW_oXrA0Hk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/har-gow-shrimp-dumplings-recipe-694503-Hero_01-db5847b769a64c0ebdf963c875e32297.jpg"
   },
   {
     "id": "jiaozi",
-    "title": "Jiaozi – Kineske Knedlice sa Svinjetinom",
+    "title": "Jiaozi \u00e2\u0080\u0093 Kineske Knedlice sa Svinjetinom",
     "category": "Kina",
     "servings": 8,
     "photo": "https://app.adamliaw.com/app/uploads/2022/12/Jiaozi-Web-1-of-1.jpg"
   },
   {
     "id": "shogayaki",
-    "title": "Shogayaki – Svinjski File s Đumbirom",
+    "title": "Shogayaki \u00e2\u0080\u0093 Svinjski File s \u00c4\u0090umbirom",
     "category": "Japan",
     "servings": 4,
     "photo": "https://www.justonecookbook.com/wp-content/uploads/2021/09/Ginger-Pork-1773-I-2.jpg"
   },
   {
     "id": "glazirana-sunka-limunovac",
-    "title": "Glazirana Šunka s Limunovcem i Đumbirom",
+    "title": "Glazirana \u00c5\u00a0unka s Limunovcem i \u00c4\u0090umbirom",
     "category": "Thailand",
     "servings": 15,
     "photo": "https://sunporkfreshfoods.com.au/wp-content/uploads/2024/11/SFF_VA-LegHamHalf_LemongrassandGingerGlazedHam-6107-1Edited_WEB1x1-scaled.jpg"
+  },
+  {
+    "id": "sous-vide-losos-unagi-glazura",
+    "title": "Sous-vide losos s unagi glazurom",
+    "category": "Japan",
+    "servings": 1,
+    "photo": "https://cdn-akamai.lkk.com/foodservices/-/media/recipe-japanese-style-glazed-salmon.jpg?h=465&iar=0&w=600&hash=8816C10549AFA81CC15181D946CE7F8F"
   }
 ]
