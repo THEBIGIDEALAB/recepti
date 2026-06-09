@@ -284,6 +284,26 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
     }, {passive:true});
   })();
 
+  // Wake Lock — spriječi gašenje ekrana dok je stranica otvorena
+  (function() {
+    var wakeLock = null;
+    async function requestWakeLock() {
+      if (!('wakeLock' in navigator)) return;
+      try {
+        wakeLock = await navigator.wakeLock.request('screen');
+      } catch(e) {}
+    }
+    function releaseWakeLock() {
+      if (wakeLock) { wakeLock.release(); wakeLock = null; }
+    }
+    requestWakeLock();
+    document.addEventListener('visibilitychange', function() {
+      if (document.visibilityState === 'visible') requestWakeLock();
+      else releaseWakeLock();
+    });
+  })();
+
+
 </script>
 </body>
 </html>
