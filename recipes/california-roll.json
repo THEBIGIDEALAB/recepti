@@ -5,17 +5,17 @@
   "servings": 4,
   "photo": "https://www.justonecookbook.com/wp-content/uploads/2024/04/California-Roll-7082-II.jpg",
   "youtube": "",
-  "notes": "Inside-out rolica — riža je izvana, nori iznutra. Poslužiti uz sojin umak i wasabi.",
+  "notes": "Inside-out rolica \u2014 ri\u017ea je izvana, nori iznutra. Poslu\u017eiti uz sojin umak i wasabi.",
   "ingredients": [
     {
       "amount": 2,
-      "unit": "šalica",
-      "name": "sushi riža, kuhana i začinjena"
+      "unit": "\u0161alica",
+      "name": "sushi ri\u017ea, kuhana i za\u010dinjena"
     },
     {
       "amount": 1,
       "unit": "kom",
-      "name": "avokado, narezan na 20 kriški"
+      "name": "avokado, narezan na 20 kri\u0161ki"
     },
     {
       "amount": 200,
@@ -30,23 +30,23 @@
     {
       "amount": 3,
       "unit": "kom",
-      "name": "nori list, nesezašminiran"
+      "name": "nori list, neseza\u0161miniran"
     },
     {
       "amount": 1,
       "unit": "tbsp",
-      "name": "sezam, pržen"
+      "name": "sezam, pr\u017een"
     }
   ],
   "steps": [
-    "Skuhati i začiniti <strong>sushi rižu</strong>. Bambusov prostirač (makisu) prekriti plastičnom folijom. Pripremiti zdjelicu s vodom za kvašenje prstiju.",
-    "Svaki <strong>nori list</strong> presaviti na pola. Ako je svjež, trebao bi se prekinuti duž preklopa. Ako je star, lagano ga tostirati iznad plamena ili isjeći škarama.",
-    "Jedan komad norija postaviti na dno prostirača. Navlažiti prste i rasporediti tanki, ravnomjerni sloj <strong>riže</strong> do rubova. Ne pritiskati prestrogo.",
-    "Pospati rižu <strong>sezamom</strong>. Preokrenuti (riža prema dolje, nori prema gore).",
-    "Uz donji rub norija posložiti trakice <strong>krastavca</strong>, kriške <strong>avokada</strong> i <strong>rakovo meso</strong>. Ne puniti previše — rolica se neće zapečatiti.",
-    "Palcima podići bambusov prostirač s dna i koristiti ih da se riža prebači preko nadjeva, držeći nadjev prstima. Nastaviti rolati dok riža ne dodirne nori.",
-    "Nakon što je rolica formirana, čvrsto je stisnuti prostiračem sa svih strana. Ako se ne jede odmah, zamotati u plastičnu foliju.",
-    "Za rezanje koristiti dug, oštar nož. Postaviti stražnjicu oštrice na sredinu rolice i povlačiti prema sebi — ne pritiskati. Svaku polovicu prerezati na trećine (6 komada po rolici).",
-    "Poslužiti uz <strong>sojin umak</strong> i wasabi."
+    "Skuhati i za\u010diniti <strong>sushi ri\u017eu</strong>. Bambusov prostira\u010d (makisu) prekriti plasti\u010dnom folijom. Pripremiti zdjelicu s vodom za kva\u0161enje prstiju.",
+    "Svaki <strong>nori list</strong> presaviti na pola. Ako je svje\u017e, trebao bi se prekinuti du\u017e preklopa. Ako je star, lagano ga tostirati iznad plamena ili isje\u0107i \u0161karama.",
+    "Jedan komad norija postaviti na dno prostira\u010da. Navla\u017eiti prste i rasporediti tanki, ravnomjerni sloj <strong>ri\u017ee</strong> do rubova. Ne pritiskati prestrogo.",
+    "Pospati ri\u017eu <strong>sezamom</strong>. Preokrenuti (ri\u017ea prema dolje, nori prema gore).",
+    "Uz donji rub norija poslo\u017eiti trakice <strong>krastavca</strong>, kri\u0161ke <strong>avokada</strong> i <strong>rakovo meso</strong>. Ne puniti previ\u0161e \u2014 rolica se ne\u0107e zape\u010datiti.",
+    "Palcima podi\u0107i bambusov prostira\u010d s dna i koristiti ih da se ri\u017ea preba\u010di preko nadjeva, dr\u017ee\u0107i nadjev prstima. Nastaviti rolati dok ri\u017ea ne dodirne nori.",
+    "Nakon \u0161to je rolica formirana, \u010dvrsto je stisnuti prostira\u010dem sa svih strana. Ako se ne jede odmah, zamotati u plasti\u010dnu foliju.",
+    "Za rezanje koristiti dug, o\u0161tar no\u017e. Postaviti stra\u017enjicu o\u0161trice na sredinu rolice i povla\u010diti prema sebi \u2014 ne pritiskati. Svaku polovicu prerezati na tre\u0107ine (6 komada po rolici).",
+    "Poslu\u017eiti uz <strong>sojin umak</strong> i wasabi."
   ]
 }
