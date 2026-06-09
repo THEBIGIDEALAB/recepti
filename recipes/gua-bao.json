@@ -5,7 +5,7 @@
   "servings": 10,
   "photo": "https://www.kitchensanctuary.com/wp-content/uploads/2019/07/Gua-Bao-Buns-Pork-Belly-square-FS-7271.jpg",
   "youtube": "",
-  "notes": "Mekane parene lepinje punjene ljepljivom svinjskom trbušinom — tajvanski street food koji možete napraviti od početka kod kuće. Pravi se 10 lepinji. Prep: 30 min | Kuhanje: 3 h | Dizanje: 2.5 h | Recept: https://www.kitchensanctuary.com/gua-bao/",
+  "notes": "Mekane parene lepinje punjene ljepljivom svinjskom trbu\u0161inom \u2014 tajvanski street food koji mo\u017eete napraviti od po\u010detka kod ku\u0107e. Pravi se 10 lepinji. Prep: 30 min | Kuhanje: 3 h | Dizanje: 2.5 h | Recept: https://www.kitchensanctuary.com/gua-bao/",
   "ingredients": [
     {
       "group": "Parene lepinje"
@@ -13,12 +13,12 @@
     {
       "amount": 450,
       "unit": "g",
-      "name": "glatko brašno"
+      "name": "glatko bra\u0161no"
     },
     {
       "amount": 2,
       "unit": "tbsp",
-      "name": "šećer"
+      "name": "\u0161e\u0107er"
     },
     {
       "amount": 0.5,
@@ -28,7 +28,7 @@
     {
       "amount": 2,
       "unit": "tsp",
-      "name": "instant suhi kvasac (1 vrećica, 7 g)"
+      "name": "instant suhi kvasac (1 vre\u0107ica, 7 g)"
     },
     {
       "amount": 3,
@@ -51,37 +51,37 @@
       "name": "maslinovo ulje"
     },
     {
-      "group": "Sporo kuhana trbušina"
+      "group": "Sporo kuhana trbu\u0161ina"
     },
     {
       "amount": 1,
       "unit": "kg",
-      "name": "svinjska trbušina bez kore, narezana na komadiće"
+      "name": "svinjska trbu\u0161ina bez kore, narezana na komadi\u0107e"
     },
     {
       "amount": 1,
       "unit": "l",
-      "name": "vruća pileća juha"
+      "name": "vru\u0107a pile\u0107a juha"
     },
     {
       "amount": 1,
       "unit": "tbsp",
-      "name": "đumbir, sitno narezan"
+      "name": "\u0111umbir, sitno narezan"
     },
     {
       "amount": 3,
-      "unit": "režanja",
-      "name": "češnjak, prepolovljen"
+      "unit": "re\u017eanja",
+      "name": "\u010de\u0161njak, prepolovljen"
     },
     {
       "amount": 1,
       "unit": "tbsp",
-      "name": "rižino vino"
+      "name": "ri\u017eino vino"
     },
     {
       "amount": 1,
       "unit": "tbsp",
-      "name": "šećer"
+      "name": "\u0161e\u0107er"
     },
     {
       "group": "Glazura za meso"
@@ -97,12 +97,12 @@
     {
       "amount": 1,
       "unit": "tbsp",
-      "name": "đumbir, sitno narezan"
+      "name": "\u0111umbir, sitno narezan"
     },
     {
       "amount": 1,
       "unit": "kom",
-      "name": "crvena čili papričica, sitno nasjeckan"
+      "name": "crvena \u010dili papri\u010dica, sitno nasjeckan"
     },
     {
       "amount": 2,
@@ -112,7 +112,7 @@
     {
       "amount": 2,
       "unit": "tbsp",
-      "name": "smeđi šećer"
+      "name": "sme\u0111i \u0161e\u0107er"
     },
     {
       "amount": 3,
@@ -125,7 +125,7 @@
       "name": "pasta od limunovca"
     },
     {
-      "group": "Za punjenje i posluživanje"
+      "group": "Za punjenje i poslu\u017eivanje"
     },
     {
       "name": "korijander, grubo natrgano"
@@ -133,7 +133,7 @@
     {
       "amount": 2,
       "unit": "kom",
-      "name": "crvena čili papričica, tanko narezana"
+      "name": "crvena \u010dili papri\u010dica, tanko narezana"
     },
     {
       "amount": 4,
@@ -148,17 +148,17 @@
     {
       "amount": 2,
       "unit": "tbsp",
-      "name": "prženi indijski oraščići, grubo nasjeckani"
+      "name": "pr\u017eeni indijski ora\u0161\u010di\u0107i, grubo nasjeckani"
     }
   ],
   "steps": [
-    "Pomiješajte <strong>brašno</strong>, <strong>šećer</strong>, <strong>sol</strong> i <strong>kvasac</strong> u zdjeli. U mjerici otopite <strong>maslac</strong> u <strong>mlijeku</strong> i <strong>toploj vodi</strong>. Ulijte tekućinu u brašno, prvo žicom pa rukama. Preselite na pobrašnjenu površinu i mijesite 10 minuta do glatkog tijesta.",
-    "Stavite tijesto u zdjelu namazanu <strong>maslinovim uljem</strong>, pokrijte i ostavite da naraste na dvostruku veličinu — oko 90 minuta do 2 sata.",
-    "Dok tijesto narasta, pripremite <strong>svinjsku trbušinu</strong>: stavite je u posudu s <strong>pilećom juhom</strong>, <strong>đumbirom</strong>, <strong>češnjakom</strong>, <strong>rižinim vinom</strong> i <strong>šećerom</strong>. Zakuhajte, poklopite i pirjajte 2 sata. Ocijedite i rezervirajte tekućinu.",
-    "Nakon dizanja tijesta, izvrnite ga na pobrašnjenu površinu. Podijelite na 10 kuglica. Svaku razvaljajte u oval (12 × 8 cm), premžite <strong>maslinovim uljem</strong> i presavijte na pola s štapom za jelo u sredini. Izvadite štap. Stavite na papir za pečenje, pokrijte i ostavite da narastu 60 minuta.",
-    "Narežite <strong>svinjsku trbušinu</strong> na zalogajne komade. U maloj zdjeli pomiješajte sve sastojke za <strong>glazuru</strong>.",
-    "Na 1 žlici <strong>ulja</strong> u tavi na jakoj vatri pržite <strong>meso</strong> s <strong>soli i paprom</strong> dok ne porumeni. Prelijte <strong>glazurom</strong> i kuhajte 6–7 minuta do tamne ljepljive površine.",
-    "Istovremeno parite lepinje u paruši 15 minuta iznad kipće vode (u serijama).",
-    "Otvorite svaku lepinj u i napunite <strong>ljepljivim mesom</strong>, <strong>korijandrom</strong>, <strong>čilijem</strong>, <strong>mladim lukom</strong>. Pospite <strong>sezamom</strong> i <strong>oraščićima</strong>."
+    "Pomije\u0161ajte <strong>bra\u0161no</strong>, <strong>\u0161e\u0107er</strong>, <strong>sol</strong> i <strong>kvasac</strong> u zdjeli. U mjerici otopite <strong>maslac</strong> u <strong>mlijeku</strong> i <strong>toploj vodi</strong>. Ulijte teku\u0107inu u bra\u0161no, prvo \u017eicom pa rukama. Preselite na pobra\u0161njenu povr\u0161inu i mijesite 10 minuta do glatkog tijesta.",
+    "Stavite tijesto u zdjelu namazanu <strong>maslinovim uljem</strong>, pokrijte i ostavite da naraste na dvostruku veli\u010dinu \u2014 oko 90 minuta do 2 sata.",
+    "Dok tijesto narasta, pripremite <strong>svinjsku trbu\u0161inu</strong>: stavite je u posudu s <strong>pile\u0107om juhom</strong>, <strong>\u0111umbirom</strong>, <strong>\u010de\u0161njakom</strong>, <strong>ri\u017einim vinom</strong> i <strong>\u0161e\u0107erom</strong>. Zakuhajte, poklopite i pirjajte 2 sata. Ocijedite i rezervirajte teku\u0107inu.",
+    "Nakon dizanja tijesta, izvrnite ga na pobra\u0161njenu povr\u0161inu. Podijelite na 10 kuglica. Svaku razvaljajte u oval (12 \u00d7 8 cm), prem\u017eite <strong>maslinovim uljem</strong> i presavijte na pola s \u0161tapom za jelo u sredini. Izvadite \u0161tap. Stavite na papir za pe\u010denje, pokrijte i ostavite da narastu 60 minuta.",
+    "Nare\u017eite <strong>svinjsku trbu\u0161inu</strong> na zalogajne komade. U maloj zdjeli pomije\u0161ajte sve sastojke za <strong>glazuru</strong>.",
+    "Na 1 \u017elici <strong>ulja</strong> u tavi na jakoj vatri pr\u017eite <strong>meso</strong> s <strong>soli i paprom</strong> dok ne porumeni. Prelijte <strong>glazurom</strong> i kuhajte 6\u20137 minuta do tamne ljepljive povr\u0161ine.",
+    "Istovremeno parite lepinje u paru\u0161i 15 minuta iznad kip\u0107e vode (u serijama).",
+    "Otvorite svaku lepinj u i napunite <strong>ljepljivim mesom</strong>, <strong>korijandrom</strong>, <strong>\u010dilijem</strong>, <strong>mladim lukom</strong>. Pospite <strong>sezamom</strong> i <strong>ora\u0161\u010di\u0107ima</strong>."
   ]
 }
