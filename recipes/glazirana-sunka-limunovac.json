@@ -1,16 +1,16 @@
 {
   "id": "glazirana-sunka-limunovac",
-  "title": "Glazirana Šunka s Limunovcem i Đumbirom",
+  "title": "Glazirana \u0160unka s Limunovcem i \u0110umbirom",
   "category": "Thailand",
   "servings": 15,
   "photo": "https://sunporkfreshfoods.com.au/wp-content/uploads/2024/11/SFF_VA-LegHamHalf_LemongrassandGingerGlazedHam-6107-1Edited_WEB1x1-scaled.jpg",
   "youtube": "",
-  "notes": "Azijsko-inspirirani pristup svečanoj šunki — polubut glaziran sirupom od limunovca, đumbira i kaffirskih limetovih listova. Mirisna karamelizirana korica koja iznenadi. Priprema + pečenje: 1 h 55 min | Recept: https://sunporkfreshfoods.com.au/recipes/lemongrass-and-ginger-glazed-ham/",
+  "notes": "Azijsko-inspirirani pristup sve\u010danoj \u0161unki \u2014 polubut glaziran sirupom od limunovca, \u0111umbira i kaffirskih limetovih listova. Mirisna karamelizirana korica koja iznenadi. Priprema + pe\u010denje: 1 h 55 min | Recept: https://sunporkfreshfoods.com.au/recipes/lemongrass-and-ginger-glazed-ham/",
   "ingredients": [
     {
       "amount": 1,
       "unit": "kom",
-      "name": "šunka polubut (oko 3–4 kg)"
+      "name": "\u0161unka polubut (oko 3\u20134 kg)"
     },
     {
       "group": "Glazura"
@@ -23,7 +23,7 @@
     {
       "amount": 5,
       "unit": "cm",
-      "name": "đumbir, svježi, narezan na kolu tiće"
+      "name": "\u0111umbir, svje\u017ei, narezan na kolu ti\u0107e"
     },
     {
       "amount": 2,
@@ -32,12 +32,12 @@
     },
     {
       "amount": 1,
-      "unit": "šalice",
-      "name": "kristal šećer"
+      "unit": "\u0161alice",
+      "name": "kristal \u0161e\u0107er"
     },
     {
       "amount": 2,
-      "unit": "šalice",
+      "unit": "\u0161alice",
       "name": "voda"
     },
     {
@@ -51,15 +51,15 @@
     {
       "amount": 1,
       "unit": "kom",
-      "name": "crvena čili papričica, sitno nasjeckan"
+      "name": "crvena \u010dili papri\u010dica, sitno nasjeckan"
     }
   ],
   "steps": [
-    "Zagrijte pećnicu na 160 °C (s ventilatorom).",
-    "U lonču na tihoj vatri pomiješajte <strong>limunovac</strong>, <strong>đumbir</strong>, <strong>kaffirske listove</strong>, <strong>šećer</strong> i <strong>vodu</strong>. Miješajte dok se šećer ne otopi. Povećajte vatru i zakuhajte, zatim smanjite i krčajte oko 20 minuta dok ne nastane sirup. Ostavite da se ohladi, pa procijedite.",
-    "Pripremite <strong>šunku</strong>: narežite koru oko batka, pa prstima pažljivo odvojite koru od masti i bacite je. Oštrim nožom zarežite mast u šahovnicu — pazite da ne narežete meso.",
-    "Zaomotajte batk alu-folijom. Stavite šunku na rešetku u pekač i napunite dno pekača kipćom vodom.",
-    "Obilno premžite <strong>glazurom</strong> po čitavoj površini. Pecite 1 sat i 30 minuta, premazujući ostatkom <strong>glazure</strong> svakih 15 minuta, dok šunka ne postane zlatna i karamelizirana.",
-    "Izvadite iz pećnice i skinite foliju s batka. Ukrasite kolutima <strong>limete</strong> i nasjeckanim <strong>čilijem</strong>. Poslužite."
+    "Zagrijte pe\u0107nicu na 160 \u00b0C (s ventilatorom).",
+    "U lon\u010du na tihoj vatri pomije\u0161ajte <strong>limunovac</strong>, <strong>\u0111umbir</strong>, <strong>kaffirske listove</strong>, <strong>\u0161e\u0107er</strong> i <strong>vodu</strong>. Mije\u0161ajte dok se \u0161e\u0107er ne otopi. Pove\u0107ajte vatru i zakuhajte, zatim smanjite i kr\u010dajte oko 20 minuta dok ne nastane sirup. Ostavite da se ohladi, pa procijedite.",
+    "Pripremite <strong>\u0161unku</strong>: nare\u017eite koru oko batka, pa prstima pa\u017eljivo odvojite koru od masti i bacite je. O\u0161trim no\u017eom zare\u017eite mast u \u0161ahovnicu \u2014 pazite da ne nare\u017eete meso.",
+    "Zaomotajte batk alu-folijom. Stavite \u0161unku na re\u0161etku u peka\u010d i napunite dno peka\u010da kip\u0107om vodom.",
+    "Obilno prem\u017eite <strong>glazurom</strong> po \u010ditavoj povr\u0161ini. Pecite 1 sat i 30 minuta, premazuju\u0107i ostatkom <strong>glazure</strong> svakih 15 minuta, dok \u0161unka ne postane zlatna i karamelizirana.",
+    "Izvadite iz pe\u0107nice i skinite foliju s batka. Ukrasite kolutima <strong>limete</strong> i nasjeckanim <strong>\u010dilijem</strong>. Poslu\u017eite."
   ]
 }
