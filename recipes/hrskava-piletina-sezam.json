@@ -20,12 +20,12 @@
     {
       "amount": 3,
       "unit": "tbsp",
-      "name": "kukuruzni škrob"
+      "name": "kukuruzni \u0161krob"
     },
     {
       "amount": 10,
       "unit": "tbsp",
-      "name": "glatko brašno"
+      "name": "glatko bra\u0161no"
     },
     {
       "amount": 0.5,
@@ -40,7 +40,7 @@
     {
       "amount": 0.5,
       "unit": "tsp",
-      "name": "sol s češnjakom (garlic salt)"
+      "name": "sol s \u010de\u0161njakom (garlic salt)"
     },
     {
       "amount": 2,
@@ -50,7 +50,7 @@
     {
       "amount": 3,
       "unit": "kom",
-      "name": "pileći file, narezan na zalogajne komade"
+      "name": "pile\u0107i file, narezan na zalogajne komade"
     },
     {
       "group": "Umak"
@@ -62,13 +62,13 @@
     },
     {
       "amount": 2,
-      "unit": "režanja",
-      "name": "češnjak, sitno narezan"
+      "unit": "re\u017eanja",
+      "name": "\u010de\u0161njak, sitno narezan"
     },
     {
       "amount": 1,
       "unit": "tbsp",
-      "name": "kineski rižin ocat"
+      "name": "kineski ri\u017ein ocat"
     },
     {
       "amount": 2,
@@ -78,17 +78,17 @@
     {
       "amount": 2,
       "unit": "tbsp",
-      "name": "slatki čili umak"
+      "name": "slatki \u010dili umak"
     },
     {
       "amount": 3,
       "unit": "tbsp",
-      "name": "kečep"
+      "name": "ke\u010dep"
     },
     {
       "amount": 2,
       "unit": "tbsp",
-      "name": "smeđi šećer"
+      "name": "sme\u0111i \u0161e\u0107er"
     },
     {
       "amount": 4,
@@ -96,10 +96,10 @@
       "name": "soja umak"
     },
     {
-      "group": "Za posluživanje"
+      "group": "Za poslu\u017eivanje"
     },
     {
-      "name": "kuhani riž"
+      "name": "kuhani ri\u017e"
     },
     {
       "amount": 2,
@@ -111,10 +111,10 @@
     }
   ],
   "steps": [
-    "Pripremite tri zdjele: u jednoj umutite <strong>jaja</strong>, u drugoj stavite <strong>kukuruzni škrob</strong>, u trećoj pomiješajte <strong>brašno</strong>, <strong>sol</strong>, <strong>papar</strong>, <strong>sol s češnjakom</strong> i <strong>slatku papriku</strong>.",
-    "Zagrijte <strong>ulje</strong> u woku ili većoj tavi. Svaki komad <strong>piletine</strong> provalite u <strong>kukuruznom škrobu</strong>, umočite u <strong>jaje</strong>, pa uvaljajte u začinjeno <strong>brašno</strong>. Pržite na jakoj vatri 6–7 minuta, okrećući, dok ne porumeni. Izvadite na kuhinjski papir.",
-    "Pomiješajte sve sastojke <strong>umaka</strong> i dodajte u vrući wok. Kuhajte na jakoj vatri uz miješanje dok se umak ne reducira za trećinu (2–3 minute).",
-    "Dodajte <strong>piletinu</strong> natrag i pržite još 1–2 minute, mijeješajući da se svaki komad prekrije umakom.",
-    "Rasporedite na <strong>riž</strong> i pospite <strong>sezamom</strong> i <strong>mladim lukom</strong>."
+    "Pripremite tri zdjele: u jednoj umutite <strong>jaja</strong>, u drugoj stavite <strong>kukuruzni \u0161krob</strong>, u tre\u0107oj pomije\u0161ajte <strong>bra\u0161no</strong>, <strong>sol</strong>, <strong>papar</strong>, <strong>sol s \u010de\u0161njakom</strong> i <strong>slatku papriku</strong>.",
+    "Zagrijte <strong>ulje</strong> u woku ili ve\u0107oj tavi. Svaki komad <strong>piletine</strong> provalite u <strong>kukuruznom \u0161krobu</strong>, umo\u010dite u <strong>jaje</strong>, pa uvaljajte u za\u010dinjeno <strong>bra\u0161no</strong>. Pr\u017eite na jakoj vatri 6\u20137 minuta, okre\u0107u\u0107i, dok ne porumeni. Izvadite na kuhinjski papir.",
+    "Pomije\u0161ajte sve sastojke <strong>umaka</strong> i dodajte u vru\u0107i wok. Kuhajte na jakoj vatri uz mije\u0161anje dok se umak ne reducira za tre\u0107inu (2\u20133 minute).",
+    "Dodajte <strong>piletinu</strong> natrag i pr\u017eite jo\u0161 1\u20132 minute, mijeje\u0161aju\u0107i da se svaki komad prekrije umakom.",
+    "Rasporedite na <strong>ri\u017e</strong> i pospite <strong>sezamom</strong> i <strong>mladim lukom</strong>."
   ]
 }
