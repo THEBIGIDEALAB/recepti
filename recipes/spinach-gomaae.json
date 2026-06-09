@@ -5,15 +5,15 @@
   "servings": 4,
   "photo": "https://www.justonecookbook.com/wp-content/uploads/2023/07/Japanese-Spinach-Salad-with-Sesame-Dressing-Gomaae-0639-II.jpg",
   "youtube": "",
-  "notes": "Prep: 15 min | Cook: 5 min. Špinat ili mahune poslužene u sezam umaku (gomaae) klasičan su japanski prilog. Delikatna tekstura svježe samljevenog sezama odlično se slaže s povrćem. Napomena: američki špinat vrlo je mekan — minuta kuhanja je sasvim dovoljna.",
+  "notes": "Prep: 15 min | Cook: 5 min. \u0160pinat ili mahune poslu\u017eene u sezam umaku (gomaae) klasi\u010dan su japanski prilog. Delikatna tekstura svje\u017ee samljevenog sezama odli\u010dno se sla\u017ee s povr\u0107em. Napomena: ameri\u010dki \u0161pinat vrlo je mekan \u2014 minuta kuhanja je sasvim dovoljna.",
   "ingredients": [
     {
-      "group": "Špinat"
+      "group": "\u0160pinat"
     },
     {
       "amount": 220,
       "unit": "g",
-      "name": "špinat, temeljito opran"
+      "name": "\u0161pinat, temeljito opran"
     },
     {
       "amount": 1,
@@ -26,7 +26,7 @@
     {
       "amount": 3,
       "unit": "tbsp",
-      "name": "pečene bijele sezam sjemenke"
+      "name": "pe\u010dene bijele sezam sjemenke"
     },
     {
       "amount": 1.5,
@@ -36,7 +36,7 @@
     {
       "amount": 1,
       "unit": "tbsp",
-      "name": "šećer"
+      "name": "\u0161e\u0107er"
     },
     {
       "amount": 0.5,
@@ -50,11 +50,11 @@
     }
   ],
   "steps": [
-    "U velikom lonču zakuhaj lagano posoljenu vodu. Dodaj <strong>špinat</strong> stabljikama prema dolje i kuhaj 1 minutu.",
-    "Ocijedi <strong>špinat</strong> i potopi ga u hladnu vodu dok se ne ohladi. Skupi i dobro iscijedi. Nareži na komade duljine oko 5 cm.",
-    "Za sezam umak, stavi <strong>sezam sjemenke</strong> na suhu tavu i prži na laganoj vatri. Kad 2–3 sjemenke počnu skočiti iz tave, makni s vatre.",
+    "U velikom lon\u010du zakuhaj lagano posoljenu vodu. Dodaj <strong>\u0161pinat</strong> stabljikama prema dolje i kuhaj 1 minutu.",
+    "Ocijedi <strong>\u0161pinat</strong> i potopi ga u hladnu vodu dok se ne ohladi. Skupi i dobro iscijedi. Nare\u017ei na komade duljine oko 5 cm.",
+    "Za sezam umak, stavi <strong>sezam sjemenke</strong> na suhu tavu i pr\u017ei na laganoj vatri. Kad 2\u20133 sjemenke po\u010dnu sko\u010diti iz tave, makni s vatre.",
     "Samelji tostirane <strong>sezam sjemenke</strong> u tarioniku dok ne postanu glatke.",
-    "U zdjeli pomižeaj samljeveni <strong>sezam</strong> sa <strong>soja umakom</strong>, <strong>šećerom</strong>, <strong>sakeom</strong> i <strong>mirinom</strong>.",
-    "Pomižeaj <strong>špinat</strong> sa sezam umakom i posluži na sobnoj temperaturi ili hladan."
+    "U zdjeli pomi\u017eeaj samljeveni <strong>sezam</strong> sa <strong>soja umakom</strong>, <strong>\u0161e\u0107erom</strong>, <strong>sakeom</strong> i <strong>mirinom</strong>.",
+    "Pomi\u017eeaj <strong>\u0161pinat</strong> sa sezam umakom i poslu\u017ei na sobnoj temperaturi ili hladan."
   ]
 }
