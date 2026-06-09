@@ -5,11 +5,11 @@
   "servings": 4,
   "photo": "https://int.japanesetaste.com/cdn/shop/articles/simple-easy-japanese-mayonnaise-recipe-japanese-taste_dc4aded4-8b64-4a27-98e4-c7c5377f45df.jpg?v=1763621324&width=1440",
   "youtube": "",
-  "notes": "Brza verzija japanske majoneze napravljena od američke majoneze, bogata umamijem. Savršen preljev za sushi, onigiri ili takoyaki. Priprema: 5 min.",
+  "notes": "Brza verzija japanske majoneze napravljena od ameri\u010dke majoneze, bogata umamijem. Savr\u0161en preljev za sushi, onigiri ili takoyaki. Priprema: 5 min.",
   "ingredients": [
     {
       "amount": 1,
-      "unit": "šalica",
+      "unit": "\u0161alica",
       "name": "majoneza, npr. Hellman's ili veganska"
     },
     {
@@ -20,22 +20,22 @@
     {
       "amount": 0.5,
       "unit": "tsp",
-      "name": "dijon gorčica"
+      "name": "dijon gor\u010dica"
     },
     {
       "amount": 1.5,
       "unit": "tbsp",
-      "name": "rižin ocat ili ocat od jabučnjaka"
+      "name": "ri\u017ein ocat ili ocat od jabu\u010dnjaka"
     },
     {
       "amount": 0.5,
       "unit": "tsp",
-      "name": "šećer"
+      "name": "\u0161e\u0107er"
     }
   ],
   "steps": [
-    "Sve sastojke — <strong>majonezu</strong>, <strong>dashi prah</strong>, <strong>dijon gorčicu</strong>, <strong>rižin ocat</strong> i <strong>šećer</strong> — staviti u zdjelu.",
-    "Miksati vilicom ili pjenjačom dok se ne dobije glatka, jednolična smjesa.",
+    "Sve sastojke \u2014 <strong>majonezu</strong>, <strong>dashi prah</strong>, <strong>dijon gor\u010dicu</strong>, <strong>ri\u017ein ocat</strong> i <strong>\u0161e\u0107er</strong> \u2014 staviti u zdjelu.",
+    "Miksati vilicom ili pjenja\u010dom dok se ne dobije glatka, jednoli\u010dna smjesa.",
     "Koristiti odmah ili pohraniti u zatvorenoj posudi u hladnjaku do tjedan dana."
   ]
 }
