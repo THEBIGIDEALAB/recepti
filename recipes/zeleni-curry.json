@@ -5,10 +5,10 @@
   "servings": 4,
   "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2022/04/Green-curry-chicken-sq-2.jpg",
   "youtube": "",
-  "notes": "Autentični tajlandski zeleni curry s tehnikom koja iz gotove paste izvlači maksimum arome. Preporuča se Maeploy ili Aroy-D brand. Makrut listovi ostaju u curryju kao ukras, ali se ne jedu.",
+  "notes": "Autenti\u010dni tajlandski zeleni curry s tehnikom koja iz gotove paste izvla\u010di maksimum arome. Preporu\u010da se Maeploy ili Aroy-D brand. Makrut listovi ostaju u curryju kao ukras, ali se ne jedu.",
   "ingredients": [
     {
-      "group": "Pojačana zelena curry pasta"
+      "group": "Poja\u010dana zelena curry pasta"
     },
     {
       "amount": 15,
@@ -39,17 +39,17 @@
     {
       "amount": 240,
       "unit": "ml",
-      "name": "pileći temeljac, nezasoljen"
+      "name": "pile\u0107i temeljac, nezasoljen"
     },
     {
       "amount": 450,
       "unit": "g",
-      "name": "pileći batak bez kosti i kože, narezan na komađe 2–3 cm"
+      "name": "pile\u0107i batak bez kosti i ko\u017ee, narezan na koma\u0111e 2\u20133 cm"
     },
     {
       "amount": 24,
       "unit": "g",
-      "name": "palmini šećer, sitno nasjeckan"
+      "name": "palmini \u0161e\u0107er, sitno nasjeckan"
     },
     {
       "amount": 27,
@@ -64,7 +64,7 @@
     {
       "amount": 225,
       "unit": "g",
-      "name": "tajlandski patlidžan, ili bambus iz konzerve"
+      "name": "tajlandski patlid\u017ean, ili bambus iz konzerve"
     },
     {
       "amount": 22,
@@ -77,15 +77,15 @@
       "name": "crvena paprika, julienne narezana"
     },
     {
-      "name": "jasmin riža, za posluživanje"
+      "name": "jasmin ri\u017ea, za poslu\u017eivanje"
     }
   ],
   "steps": [
-    "Za <strong>curry pastu</strong>: Stući <strong>bosiljak</strong> u mužaru do fine paste. Dodati <strong>krachai</strong> i tucati. Dodati <strong>gapi</strong> i <strong>zelenu curry pastu</strong> te izmiješati. Alternativa: blendati bosiljak, krachai i gapi s malo temeljca pa uliti u curry zajedno s ostatkom temeljca.",
-    "U debelom loncu zagrijati ¾ šalice <strong>kokosovog mlijeka</strong> do vrenja na srednje jakoj vatri. Dodati <strong>curry pastu</strong> i dinstati miješajući često dok se smjesa ne zgusne ili se kokosovo ulje ne odvoji (3–5 minuta).",
-    "Dodati <strong>pileće batake</strong> i promiješati s curry pastom.",
-    "Dodati ostatak <strong>kokosovog mlijeka</strong>, <strong>temeljac</strong>, <strong>palmini šećer</strong> i 1 žlicu <strong>riblje omake</strong>. Makrut listove stisnuti u dlanu, potrgati i dodati (baciti žilac). Kuhati lagano 10–15 minuta dok piletina nije mekana.",
-    "<strong>Patlidžan</strong> narezati na zalogaje i dodati u curry, prve minute gurajući ga u tekućinu. Kuhati još 2 minute — ne prekuhati!",
-    "Isključiti vatru, dodati <strong>crvenu papriku</strong> i <strong>tajlandski bosiljak</strong>, promiješati. Probati i dotjerati s još <strong>riblje omake</strong>. Poslužiti uz <strong>jasmin rižu</strong>."
+    "Za <strong>curry pastu</strong>: Stu\u0107i <strong>bosiljak</strong> u mu\u017earu do fine paste. Dodati <strong>krachai</strong> i tucati. Dodati <strong>gapi</strong> i <strong>zelenu curry pastu</strong> te izmije\u0161ati. Alternativa: blendati bosiljak, krachai i gapi s malo temeljca pa uliti u curry zajedno s ostatkom temeljca.",
+    "U debelom loncu zagrijati \u00be \u0161alice <strong>kokosovog mlijeka</strong> do vrenja na srednje jakoj vatri. Dodati <strong>curry pastu</strong> i dinstati mije\u0161aju\u0107i \u010desto dok se smjesa ne zgusne ili se kokosovo ulje ne odvoji (3\u20135 minuta).",
+    "Dodati <strong>pile\u0107e batake</strong> i promije\u0161ati s curry pastom.",
+    "Dodati ostatak <strong>kokosovog mlijeka</strong>, <strong>temeljac</strong>, <strong>palmini \u0161e\u0107er</strong> i 1 \u017elicu <strong>riblje omake</strong>. Makrut listove stisnuti u dlanu, potrgati i dodati (baciti \u017eilac). Kuhati lagano 10\u201315 minuta dok piletina nije mekana.",
+    "<strong>Patlid\u017ean</strong> narezati na zalogaje i dodati u curry, prve minute guraju\u0107i ga u teku\u0107inu. Kuhati jo\u0161 2 minute \u2014 ne prekuhati!",
+    "Isklju\u010diti vatru, dodati <strong>crvenu papriku</strong> i <strong>tajlandski bosiljak</strong>, promije\u0161ati. Probati i dotjerati s jo\u0161 <strong>riblje omake</strong>. Poslu\u017eiti uz <strong>jasmin ri\u017eu</strong>."
   ]
 }
