@@ -5,33 +5,33 @@
   "servings": 4,
   "photo": "https://www.justonecookbook.com/wp-content/uploads/2020/06/Homemade-Unagi-Sauce-6173-I.jpg",
   "youtube": "",
-  "notes": "Kuhanje: 20 min. Slatki, slani umak bogat okusom — savršen za japansku pečenu jegulju, grilane riceball kuglice i BBQ jela. Potrebna su samo 4 sastojka. Pohranjen u hladnjaku drži se do 3 mjeseca.",
+  "notes": "Kuhanje: 20 min. Slatki, slani umak bogat okusom \u2014 savr\u0161en za japansku pe\u010denu jegulju, grilane riceball kuglice i BBQ jela. Potrebna su samo 4 sastojka. Pohranjen u hladnjaku dr\u017ei se do 3 mjeseca.",
   "ingredients": [
     {
       "amount": 0.75,
-      "unit": "šalica",
+      "unit": "\u0161alica",
       "name": "mirin"
     },
     {
       "amount": 0.25,
-      "unit": "šalica",
+      "unit": "\u0161alica",
       "name": "sake"
     },
     {
       "amount": 0.5,
-      "unit": "šalica",
-      "name": "šećer"
+      "unit": "\u0161alica",
+      "name": "\u0161e\u0107er"
     },
     {
       "amount": 0.75,
-      "unit": "šalica",
+      "unit": "\u0161alica",
       "name": "sojin umak"
     }
   ],
   "steps": [
     "Pripremiti sve sastojke.",
-    "U malom lonču sjediniti <strong>mirin</strong>, <strong>sake</strong> i <strong>šećer</strong>. Upaliti na srednju vatru i miješati dok se sve ne spoji.",
-    "Dodati <strong>sojin umak</strong> i dovesti do vrelišta. Kada proključa, smanjiti vatru na lagano i kuhati još 10 minuta. Pri kraju kuhanja vidjet će se više mjehurića.",
-    "Ugasiti vatru. Ostaviti da se umak ohladi — gustim i sjajnim postat će tek kad se ohladi. Preliti u teglu i pohraniti u hladnjak."
+    "U malom lon\u010du sjediniti <strong>mirin</strong>, <strong>sake</strong> i <strong>\u0161e\u0107er</strong>. Upaliti na srednju vatru i mije\u0161ati dok se sve ne spoji.",
+    "Dodati <strong>sojin umak</strong> i dovesti do vreli\u0161ta. Kada proklju\u010da, smanjiti vatru na lagano i kuhati jo\u0161 10 minuta. Pri kraju kuhanja vidjet \u0107e se vi\u0161e mjehuri\u0107a.",
+    "Ugasiti vatru. Ostaviti da se umak ohladi \u2014 gustim i sjajnim postat \u0107e tek kad se ohladi. Preliti u teglu i pohraniti u hladnjak."
   ]
 }
