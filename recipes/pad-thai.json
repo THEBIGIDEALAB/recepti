@@ -5,7 +5,7 @@
   "servings": 4,
   "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2019/09/pad-thai-blog.jpg",
   "youtube": "",
-  "notes": "Autentični pad thai s klasičnim sastojcima. Preporuča se kuhati u 2 serije (po 2 osobe) da wok ne bude prenatlačen i rezanci ostanu al dente.",
+  "notes": "Autenti\u010dni pad thai s klasi\u010dnim sastojcima. Preporu\u010da se kuhati u 2 serije (po 2 osobe) da wok ne bude prenatla\u010den i rezanci ostanu al dente.",
   "ingredients": [
     {
       "group": "Pad Thai umak"
@@ -13,7 +13,7 @@
     {
       "amount": 70,
       "unit": "g",
-      "name": "palmini šećer, nasjeckan"
+      "name": "palmini \u0161e\u0107er, nasjeckan"
     },
     {
       "amount": 90,
@@ -36,27 +36,27 @@
     {
       "amount": 230,
       "unit": "g",
-      "name": "sušeni rižini rezanci, srednji, natopljeni 1h u hladnoj vodi"
+      "name": "su\u0161eni ri\u017eini rezanci, srednji, natopljeni 1h u hladnoj vodi"
     },
     {
       "amount": 4,
       "unit": "tbsp",
-      "name": "sušene kozice, grubo nasjeckane"
+      "name": "su\u0161ene kozice, grubo nasjeckane"
     },
     {
       "amount": 6,
-      "unit": "režanj",
-      "name": "češnjak, nasjeckan"
+      "unit": "re\u017eanj",
+      "name": "\u010de\u0161njak, nasjeckan"
     },
     {
       "amount": 70,
       "unit": "g",
-      "name": "šalota, grubo nasjeckana"
+      "name": "\u0161alota, grubo nasjeckana"
     },
     {
       "amount": 170,
       "unit": "g",
-      "name": "prešani tofu, narezan na sitne komađe"
+      "name": "pre\u0161ani tofu, narezan na sitne koma\u0111e"
     },
     {
       "amount": 6,
@@ -64,7 +64,7 @@
       "name": "konzervirana slatka rotkva (takuan), sitno nasjeckana"
     },
     {
-      "name": "sušene čili pahuljice, po ukusu (opcionalno)"
+      "name": "su\u0161ene \u010dili pahuljice, po ukusu (opcionalno)"
     },
     {
       "amount": 90,
@@ -74,7 +74,7 @@
     {
       "amount": 20,
       "unit": "kom",
-      "name": "škampi, srednji"
+      "name": "\u0161kampi, srednji"
     },
     {
       "amount": 4,
@@ -93,23 +93,23 @@
     },
     {
       "amount": 0.5,
-      "unit": "šalica",
-      "name": "pečeni kikiriki, grubo nasjeckan"
+      "unit": "\u0161alica",
+      "name": "pe\u010deni kikiriki, grubo nasjeckan"
     },
     {
       "amount": 2,
       "unit": "kom",
-      "name": "limeta, za posluživanje"
+      "name": "limeta, za poslu\u017eivanje"
     }
   ],
   "steps": [
-    "Za <strong>pad thai umak</strong>: Rastopiti <strong>palmini šećer</strong> u malom loncu na srednje jakoj vatri dok ne potamni. Odmah dodati <strong>vodu</strong>, <strong>riblja omaku</strong> i <strong>tamarind pastu</strong> (šećer će se stvrdnuti — normalno je). Zagrijati do vrenja pa ugasiti. Pustiti da se topi dok pripremate ostalo. Provjeriti je li potpuno otopio prije kuhanja.",
-    "Ocijeđene <strong>rezance</strong> prerezati škarama na pola. U zdjelici pomiješati <strong>tofu</strong>, <strong>češnjak</strong>, <strong>šalotu</strong>, <strong>konzerviranom rotkvom</strong>, <strong>sušenim kozicama</strong> i po želji <strong>čili pahuljicama</strong>.",
-    "U woku na jakoj vatri propržiti <strong>škampe</strong> u malo <strong>ulja</strong> dok nisu gotovi. Izvaditi i ostaviti sa strane.",
-    "U istom woku na srednje jakoj vatri dodati još <strong>ulja</strong> i sadržaj zdjelice. Pržiti dok <strong>češnjak</strong> ne porumeni i šalota ne omekša.",
-    "Pojačati na jako, dodati <strong>rezance</strong> i <strong>umak</strong>. Miješati dok se sav umak ne upije. Ako su rezanci još tvrdi, dodati malo vode i nastaviti.",
-    "Pomaknuti rezance na stranu, doliti malo <strong>ulja</strong> u prazan dio i razbiti <strong>jaja</strong>. Razbiti žumanjke, prekriti rezancima i kuhati 30 sekundi. Promiješati da se jaja uvuku u rezance.",
-    "Dodati <strong>škampe</strong>, <strong>klice graha</strong>, <strong>vlasac</strong> i pola <strong>kikirikija</strong>. Ugasiti vatru i promiješati sve zajedno.",
-    "Odmah poslužiti s kriškom <strong>limete</strong> i ostatkom <strong>kikirikija</strong> na vrhu."
+    "Za <strong>pad thai umak</strong>: Rastopiti <strong>palmini \u0161e\u0107er</strong> u malom loncu na srednje jakoj vatri dok ne potamni. Odmah dodati <strong>vodu</strong>, <strong>riblja omaku</strong> i <strong>tamarind pastu</strong> (\u0161e\u0107er \u0107e se stvrdnuti \u2014 normalno je). Zagrijati do vrenja pa ugasiti. Pustiti da se topi dok pripremate ostalo. Provjeriti je li potpuno otopio prije kuhanja.",
+    "Ocije\u0111ene <strong>rezance</strong> prerezati \u0161karama na pola. U zdjelici pomije\u0161ati <strong>tofu</strong>, <strong>\u010de\u0161njak</strong>, <strong>\u0161alotu</strong>, <strong>konzerviranom rotkvom</strong>, <strong>su\u0161enim kozicama</strong> i po \u017eelji <strong>\u010dili pahuljicama</strong>.",
+    "U woku na jakoj vatri propr\u017eiti <strong>\u0161kampe</strong> u malo <strong>ulja</strong> dok nisu gotovi. Izvaditi i ostaviti sa strane.",
+    "U istom woku na srednje jakoj vatri dodati jo\u0161 <strong>ulja</strong> i sadr\u017eaj zdjelice. Pr\u017eiti dok <strong>\u010de\u0161njak</strong> ne porumeni i \u0161alota ne omek\u0161a.",
+    "Poja\u010dati na jako, dodati <strong>rezance</strong> i <strong>umak</strong>. Mije\u0161ati dok se sav umak ne upije. Ako su rezanci jo\u0161 tvrdi, dodati malo vode i nastaviti.",
+    "Pomaknuti rezance na stranu, doliti malo <strong>ulja</strong> u prazan dio i razbiti <strong>jaja</strong>. Razbiti \u017eumanjke, prekriti rezancima i kuhati 30 sekundi. Promije\u0161ati da se jaja uvuku u rezance.",
+    "Dodati <strong>\u0161kampe</strong>, <strong>klice graha</strong>, <strong>vlasac</strong> i pola <strong>kikirikija</strong>. Ugasiti vatru i promije\u0161ati sve zajedno.",
+    "Odmah poslu\u017eiti s kri\u0161kom <strong>limete</strong> i ostatkom <strong>kikirikija</strong> na vrhu."
   ]
 }
