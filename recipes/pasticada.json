@@ -1,6 +1,6 @@
 {
   "id": "pasticada",
-  "title": "Pašticada",
+  "title": "Pa\u0161ticada",
   "category": "Hrvatska",
   "servings": 4,
   "photo": "https://www.camping-simuni.hr/wp-content/uploads/bf-advanced-images/24378/shutterstock-2367344631-1-1920x0.jpg",
@@ -13,13 +13,13 @@
     },
     {
       "amount": 4,
-      "unit": "režnja",
-      "name": "češnjak"
+      "unit": "re\u017enja",
+      "name": "\u010de\u0161njak"
     },
     {
       "amount": 200,
       "unit": "g",
-      "name": "sušenih šljiva"
+      "name": "su\u0161enih \u0161ljiva"
     },
     {
       "amount": 100,
@@ -44,7 +44,7 @@
     {
       "amount": 200,
       "unit": "ml",
-      "name": "prošek"
+      "name": "pro\u0161ek"
     },
     {
       "amount": 500,
@@ -68,12 +68,12 @@
     }
   ],
   "steps": [
-    "Izbosti <strong>meso</strong> nožem i u zareze utisnuti <strong>češnjak</strong> i komadiće <strong>pancete</strong>. Preliti <strong>octom</strong>, pokriti i ostaviti u hladnjaku preko noći.",
-    "Izvaditi <strong>meso</strong>, dobro osušiti papirnatim ubrusom.",
-    "Zagrijati <strong>mast ili ulje</strong> u teškoj posudi i pržiti <strong>meso</strong> sa svih strana dok lijepo ne porumeni (oko 10 minuta).",
-    "Dodati nasjeckani <strong>luk</strong>, <strong>mrkvu</strong> i <strong>celer</strong>. Pržiti zajedno još 10 minuta na srednje jakoj vatri.",
-    "Dodati <strong>šljive</strong>, <strong>prošek</strong> i <strong>vino</strong>. Začiniti <strong>solju</strong> i <strong>paprom</strong>. Poklopiti i pirjati na tihoj vatri 3–4 sata, povremeno okrenuti meso.",
+    "Izbosti <strong>meso</strong> no\u017eem i u zareze utisnuti <strong>\u010de\u0161njak</strong> i komadi\u0107e <strong>pancete</strong>. Preliti <strong>octom</strong>, pokriti i ostaviti u hladnjaku preko no\u0107i.",
+    "Izvaditi <strong>meso</strong>, dobro osu\u0161iti papirnatim ubrusom.",
+    "Zagrijati <strong>mast ili ulje</strong> u te\u0161koj posudi i pr\u017eiti <strong>meso</strong> sa svih strana dok lijepo ne porumeni (oko 10 minuta).",
+    "Dodati nasjeckani <strong>luk</strong>, <strong>mrkvu</strong> i <strong>celer</strong>. Pr\u017eiti zajedno jo\u0161 10 minuta na srednje jakoj vatri.",
+    "Dodati <strong>\u0161ljive</strong>, <strong>pro\u0161ek</strong> i <strong>vino</strong>. Za\u010diniti <strong>solju</strong> i <strong>paprom</strong>. Poklopiti i pirjati na tihoj vatri 3\u20134 sata, povremeno okrenuti meso.",
     "Izvaditi <strong>meso</strong> i ostaviti sa strane. Umak pasirati kroz cjedilo ili blendati, pa kuhati otklopljeno dok se ne zgusne.",
-    "Meso narezati na deblje šnite, vratiti u umak i zagrijati. Servirati s <strong>njokima</strong> ili domaćim rezancima."
+    "Meso narezati na deblje \u0161nite, vratiti u umak i zagrijati. Servirati s <strong>njokima</strong> ili doma\u0107im rezancima."
   ]
 }
