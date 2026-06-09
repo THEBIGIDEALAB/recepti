@@ -1,0 +1,93 @@
+{
+  "id": "key-lime-pie",
+  "title": "Key Lime Pie",
+  "category": "*Slatko i kola\u010di",
+  "servings": 4,
+  "photo": "https://www.onceuponachef.com/images/2019/06/Key-Lime-Pie.jpg",
+  "youtube": "",
+  "notes": "Ameri\u010dka klasika s hrskavom osnovom od graham krekera i kremastim punjenjem od limete. Prep: 20 min + hla\u0111enje 3 sata | Pe\u010denje: 25 min",
+  "ingredients": [
+    {
+      "group": "Osnova"
+    },
+    {
+      "amount": 1.5,
+      "unit": "\u0161alica",
+      "name": "sitno mrvljeni graham krekeri, od oko 12 cijelih krekera"
+    },
+    {
+      "amount": 0.33,
+      "unit": "\u0161alica",
+      "name": "svijetli sme\u0111i \u0161e\u0107er, zbijen"
+    },
+    {
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "nesoljeni maslac, otopljen"
+    },
+    {
+      "group": "Punjenje"
+    },
+    {
+      "amount": 800,
+      "unit": "ml",
+      "name": "zasla\u0111eno kondenzirano mlijeko (2 limenke po 400 ml)"
+    },
+    {
+      "amount": 1,
+      "unit": "\u0161alica",
+      "name": "gr\u010dki jogurt, obi\u010dan (2% ili cijelo mlijeko)"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ribana korica limete"
+    },
+    {
+      "amount": 0.75,
+      "unit": "\u0161alica",
+      "name": "svje\u017ei sok od limete"
+    },
+    {
+      "group": "Preljev"
+    },
+    {
+      "amount": 1,
+      "unit": "\u0161alica",
+      "name": "hladno slatko vrhnje za mu\u0107enje"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "\u0161e\u0107er u prahu"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ribana korica limete"
+    },
+    {
+      "amount": 9,
+      "unit": "kom",
+      "name": "tanki kri\u0161kovi limete, za ukras"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Priprema osnove",
+      "content": "Zagrijte pe\u010dnicu na 200\u00b0C, re\u0161etka u sredini. U zdjeli pomi\u017eajte <strong>mrvljene graham krekere</strong>, <strong>sme\u0111i \u0161e\u0107er</strong> i <strong>otopljeni maslac</strong> \u2014 prvo vilicom, zatim rukama dok smjesa ne bude dobro povezana. Prstima i dnom \u010da\u0161e \u010dvrsto pritisnite smjesu na dno i stranice okrugle posude za pitu promjera 23 cm. Kora treba biti debela oko 6 mm (savjet: krenite od stranica)."
+    },
+    {
+      "title": "Pe\u010denje osnove",
+      "content": "Pecite 10 minuta dok blago ne porumeni. Ostavite da se ohladi na re\u0161etki."
+    },
+    {
+      "title": "Priprema punjenja",
+      "content": "Smanjite temperaturu pe\u010dnice na 180\u00b0C. U velikoj zdjeli umutite <strong>kondenzirano mlijeko</strong>, <strong>jogurt</strong>, <strong>koricu limete</strong> i <strong>sok od limete</strong>. Izlijte gustu smjesu u jo\u0161 toplu koru. Pecite 15 minuta dok se punjenje skoro ne stegne \u2014 treba se jo\u0161 malo tresti. Ostavite da se hladi na sobnoj temperaturi 30 minuta, zatim stavite u hladnjak na oko 3 sata."
+    },
+    {
+      "title": "Preljev i poslu\u017eivanje",
+      "content": "U zdjeli elektri\u010dnog miksera istucite <strong>slatko vrhnje</strong> do mekih vrhova. Dodajte <strong>\u0161e\u0107er u prahu</strong> i tucite do \u010dvrstih vrhova. Premaz\u017eite pitu \u0161lagom, ukrasite <strong>koricom limete</strong> i <strong>kri\u0161kovima limete</strong>. \u010cuvajte u hladnjaku do slu\u017eenja. Re\u017eite na klino\u010de, bri\u0161u\u0107i no\u017e izme\u0111u rezova, i posluzite hladno."
+    }
+  ]
+}
