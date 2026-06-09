@@ -5,7 +5,7 @@
   "servings": 4,
   "photo": "https://cinnamonsnail.com/wp-content/uploads/2024/12/sunomono-17.jpg",
   "youtube": "",
-  "notes": "Sunomono (salata od krastavca) je lagana, osvježavajuća salata s octom koja je odličan početak obroka. Kiselost octa potiče apetit. Priprema: 10 min, kuhanje: 5 min.",
+  "notes": "Sunomono (salata od krastavca) je lagana, osvje\u017eavaju\u0107a salata s octom koja je odli\u010dan po\u010detak obroka. Kiselost octa poti\u010de apetit. Priprema: 10 min, kuhanje: 5 min.",
   "ingredients": [
     {
       "group": "Salata"
@@ -13,12 +13,12 @@
     {
       "amount": 2,
       "unit": "tbsp",
-      "name": "wakame, osušena i rehidrirana (morska trava)"
+      "name": "wakame, osu\u0161ena i rehidrirana (morska trava)"
     },
     {
       "amount": 2,
       "unit": "kom",
-      "name": "japanski krastavac, tanko narezan — ili 1 engleski krastavac"
+      "name": "japanski krastavac, tanko narezan \u2014 ili 1 engleski krastavac"
     },
     {
       "amount": 2,
@@ -28,7 +28,7 @@
     {
       "amount": 1,
       "unit": "tsp",
-      "name": "đumbir, julienne — opcionalno"
+      "name": "\u0111umbir, julienne \u2014 opcionalno"
     },
     {
       "group": "Preljev"
@@ -36,7 +36,7 @@
     {
       "amount": 6,
       "unit": "tbsp",
-      "name": "rižin ocat"
+      "name": "ri\u017ein ocat"
     },
     {
       "amount": 4,
@@ -46,7 +46,7 @@
     {
       "amount": 2,
       "unit": "tbsp",
-      "name": "šećer"
+      "name": "\u0161e\u0107er"
     },
     {
       "amount": 2,
@@ -60,9 +60,9 @@
     }
   ],
   "steps": [
-    "Oguliti <strong>krastavac</strong> i narezati na vrlo tanke ploške. Posuti <strong>solju</strong> i masirati. Ostaviti par minuta pa istisnuti višak vode. Prebaciti u zdjelu i dodati <strong>wakame</strong>.",
-    "U malom loncu spojiti sve sastojke <strong>preljeva</strong> — <strong>rižin ocat</strong>, <strong>dashi</strong>, <strong>šećer</strong>, <strong>soja umak</strong> i <strong>sezamovo ulje</strong> — i kuhati na jakoj vatri dok se šećer potpuno ne otopi. Ostaviti da se ohladi.",
-    "Prije posluživanja preliti <strong>preljev</strong> preko krastavca i wakame te dobro promiješati.",
-    "Poslužiti u manjim zdjelicama i ukrasti s <strong>đumbirom</strong> na vrhu."
+    "Oguliti <strong>krastavac</strong> i narezati na vrlo tanke plo\u0161ke. Posuti <strong>solju</strong> i masirati. Ostaviti par minuta pa istisnuti vi\u0161ak vode. Prebaciti u zdjelu i dodati <strong>wakame</strong>.",
+    "U malom loncu spojiti sve sastojke <strong>preljeva</strong> \u2014 <strong>ri\u017ein ocat</strong>, <strong>dashi</strong>, <strong>\u0161e\u0107er</strong>, <strong>soja umak</strong> i <strong>sezamovo ulje</strong> \u2014 i kuhati na jakoj vatri dok se \u0161e\u0107er potpuno ne otopi. Ostaviti da se ohladi.",
+    "Prije poslu\u017eivanja preliti <strong>preljev</strong> preko krastavca i wakame te dobro promije\u0161ati.",
+    "Poslu\u017eiti u manjim zdjelicama i ukrasti s <strong>\u0111umbirom</strong> na vrhu."
   ]
 }
