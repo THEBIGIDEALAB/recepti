@@ -1,0 +1,157 @@
+{
+  "id": "vietnamski-pho",
+  "title": "Vietnamski Pho",
+  "category": "Vietnam",
+  "servings": 4,
+  "photo": "https://www.recipetineats.com/tachyon/2019/04/Beef-Pho_6.jpg",
+  "youtube": "",
+  "notes": "Jedna od najve\u0107ih juha na svijetu \u2014 kristalno bistra juha duboka okusa, za\u010dinjene cimetom, zvjezdastim ani\u0161em i kardamomom. Prep: 20 min | Kuhanje: 3 sata 40 min",
+  "ingredients": [
+    {
+      "group": "Aromatici"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "veliki luk, prepolovljen"
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "\u0111umbir, prerezan po du\u017eini"
+    },
+    {
+      "group": "Za\u010dini"
+    },
+    {
+      "amount": 7,
+      "unit": "kom",
+      "name": "zvjezdasti ani\u0161"
+    },
+    {
+      "amount": 3,
+      "unit": "kom",
+      "name": "cimet \u0161tapi\u0107i"
+    },
+    {
+      "amount": 3,
+      "unit": "kom",
+      "name": "kardamon mahune"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "klini\u0107i"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sjemenke korijandera"
+    },
+    {
+      "group": "Govedina i kosti"
+    },
+    {
+      "amount": 1,
+      "unit": "kg",
+      "name": "gove\u0111i brisket (prsa)"
+    },
+    {
+      "amount": 0.67,
+      "unit": "kg",
+      "name": "mesne gove\u0111e kosti"
+    },
+    {
+      "amount": 0.67,
+      "unit": "kg",
+      "name": "kosti s mo\u017edinom (bedrene, zglobne), prerezane"
+    },
+    {
+      "amount": 2.5,
+      "unit": "l",
+      "name": "voda"
+    },
+    {
+      "group": "Za\u010dinjavanje"
+    },
+    {
+      "amount": 1.5,
+      "unit": "tbsp",
+      "name": "bijeli \u0161e\u0107er"
+    },
+    {
+      "amount": 0.75,
+      "unit": "tbsp",
+      "name": "sol"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "riblja umak"
+    },
+    {
+      "group": "Po zdjeli \u2014 rezanci i meso"
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "su\u0161eni riz\u010dani rezanci (ili 120 g svje\u017eih)"
+    },
+    {
+      "amount": 30,
+      "unit": "g",
+      "name": "gove\u0111i file, sirov, tanko narezan"
+    },
+    {
+      "amount": 4,
+      "unit": "kom",
+      "name": "tanki kri\u0161kovi kuhanog brisketa"
+    },
+    {
+      "group": "Dodaci za stol"
+    },
+    {
+      "name": "kli\u010dice graha, \u0161aka"
+    },
+    {
+      "name": "tajlandski bosiljak, 3\u20135 gran\u010dica"
+    },
+    {
+      "name": "korijander, 3\u20135 gran\u010dica"
+    },
+    {
+      "name": "klinovi limete"
+    },
+    {
+      "name": "tanko narezan crveni \u010dili"
+    },
+    {
+      "name": "hoisin umak"
+    },
+    {
+      "name": "sriracha"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pe\u010denje aromatika i za\u010dina",
+      "content": "Zagrijte te\u0161ku tavu na jakoj vatri bez ulja dok ne po\u010dne dimiti. Stavite <strong>luk</strong> i <strong>\u0111umbir</strong> prerezanom stranom prema dolje i pecite nekoliko minuta dok ne potamne, zatim okrenite. Odlo\u017eite sa strane. U suhoj tavi na srednje jakoj vatri lagano pr\u017eite <strong>za\u010dine</strong> 3 minute."
+    },
+    {
+      "title": "Uklanjanje ne\u010disto\u0107a",
+      "content": "Isperite <strong>kosti</strong> i <strong>brisket</strong>, stavite u veliki lonac i pokrijte vodom. Kuhajte 5 minuta na jakoj vatri, zatim ocijedite. Svaku kost i brisket isperite pod mlazom hladne vode."
+    },
+    {
+      "title": "Kuhanje temeljca",
+      "content": "O\u010distite lonac, ulijte <strong>2,5 l vode</strong> i zakuhajte. Dodajte <strong>kosti</strong>, <strong>brisket</strong>, <strong>luk</strong>, <strong>\u0111umbir</strong>, <strong>za\u010dine</strong>, <strong>\u0161e\u0107er</strong> i <strong>sol</strong> \u2014 voda treba jedva pokriti sve sastojke. Poklopite i kuhajte na laganoj vatri 3 sata."
+    },
+    {
+      "title": "Dorada temeljca",
+      "content": "Izvadite <strong>brisket</strong> (treba biti mekan da se raspada), ostavite da se ohladi pa stavite u hladnjak. Nastavite kuhati juhu bez poklopca jo\u0161 40 minuta. Procijedite u drugi lonac i bacite kosti i za\u010dine. Treba biti oko 1,7 l juhe. Dodajte <strong>riblje umak</strong>, po potrebi dotjerajte sol i \u0161e\u0107er."
+    },
+    {
+      "title": "Slaganje i poslu\u017eivanje",
+      "content": "Pripremite <strong>riz\u010dane rezance</strong> prema uputama na pakovanju neposredno prije slu\u017eenja. U zdjelu stavite rezance, prelo\u017eite <strong>sirovim fileom</strong> i <strong>kri\u0161kovima brisketa</strong>. Prelijte s oko 400 ml vru\u0107e juhe \u2014 vriju\u0107a juha \u0107e skuhati sirovo meso do medium rare. Posluzite s dodacima na stolu."
+    }
+  ]
+}
