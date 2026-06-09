@@ -5,15 +5,15 @@
   "servings": 4,
   "photo": "https://www.lordbyronskitchen.com/wp-content/uploads/2023/02/Japanese-Yakitori-Chicken-c-100.jpg",
   "youtube": "",
-  "notes": "Klasičan japanski street food recept s pilećim bedrima u slatko-slanom yakitori umaku. Priprema: 15 min | Kuhanje: 10 min",
+  "notes": "Klasi\u010dan japanski street food recept s pile\u0107im bedrima u slatko-slanom yakitori umaku. Priprema: 15 min | Kuhanje: 10 min",
   "ingredients": [
     {
-      "group": "Piletina i začini"
+      "group": "Piletina i za\u010dini"
     },
     {
       "amount": 6,
       "unit": "kom",
-      "name": "pileća bedra, bez kostiju i kože, narezana na trake"
+      "name": "pile\u0107a bedra, bez kostiju i ko\u017ee, narezana na trake"
     },
     {
       "amount": 1,
@@ -22,18 +22,18 @@
     },
     {
       "amount": 6,
-      "unit": "režnja",
-      "name": "česnjak, svježi, sitno nasjeckan"
+      "unit": "re\u017enja",
+      "name": "\u010desnjak, svje\u017ei, sitno nasjeckan"
     },
     {
       "amount": 1,
       "unit": "tbsp",
-      "name": "đumbir, svježi, sitno nariban"
+      "name": "\u0111umbir, svje\u017ei, sitno nariban"
     },
     {
       "amount": 1,
       "unit": "tsp",
-      "name": "đumbir u prahu"
+      "name": "\u0111umbir u prahu"
     },
     {
       "amount": 1,
@@ -61,17 +61,17 @@
     {
       "amount": 6,
       "unit": "tbsp",
-      "name": "smeđi šećer"
+      "name": "sme\u0111i \u0161e\u0107er"
     },
     {
       "amount": 1,
       "unit": "tbsp",
-      "name": "rižin ocat"
+      "name": "ri\u017ein ocat"
     },
     {
       "amount": 1,
       "unit": "tbsp",
-      "name": "kukuruzni škrob"
+      "name": "kukuruzni \u0161krob"
     },
     {
       "group": "Garniranje"
@@ -83,12 +83,12 @@
     }
   ],
   "steps": [
-    "U zdjeli pomiješajte <strong>soja umak</strong>, <strong>vodu</strong>, <strong>mirin</strong>, <strong>smeđi šećer</strong> i <strong>rižin ocat</strong>. Miješajte dok se šećer potpuno ne otopi. Odložite sa strane.",
-    "Stavite <strong>pileća bedra</strong> u zasebnu zdjelu i dodajte <strong>biljno ulje</strong>, <strong>crni papar</strong>, <strong>česnjak</strong>, <strong>svježi đumbir</strong> i <strong>đumbir u prahu</strong>. Promiješajte dok se sve dobro ne sjedini.",
-    "Ulijte ¼ šalice pripremljene mješavine umaka u piletinu — to će biti marinada. Dobro promiješajte i marinirajte 10 minuta.",
-    "Zagrijte tavu na srednju vatru. Kada je vruća, stavite marinirane <strong>pileće komade</strong> i razdvojite ih po tavi. Pržite 7 minuta, povremeno okrećući, dok piletina nije skuhana i lagano porumenjela.",
-    "U međuvremenu pomiješajte <strong>kukuruzni škrob</strong> s jednom žlicom vode dok ne postane glatko. Ulijte u preostali umak i promiješajte.",
-    "Ulijte umak u tavu s piletinom i promiješajte. Kuhajte još 2 minute dok se umak ne zgusne i ne prijanja uz piletinu.",
-    "Maknite s vatre, poslužite i ukrasite s <strong>tostiranom sezamovom sjemenkom</strong>. Poslužiti odmah."
+    "U zdjeli pomije\u0161ajte <strong>soja umak</strong>, <strong>vodu</strong>, <strong>mirin</strong>, <strong>sme\u0111i \u0161e\u0107er</strong> i <strong>ri\u017ein ocat</strong>. Mije\u0161ajte dok se \u0161e\u0107er potpuno ne otopi. Odlo\u017eite sa strane.",
+    "Stavite <strong>pile\u0107a bedra</strong> u zasebnu zdjelu i dodajte <strong>biljno ulje</strong>, <strong>crni papar</strong>, <strong>\u010desnjak</strong>, <strong>svje\u017ei \u0111umbir</strong> i <strong>\u0111umbir u prahu</strong>. Promije\u0161ajte dok se sve dobro ne sjedini.",
+    "Ulijte \u00bc \u0161alice pripremljene mje\u0161avine umaka u piletinu \u2014 to \u0107e biti marinada. Dobro promije\u0161ajte i marinirajte 10 minuta.",
+    "Zagrijte tavu na srednju vatru. Kada je vru\u0107a, stavite marinirane <strong>pile\u0107e komade</strong> i razdvojite ih po tavi. Pr\u017eite 7 minuta, povremeno okre\u0107u\u0107i, dok piletina nije skuhana i lagano porumenjela.",
+    "U me\u0111uvremenu pomije\u0161ajte <strong>kukuruzni \u0161krob</strong> s jednom \u017elicom vode dok ne postane glatko. Ulijte u preostali umak i promije\u0161ajte.",
+    "Ulijte umak u tavu s piletinom i promije\u0161ajte. Kuhajte jo\u0161 2 minute dok se umak ne zgusne i ne prijanja uz piletinu.",
+    "Maknite s vatre, poslu\u017eite i ukrasite s <strong>tostiranom sezamovom sjemenkom</strong>. Poslu\u017eiti odmah."
   ]
 }
