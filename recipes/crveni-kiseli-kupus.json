@@ -1,11 +1,11 @@
 {
   "id": "crveni-kiseli-kupus",
-  "title": "Crveni kiseli kupus, njemački stil",
+  "title": "Crveni kiseli kupus, njema\u010dki stil",
   "category": "Germany",
   "servings": 8,
   "photo": "https://www.sipandfeast.com/wp-content/uploads/2024/08/german-red-cabbage-recipe-3.jpg",
   "youtube": "",
-  "notes": "Tipski njemački crveni kupus — slatko-kiseli s aromom klinčića i jabuke. Mali trik za pravi njemački štih: na početku na masti kratko preprži <strong>luk</strong> s pola žličice šećera da lagano karamelizira, pa tek onda dodaj kupus.",
+  "notes": "Tipski njema\u010dki crveni kupus \u2014 slatko-kiseli s aromom klin\u010di\u0107a i jabuke. Mali trik za pravi njema\u010dki \u0161tih: na po\u010detku na masti kratko prepr\u017ei <strong>luk</strong> s pola \u017eli\u010dice \u0161e\u0107era da lagano karamelizira, pa tek onda dodaj kupus.",
   "ingredients": [
     {
       "amount": 600,
@@ -30,7 +30,7 @@
     {
       "amount": 1.5,
       "unit": "tbsp",
-      "name": "šećer"
+      "name": "\u0161e\u0107er"
     },
     {
       "amount": 1,
@@ -40,7 +40,7 @@
     {
       "amount": 2,
       "unit": "kom",
-      "name": "klinčić, ili mrva cimeta"
+      "name": "klin\u010di\u0107, ili mrva cimeta"
     },
     {
       "amount": 100,
@@ -48,17 +48,17 @@
       "name": "crno vino ili voda"
     },
     {
-      "name": "džem od brusnice ili ribiza, po želji"
+      "name": "d\u017eem od brusnice ili ribiza, po \u017eelji"
     },
     {
-      "name": "maslac, komadić, za kraj"
+      "name": "maslac, komadi\u0107, za kraj"
     }
   ],
   "steps": [
-    "Na <strong>masti ili maslacu</strong> prodinstaj <strong>luk</strong>. Za pravi njemački štih: dodaj pola žličice šećera i kratko preprži da lagano karamelizira.",
-    "Dodaj <strong>jabuku</strong> i kratko promiješaj.",
+    "Na <strong>masti ili maslacu</strong> prodinstaj <strong>luk</strong>. Za pravi njema\u010dki \u0161tih: dodaj pola \u017eli\u010dice \u0161e\u0107era i kratko prepr\u017ei da lagano karamelizira.",
+    "Dodaj <strong>jabuku</strong> i kratko promije\u0161aj.",
     "Ubaci <strong>crveni kupus</strong>.",
-    "Dodaj <strong>šećer</strong>, <strong>lovor</strong>, <strong>klinčiće</strong> i <strong>crno vino ili vodu</strong>. Poklopi i dinstaj 35–50 min na laganoj vatri.",
-    "Na kraju po želji dodaj žlicu <strong>džema od brusnice ili ribiza</strong> i komadić <strong>maslaca</strong> za puniji okus."
+    "Dodaj <strong>\u0161e\u0107er</strong>, <strong>lovor</strong>, <strong>klin\u010di\u0107e</strong> i <strong>crno vino ili vodu</strong>. Poklopi i dinstaj 35\u201350 min na laganoj vatri.",
+    "Na kraju po \u017eelji dodaj \u017elicu <strong>d\u017eema od brusnice ili ribiza</strong> i komadi\u0107 <strong>maslaca</strong> za puniji okus."
   ]
 }
