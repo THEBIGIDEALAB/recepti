@@ -243,5 +243,19 @@
     "category": "Japan",
     "servings": 1,
     "photo": "https://cdn-akamai.lkk.com/foodservices/-/media/recipe-japanese-style-glazed-salmon.jpg?h=465&iar=0&w=600&hash=8816C10549AFA81CC15181D946CE7F8F"
+  },
+  {
+    "id": "key-lime-pie",
+    "title": "Key Lime Pie",
+    "category": "*Slatko i kola\u010di",
+    "servings": 4,
+    "photo": "https://www.onceuponachef.com/images/2019/06/Key-Lime-Pie.jpg"
+  },
+  {
+    "id": "vietnamski-pho",
+    "title": "Vietnamski Pho",
+    "category": "Vietnam",
+    "servings": 4,
+    "photo": "https://www.recipetineats.com/tachyon/2019/04/Beef-Pho_6.jpg"
   }
 ]
