@@ -5,12 +5,12 @@
   "servings": 4,
   "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2014/06/Tom-kha-gai-new-sq.jpg",
   "youtube": "",
-  "notes": "Udobna tajlandska juha obogaćena kokosovim mlijekom i aromatizirana limunskom travom, galangalom i makrut listovima. Galangal, limunska trava i makrut listovi služe samo za aromatiziranje i ne jedu se.",
+  "notes": "Udobna tajlandska juha oboga\u0107ena kokosovim mlijekom i aromatizirana limunskom travom, galangalom i makrut listovima. Galangal, limunska trava i makrut listovi slu\u017ee samo za aromatiziranje i ne jedu se.",
   "ingredients": [
     {
       "amount": 480,
       "unit": "ml",
-      "name": "pileći temeljac, nezasoljen"
+      "name": "pile\u0107i temeljac, nezasoljen"
     },
     {
       "amount": 350,
@@ -25,7 +25,7 @@
     {
       "amount": 450,
       "unit": "g",
-      "name": "pileći batak bez kosti i kože, narezan na komađe 2–3 cm"
+      "name": "pile\u0107i batak bez kosti i ko\u017ee, narezan na koma\u0111e 2\u20133 cm"
     },
     {
       "amount": 1,
@@ -35,7 +35,7 @@
     {
       "amount": 10,
       "unit": "kom",
-      "name": "galangal, tanke kriške"
+      "name": "galangal, tanke kri\u0161ke"
     },
     {
       "amount": 5,
@@ -43,7 +43,7 @@
       "name": "makrut limetini listovi"
     },
     {
-      "name": "tajlandski čili, 3–4 kom, po ukusu, razmrvljeni"
+      "name": "tajlandski \u010dili, 3\u20134 kom, po ukusu, razmrvljeni"
     },
     {
       "amount": 30,
@@ -53,29 +53,29 @@
     {
       "amount": 5,
       "unit": "ml",
-      "name": "palmini šećer ili obični šećer"
+      "name": "palmini \u0161e\u0107er ili obi\u010dni \u0161e\u0107er"
     },
     {
       "amount": 150,
       "unit": "g",
-      "name": "gljive bukovače, pokidane na zalogaje"
+      "name": "gljive bukova\u010de, pokidane na zalogaje"
     },
     {
       "amount": 37.5,
       "unit": "ml",
-      "name": "svježi sok od limete"
+      "name": "svje\u017ei sok od limete"
     },
     {
       "name": "mladi luk i/ili korijander, nasjeckan, za ukras"
     },
     {
-      "name": "jasmin riža, za posluživanje (opcionalno)"
+      "name": "jasmin ri\u017ea, za poslu\u017eivanje (opcionalno)"
     }
   ],
   "steps": [
-    "<strong>Pileći temeljac</strong> dovesti do vrenja, dodati <strong>sol</strong> i <strong>pileće batake</strong>. Kuhati lagano 15 minuta dok piletina nije mekana.",
-    "Dodati <strong>kokosovo mlijeko</strong>, <strong>limunsku travu</strong>, <strong>galangal</strong>, <strong>makrut listove</strong>, <strong>čili</strong>, <strong>gljive</strong>, pola <strong>riblje omake</strong> i <strong>šećer</strong>. Kuhati lagano 5 minuta da arome prođu.",
-    "Probati i po potrebi dodati još <strong>riblje omake</strong>. Isključiti vatru i dodati oko 2 žlice <strong>soka od limete</strong>, probati i dodati još po ukusu.",
-    "Ukrasiti <strong>mladim lukom</strong> i/ili <strong>korijanderom</strong> te poslužiti uz <strong>jasmin rižu</strong>."
+    "<strong>Pile\u0107i temeljac</strong> dovesti do vrenja, dodati <strong>sol</strong> i <strong>pile\u0107e batake</strong>. Kuhati lagano 15 minuta dok piletina nije mekana.",
+    "Dodati <strong>kokosovo mlijeko</strong>, <strong>limunsku travu</strong>, <strong>galangal</strong>, <strong>makrut listove</strong>, <strong>\u010dili</strong>, <strong>gljive</strong>, pola <strong>riblje omake</strong> i <strong>\u0161e\u0107er</strong>. Kuhati lagano 5 minuta da arome pro\u0111u.",
+    "Probati i po potrebi dodati jo\u0161 <strong>riblje omake</strong>. Isklju\u010diti vatru i dodati oko 2 \u017elice <strong>soka od limete</strong>, probati i dodati jo\u0161 po ukusu.",
+    "Ukrasiti <strong>mladim lukom</strong> i/ili <strong>korijanderom</strong> te poslu\u017eiti uz <strong>jasmin ri\u017eu</strong>."
   ]
 }
