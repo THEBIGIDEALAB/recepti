@@ -1,11 +1,11 @@
 {
   "id": "cashew-piletina",
-  "title": "Piletina s indijskim oraščićima",
+  "title": "Piletina s indijskim ora\u0161\u010di\u0107ima",
   "category": "Thailand",
   "servings": 4,
   "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2022/05/cashew-chicken-sq.jpg",
   "youtube": "",
-  "notes": "Popularan tajlandski wok recept — brže i ukusnije nego dostava. Sušeni čili daje aromu bez previše ljutine.",
+  "notes": "Popularan tajlandski wok recept \u2014 br\u017ee i ukusnije nego dostava. Su\u0161eni \u010dili daje aromu bez previ\u0161e ljutine.",
   "ingredients": [
     {
       "group": "Marinada"
@@ -13,7 +13,7 @@
     {
       "amount": 400,
       "unit": "g",
-      "name": "pileći batak bez kosti i kože, narezano na zalogaje"
+      "name": "pile\u0107i batak bez kosti i ko\u017ee, narezano na zalogaje"
     },
     {
       "amount": 10,
@@ -29,12 +29,12 @@
       "name": "neutralno ulje"
     },
     {
-      "name": "sušeni čili, 7–10 kom, mali (opcionalno)"
+      "name": "su\u0161eni \u010dili, 7\u201310 kom, mali (opcionalno)"
     },
     {
       "amount": 4,
-      "unit": "režanj",
-      "name": "češnjak, sitno nasjeckan"
+      "unit": "re\u017eanj",
+      "name": "\u010de\u0161njak, sitno nasjeckan"
     },
     {
       "amount": 0.5,
@@ -49,17 +49,17 @@
     {
       "amount": 125,
       "unit": "g",
-      "name": "crvena i/ili žuta paprika, narezana na kocke 2 cm"
+      "name": "crvena i/ili \u017euta paprika, narezana na kocke 2 cm"
     },
     {
       "amount": 100,
       "unit": "g",
-      "name": "pečeni indijski oraščići, nezasoljeni"
+      "name": "pe\u010deni indijski ora\u0161\u010di\u0107i, nezasoljeni"
     },
     {
       "amount": 2,
       "unit": "kom",
-      "name": "mladi luk, razrezan po dužini i narezan na 4 cm"
+      "name": "mladi luk, razrezan po du\u017eini i narezan na 4 cm"
     },
     {
       "group": "Umak"
@@ -87,27 +87,27 @@
     {
       "amount": 1.5,
       "unit": "tsp",
-      "name": "šećer"
+      "name": "\u0161e\u0107er"
     },
     {
       "amount": 22.5,
       "unit": "ml",
-      "name": "tajlandska čili pasta (nam prik pao)"
+      "name": "tajlandska \u010dili pasta (nam prik pao)"
     },
     {
       "amount": 5,
       "unit": "ml",
-      "name": "preprženo sezamovo ulje"
+      "name": "prepr\u017eeno sezamovo ulje"
     }
   ],
   "steps": [
-    "Peči <strong>oraščiće</strong> u pećnici na 175°C 8–10 minuta dok ne potamne. Maknuti na stranu.",
-    "Izmiješati <strong>pileće batake</strong> sa <strong>soja umakom</strong> i ostaviti da se marinira minimalno 15 minuta.",
-    "Pomiješati sve sastojke <strong>umaka</strong> u zdjelici.",
-    "Dodati <strong>ulje</strong> i <strong>sušeni čili</strong> u wok i upaliti na tihoj vatri. Miješati čili dok ne nabubri i potamni (oko 1 minutu), zatim brzo izvaditi na papirnatu podlogu.",
-    "Pojačati vatru na jako. Kad je ulje vrelo, dodati <strong>piletinu</strong> u jednom sloju i peći bez miješanja oko 2 minute dok ne porumeni. Okrenuti i kuhati dok piletina nije gotova. Izvaditi iz woka.",
-    "Smanjiti vatru na srednju, dodati <strong>češnjak</strong> i miješati dok manji komađi ne porumene. Dodati <strong>luk</strong> i miješati 1 minutu.",
-    "Pojačati vatru, dodati <strong>papriku</strong>, <strong>piletinu</strong> i <strong>umak</strong>. Miješati dok se sve ne zagrije i poveže, oko 1 minutu.",
-    "Isključiti vatru, dodati <strong>mladi luk</strong> i <strong>oraščiće</strong>, promiješati i odmah poslužiti uz jasmin rižu. Oraščiće dodavati tek pred posluživanje — omekšaju!"
+    "Pe\u010di <strong>ora\u0161\u010di\u0107e</strong> u pe\u0107nici na 175\u00b0C 8\u201310 minuta dok ne potamne. Maknuti na stranu.",
+    "Izmije\u0161ati <strong>pile\u0107e batake</strong> sa <strong>soja umakom</strong> i ostaviti da se marinira minimalno 15 minuta.",
+    "Pomije\u0161ati sve sastojke <strong>umaka</strong> u zdjelici.",
+    "Dodati <strong>ulje</strong> i <strong>su\u0161eni \u010dili</strong> u wok i upaliti na tihoj vatri. Mije\u0161ati \u010dili dok ne nabubri i potamni (oko 1 minutu), zatim brzo izvaditi na papirnatu podlogu.",
+    "Poja\u010dati vatru na jako. Kad je ulje vrelo, dodati <strong>piletinu</strong> u jednom sloju i pe\u0107i bez mije\u0161anja oko 2 minute dok ne porumeni. Okrenuti i kuhati dok piletina nije gotova. Izvaditi iz woka.",
+    "Smanjiti vatru na srednju, dodati <strong>\u010de\u0161njak</strong> i mije\u0161ati dok manji koma\u0111i ne porumene. Dodati <strong>luk</strong> i mije\u0161ati 1 minutu.",
+    "Poja\u010dati vatru, dodati <strong>papriku</strong>, <strong>piletinu</strong> i <strong>umak</strong>. Mije\u0161ati dok se sve ne zagrije i pove\u017ee, oko 1 minutu.",
+    "Isklju\u010diti vatru, dodati <strong>mladi luk</strong> i <strong>ora\u0161\u010di\u0107e</strong>, promije\u0161ati i odmah poslu\u017eiti uz jasmin ri\u017eu. Ora\u0161\u010di\u0107e dodavati tek pred poslu\u017eivanje \u2014 omek\u0161aju!"
   ]
 }
