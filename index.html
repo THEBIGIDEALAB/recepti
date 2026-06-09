@@ -198,7 +198,8 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
 
   function renderSteps() {
     $('step-list').innerHTML = (cur.steps || []).map(function(s, i) {
-      return '<li><span class="step-n">' + (i + 1) + '.</span><span>' + s + '</span></li>';
+      var content = typeof s === 'object' ? (s.title ? '<strong>' + s.title + '</strong> &mdash; ' : '') + s.content : s;
+      return '<li><span class="step-n">' + (i + 1) + '.</span><span>' + content + '</span></li>';
     }).join('');
   }
 
