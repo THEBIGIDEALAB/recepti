@@ -19,7 +19,7 @@
     {
       "amount": 4,
       "unit": "tbsp",
-      "name": "preprženi sezam"
+      "name": "prepr\u017eeni sezam"
     },
     {
       "amount": 2,
@@ -28,12 +28,12 @@
     },
     {
       "amount": 1,
-      "unit": "šalica",
+      "unit": "\u0161alica",
       "name": "krastavac, narezan na kocke"
     },
     {
       "amount": 1,
-      "unit": "šaka",
+      "unit": "\u0161aka",
       "name": "cilantro, narezan"
     },
     {
@@ -48,13 +48,13 @@
     },
     {
       "amount": 4,
-      "unit": "režnja",
-      "name": "češnjak, sitno narezan (umak)"
+      "unit": "re\u017enja",
+      "name": "\u010de\u0161njak, sitno narezan (umak)"
     },
     {
       "amount": 2,
       "unit": "tbsp",
-      "name": "ribani đumbir (umak)"
+      "name": "ribani \u0111umbir (umak)"
     },
     {
       "amount": 4,
@@ -74,7 +74,7 @@
     {
       "amount": 2,
       "unit": "tbsp",
-      "name": "rižin ocat (umak)"
+      "name": "ri\u017ein ocat (umak)"
     },
     {
       "amount": 2,
@@ -83,9 +83,9 @@
     }
   ],
   "steps": [
-    "U zdjelu dodati <strong>češnjak</strong>, <strong>đumbir</strong>, <strong>mladi luk</strong>, <strong>soja umak</strong>, <strong>sezamovo ulje</strong>, <strong>rižin ocat</strong> i <strong>med</strong>. Dobro promiješati i ostaviti sa strane.",
-    "Narezanu <strong>tunu</strong>, <strong>mladi luk</strong> i <strong>sezam</strong> dodati direktno u zdjelu s umakom i promiješati dok se sve ne sjedini.",
-    "U zasebnoj zdjeli pomiješati <strong>avokado</strong>, <strong>krastavac</strong>, <strong>cilantro</strong>, <strong>sok od limete</strong>, <strong>sol i papar</strong>.",
-    "Tartar posložiti u kalup na tanjur. Avorkatov mix dodati oko ili ispod tartara po želji. Odmah poslužiti."
+    "U zdjelu dodati <strong>\u010de\u0161njak</strong>, <strong>\u0111umbir</strong>, <strong>mladi luk</strong>, <strong>soja umak</strong>, <strong>sezamovo ulje</strong>, <strong>ri\u017ein ocat</strong> i <strong>med</strong>. Dobro promije\u0161ati i ostaviti sa strane.",
+    "Narezanu <strong>tunu</strong>, <strong>mladi luk</strong> i <strong>sezam</strong> dodati direktno u zdjelu s umakom i promije\u0161ati dok se sve ne sjedini.",
+    "U zasebnoj zdjeli pomije\u0161ati <strong>avokado</strong>, <strong>krastavac</strong>, <strong>cilantro</strong>, <strong>sok od limete</strong>, <strong>sol i papar</strong>.",
+    "Tartar poslo\u017eiti u kalup na tanjur. Avorkatov mix dodati oko ili ispod tartara po \u017eelji. Odmah poslu\u017eiti."
   ]
 }
