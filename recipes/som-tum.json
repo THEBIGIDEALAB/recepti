@@ -5,25 +5,25 @@
   "servings": 4,
   "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2016/06/papaya-salad-new-sq.jpg",
   "youtube": "",
-  "notes": "Klasična tajlandska salata od zelene papaje — ljuto, kiselo, slatko i slano u jednom. Savršena uz ljepljivu rižu i BBQ piletinu.",
+  "notes": "Klasi\u010dna tajlandska salata od zelene papaje \u2014 ljuto, kiselo, slatko i slano u jednom. Savr\u0161ena uz ljepljivu ri\u017eu i BBQ piletinu.",
   "ingredients": [
     {
       "amount": 3,
-      "unit": "šalica",
+      "unit": "\u0161alica",
       "name": "zelena papaja, julienne narezana"
     },
     {
       "amount": 4,
-      "unit": "režanj",
-      "name": "češnjak"
+      "unit": "re\u017eanj",
+      "name": "\u010de\u0161njak"
     },
     {
-      "name": "tajlandski čili, po ukusu"
+      "name": "tajlandski \u010dili, po ukusu"
     },
     {
       "amount": 36,
       "unit": "g",
-      "name": "palmini šećer, sitno nasjeckan"
+      "name": "palmini \u0161e\u0107er, sitno nasjeckan"
     },
     {
       "amount": 6,
@@ -33,17 +33,17 @@
     {
       "amount": 90,
       "unit": "ml",
-      "name": "pečeni kikiriki"
+      "name": "pe\u010deni kikiriki"
     },
     {
       "amount": 2,
       "unit": "tbsp",
-      "name": "sušene kozice, grubo nasjeckane"
+      "name": "su\u0161ene kozice, grubo nasjeckane"
     },
     {
       "amount": 60,
       "unit": "ml",
-      "name": "svježi sok od limete"
+      "name": "svje\u017ei sok od limete"
     },
     {
       "amount": 20,
@@ -57,16 +57,16 @@
     },
     {
       "amount": 1,
-      "unit": "šalica",
-      "name": "cherry rajčica, prepolovljene"
+      "unit": "\u0161alica",
+      "name": "cherry raj\u010dica, prepolovljene"
     }
   ],
   "steps": [
-    "Opcionalno: Namočiti <strong>papaju</strong> u ledenoj vodi 15 minuta da ostane hrškava. Dobro ocijediti i osušiti papirnatim ubrusom.",
-    "U velikom mužaru stući <strong>češnjak</strong> i <strong>čili</strong> u grubu pastu. Dodati <strong>palmini šećer</strong> i tucati dok ne postane mokra pasta.",
-    "Dodati <strong>dugi grah</strong> i tucati dok se ne razbije. Dodati <strong>sušene kozice</strong> i <strong>kikiriki</strong> te tucati tek toliko da se kikiriki grubo razbije.",
-    "Dodati <strong>riblja omaku</strong>, <strong>tamarind pastu</strong> i <strong>sok od limete</strong>. Miješati velikom žlicom dok se šećer ne otopi.",
-    "Dodati <strong>papaju</strong> i <strong>rajčicu</strong>. Miješati metodom tucanja i prevrtanja dok se sve ne poveže i rajčica lagano ne raspadne.",
+    "Opcionalno: Namo\u010diti <strong>papaju</strong> u ledenoj vodi 15 minuta da ostane hr\u0161kava. Dobro ocijediti i osu\u0161iti papirnatim ubrusom.",
+    "U velikom mu\u017earu stu\u0107i <strong>\u010de\u0161njak</strong> i <strong>\u010dili</strong> u grubu pastu. Dodati <strong>palmini \u0161e\u0107er</strong> i tucati dok ne postane mokra pasta.",
+    "Dodati <strong>dugi grah</strong> i tucati dok se ne razbije. Dodati <strong>su\u0161ene kozice</strong> i <strong>kikiriki</strong> te tucati tek toliko da se kikiriki grubo razbije.",
+    "Dodati <strong>riblja omaku</strong>, <strong>tamarind pastu</strong> i <strong>sok od limete</strong>. Mije\u0161ati velikom \u017elicom dok se \u0161e\u0107er ne otopi.",
+    "Dodati <strong>papaju</strong> i <strong>raj\u010dicu</strong>. Mije\u0161ati metodom tucanja i prevrtanja dok se sve ne pove\u017ee i raj\u010dica lagano ne raspadne.",
     "Servirati i posuti dodatnim <strong>kikirikijem</strong>."
   ]
 }
