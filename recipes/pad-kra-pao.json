@@ -5,20 +5,20 @@
   "servings": 4,
   "photo": "https://hot-thai-kitchen.com/wp-content/uploads/2016/01/pad-gaprao-new-sq-3.jpg",
   "youtube": "",
-  "notes": "Tajlandsko nacionalno jelo — brzi wok s mljevenom piletinom i svetim bosiljkom. Posluženo s rižom i prženim jajetom. Sveti bosiljak (gaprao) može se zamijeniti običnim talijanskim bosiljkom.",
+  "notes": "Tajlandsko nacionalno jelo \u2014 brzi wok s mljevenom piletinom i svetim bosiljkom. Poslu\u017eeno s ri\u017eom i pr\u017eenim jajetom. Sveti bosiljak (gaprao) mo\u017ee se zamijeniti obi\u010dnim talijanskim bosiljkom.",
   "ingredients": [
     {
-      "name": "tajlandski čili, 7–10 kom, po ukusu"
+      "name": "tajlandski \u010dili, 7\u201310 kom, po ukusu"
     },
     {
       "amount": 7,
-      "unit": "režanj",
-      "name": "češnjak"
+      "unit": "re\u017eanj",
+      "name": "\u010de\u0161njak"
     },
     {
       "amount": 2,
       "unit": "kom",
-      "name": "spur čili ili blaga crvena paprika, nasjeckana"
+      "name": "spur \u010dili ili blaga crvena paprika, nasjeckana"
     },
     {
       "amount": 400,
@@ -53,7 +53,7 @@
     {
       "amount": 2,
       "unit": "tsp",
-      "name": "šećer"
+      "name": "\u0161e\u0107er"
     },
     {
       "amount": 100,
@@ -67,7 +67,7 @@
     },
     {
       "amount": 2,
-      "unit": "šalica",
+      "unit": "\u0161alica",
       "name": "listovi svetog bosiljka (gaprao), rahlo naslagano"
     },
     {
@@ -79,17 +79,17 @@
       "name": "biljno ulje, po potrebi"
     },
     {
-      "name": "jasmin riža, za posluživanje"
+      "name": "jasmin ri\u017ea, za poslu\u017eivanje"
     }
   ],
   "steps": [
-    "U mužaru stući <strong>tajlandski čili</strong> u finu pastu. Dodati <strong>češnjak</strong> i <strong>spur čili</strong> te stući u grubu pastu.",
-    "Pomiješati <strong>umak od ostriga</strong>, <strong>soja umak</strong>, <strong>riblja omaku</strong>, <strong>crni soja umak</strong>, <strong>vodu</strong> i <strong>šećer</strong> u zdjelici; miješati dok se šećer ne otopi.",
-    "U woku na srednje jakoj vatri zagrijati malo <strong>ulja</strong> i pržiti mješavinu <strong>češnjaka i čilija</strong> dok češnjak ne počne zlatniti.",
-    "Dodati <strong>piletinu</strong> i miješati dok se ne raspadne u komađiće i više nije ružičasta.",
-    "Dodati <strong>umak</strong> i nastaviti miješati dok piletina nije gotovo kuhana. Dodati <strong>luk</strong> i <strong>dugi grah</strong> te miješati dok piletina nije potpuno gotova.",
-    "Maknuti s vatre i umiješati <strong>sveti bosiljak</strong>. Probati i po potrebi začiniti.",
-    "Za prženo jaje: u manjem tavčanu zagrijati oko 1 cm <strong>biljnog ulja</strong> na jako jakoj vatri. Kad je ulje jako vruće, razbiti <strong>jaje</strong> direktno i pržiti dok rubovi nisu smeđasti i hrškavi.",
-    "Poslužiti uz <strong>jasmin rižu</strong> i prženim <strong>jajetom</strong> na vrhu."
+    "U mu\u017earu stu\u0107i <strong>tajlandski \u010dili</strong> u finu pastu. Dodati <strong>\u010de\u0161njak</strong> i <strong>spur \u010dili</strong> te stu\u0107i u grubu pastu.",
+    "Pomije\u0161ati <strong>umak od ostriga</strong>, <strong>soja umak</strong>, <strong>riblja omaku</strong>, <strong>crni soja umak</strong>, <strong>vodu</strong> i <strong>\u0161e\u0107er</strong> u zdjelici; mije\u0161ati dok se \u0161e\u0107er ne otopi.",
+    "U woku na srednje jakoj vatri zagrijati malo <strong>ulja</strong> i pr\u017eiti mje\u0161avinu <strong>\u010de\u0161njaka i \u010dilija</strong> dok \u010de\u0161njak ne po\u010dne zlatniti.",
+    "Dodati <strong>piletinu</strong> i mije\u0161ati dok se ne raspadne u koma\u0111i\u0107e i vi\u0161e nije ru\u017ei\u010dasta.",
+    "Dodati <strong>umak</strong> i nastaviti mije\u0161ati dok piletina nije gotovo kuhana. Dodati <strong>luk</strong> i <strong>dugi grah</strong> te mije\u0161ati dok piletina nije potpuno gotova.",
+    "Maknuti s vatre i umije\u0161ati <strong>sveti bosiljak</strong>. Probati i po potrebi za\u010diniti.",
+    "Za pr\u017eeno jaje: u manjem tav\u010danu zagrijati oko 1 cm <strong>biljnog ulja</strong> na jako jakoj vatri. Kad je ulje jako vru\u0107e, razbiti <strong>jaje</strong> direktno i pr\u017eiti dok rubovi nisu sme\u0111asti i hr\u0161kavi.",
+    "Poslu\u017eiti uz <strong>jasmin ri\u017eu</strong> i pr\u017eenim <strong>jajetom</strong> na vrhu."
   ]
 }
