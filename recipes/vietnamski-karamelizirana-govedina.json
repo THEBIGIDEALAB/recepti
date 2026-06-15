@@ -1,0 +1,95 @@
+{
+  "id": "vietnamski-karamelizirana-govedina",
+  "title": "Vijetnamska karamelizirana trgana govedina",
+  "category": "Vietnam",
+  "servings": 4,
+  "photo": "https://www.recipetineats.com/tachyon/2019/04/Vietnamese-Shredded-Beef_5.jpg",
+  "youtube": "",
+  "notes": "Brzi recept za iskori\u0161tavanje ostataka kuhane govedine (npr. bri\u0161ket iz juhe Pho). Govedina se marinira u vijetnamskoj marinadi od limunove trave pa pr\u017ei dok ne postane zlatna i hrskava. Prep: 15 min | Cook: 10 min",
+  "ingredients": [
+    {
+      "group": "Govedina"
+    },
+    {
+      "amount": 500,
+      "unit": "g",
+      "name": "kuhana govedina, trgana ili nasjeckana (bri\u0161ket ili sli\u010dno)"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "ulje za pr\u017eenje"
+    },
+    {
+      "group": "Marinada"
+    },
+    {
+      "amount": 2,
+      "unit": "re\u017enja",
+      "name": "re\u017enja \u010danjaka, sitno nasjeckana"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "limunovog soka"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "ribljeg umaka"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "soja umaka"
+    },
+    {
+      "amount": 2.5,
+      "unit": "tbsp",
+      "name": "sme\u0111eg \u0161e\u0107era, zbijeno"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "biljnog ulja"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "paste od limunove trave"
+    },
+    {
+      "group": "Poslu\u017eivanje"
+    },
+    {
+      "name": "ri\u017ea ili rezanci"
+    },
+    {
+      "name": "kli\u010dice graha, svje\u017ei korijander, zeleni luk"
+    },
+    {
+      "name": "kri\u0161ke limete ili Nuoc Cham umak"
+    },
+    {
+      "name": "svje\u017ea \u010dili papri\u010dica, krastavac, zdrobljeni kiki\u0161i (opcionalno)"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Marinada",
+      "content": "U zdjeli pomije\u0161aj sve sastojke <strong>marinade</strong>: <strong>sitno nasjeckani \u010danjak</strong>, <strong>limunovog soka</strong>, <strong>ribljeg umaka</strong>, <strong>soja umaka</strong>, <strong>sme\u0111eg \u0161e\u0107era</strong>, <strong>biljnog ulja</strong> i <strong>paste od limunove trave</strong>."
+    },
+    {
+      "title": "Mariniranje",
+      "content": "Dodaj <strong>trganu govedinu</strong> u marinadu i dobro premi\u010daj. Ostavi da odstoji 5 minuta."
+    },
+    {
+      "title": "Pr\u017eenje",
+      "content": "Zagrijaj <strong>ulje</strong> u velikoj tavi na jakoj vatri. Dodaj otprilike polovicu govedine i rasporedi u jedan sloj. Ostavi bez mi\u0161anja dok ne postane zlatno (oko 1 minutu). Okreni i pr\u017ei drugu stranu jo\u0161 30 sekundi. Izvadi pa ponovi s preostalom govedinom."
+    },
+    {
+      "title": "Poslu\u017eivanje",
+      "content": "Poslu\u017ei vru\u0107e preko <strong>ri\u017ee ili rezanaca</strong>. Ukrasi <strong>kli\u010dicama graha</strong>, <strong>svje\u017eim korijanderom</strong>, <strong>zelenim lukom</strong>, <strong>krastavcem</strong> i <strong>zdrobljenim kiki\u0161ima</strong>. Poslu\u017ei s <strong>kri\u0161kama limete</strong> ili <strong>Nuoc Cham umakom</strong>."
+    }
+  ]
+}
