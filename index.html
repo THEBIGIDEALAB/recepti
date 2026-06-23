@@ -226,7 +226,7 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
   function loadRecipe(id) {
     fetch('recipes/' + id + '.json?t=' + Date.now())
       .then(function(r) { return r.json(); })
-      .then(function(recipe) { openRecipe(recipe); if (!_fromPop) history.pushState({v:'recipe',id:id,cat:curCat}, '', '#' + id); })
+      .then(function(recipe) { openRecipe(recipe); if (!_fromPop) history.replaceState({v:'recipe',id:id,cat:curCat}, '', '#' + id); })
       .catch(function() { alert('Ne mogu učitati recept.'); });
   }
 
@@ -299,9 +299,8 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
       // Samo horizontalni swipe (nije scroll)
       if (Math.abs(dx) < 60 || Math.abs(dy) > Math.abs(dx)) return;
       if (dx > 0) {
-        // Swipe desno = natrag
-        if (view === 'recipe') { goBackFromRecipe(); }
-        else if (view === 'cat') { renderHome(); history.replaceState({v:'home'}, '', location.pathname); }
+        // Swipe desno = natrag unutar stranice
+        if (view === 'cat') { renderHome(); history.replaceState({v:'home'}, '', location.pathname); }
       }
     }, {passive:true});
   })();
