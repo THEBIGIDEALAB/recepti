@@ -1,0 +1,68 @@
+{
+  "id": "ceviche-od-tune",
+  "title": "Ceviche od tune",
+  "category": "Peru",
+  "servings": 4,
+  "photo": "",
+  "youtube": "",
+  "notes": "Svje\u017ei komadi\u0107i tune, zreli mango i kremasti avokado \u2014 savr\u0161eno predjelo ili lagani ru\u010dak. Poslu\u017eite uz tortilja \u010dipse ili u listi\u0107ima salate. Prep: 20 min + 1 h mariniranje.",
+  "ingredients": [
+    {
+      "amount": 300,
+      "unit": "g",
+      "name": "tuna, sushi-grade \u2014 narezana na kockice"
+    },
+    {
+      "amount": 80,
+      "unit": "g",
+      "name": "avokado, narezan na kockice"
+    },
+    {
+      "amount": 80,
+      "unit": "g",
+      "name": "mango, narezan na kockice"
+    },
+    {
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "crveni luk, sitno narezan"
+    },
+    {
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "korijander, sitno narezan"
+    },
+    {
+      "amount": 2,
+      "unit": "tsp",
+      "name": "jalape\u00f1o papri\u010dica, sitno narezana"
+    },
+    {
+      "amount": 50,
+      "unit": "ml",
+      "name": "svje\u017ee isce\u0111eni sok od limete"
+    },
+    {
+      "amount": 2,
+      "unit": "tsp",
+      "name": "biljno ulje"
+    },
+    {
+      "name": "sol i svje\u017ee mljeveni papar"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Sve zajedno",
+      "content": "U zdjelu stavite <strong>tunu</strong>, <strong>avokado</strong>, <strong>mango</strong>, <strong>crveni luk</strong>, <strong>korijander</strong> i <strong>jalape\u00f1o</strong>. Prelijte <strong>sokom od limete</strong> i <strong>uljem</strong>, posolite i popaprite."
+    },
+    {
+      "title": "Marinirajte",
+      "content": "Pa\u017eljivo promije\u0161ajte da su svi sastojci ravnomjerno oblo\u017eeni. Pokrijte i stavite u hladnjak na 1 sat \u2014 na pola puta pa\u017eljivo jo\u0161 jednom promiije\u0161ajte."
+    },
+    {
+      "title": "Poslu\u017eite",
+      "content": "Poslu\u017eite odmah uz tortilja \u010dipse ili u listi\u0107ima salate. Najukusnije isti dan, ali mo\u017ee se \u010duvati 1\u20132 dana u hladnjaku."
+    }
+  ]
+}
