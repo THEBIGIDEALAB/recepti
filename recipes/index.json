@@ -265,5 +265,26 @@
     "servings": 4,
     "photo": "https://www.recipetineats.com/tachyon/2019/04/Vietnamese-Shredded-Beef_5.jpg",
     "youtube": ""
+  },
+  {
+    "id": "ceviche-tigrovo-mlijeko",
+    "title": "Ceviche s tigrovim mlijekom",
+    "category": "Peru",
+    "servings": 4,
+    "photo": "https://www.receiteria.com.br/wp-content/uploads/leite-de-tigre-1.jpg.webp"
+  },
+  {
+    "id": "ceviche-od-lososa",
+    "title": "Ceviche od lososa",
+    "category": "Peru",
+    "servings": 4,
+    "photo": "https://sugarfreelondoner.com/wp-content/uploads/2024/10/salmon-ceviche-1200.jpg"
+  },
+  {
+    "id": "ceviche-od-tune",
+    "title": "Ceviche od tune",
+    "category": "Peru",
+    "servings": 4,
+    "photo": ""
   }
 ]
