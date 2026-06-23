@@ -1,0 +1,72 @@
+{
+  "id": "ceviche-tigrovo-mlijeko",
+  "title": "Ceviche s tigrovim mlijekom",
+  "category": "Peru",
+  "servings": 4,
+  "photo": "https://www.receiteria.com.br/wp-content/uploads/leite-de-tigre-1.jpg.webp",
+  "youtube": "",
+  "notes": "Leite de tigre (tigrovo mlijeko) je kiselkasta, aromati\u010dna marinada koja \u201ckuha\u201d sirovu ribu. U Peruu se pije i samo iz \u010da\u0161ice kao lijek za mamurluk. Prep: 15 min + 5 min mariniranje.",
+  "ingredients": [
+    {
+      "amount": 400,
+      "unit": "g",
+      "name": "svje\u017ei filet bijele ribe, npr. brancin, orada ili kova\u010d \u2014 narezan na kockice 1,5\u20132 cm (2\u20133 \u017elice ostataka sa\u010duvajte za marinadu)"
+    },
+    {
+      "amount": 200,
+      "unit": "ml",
+      "name": "svje\u017ee isce\u0111eni sok od limete (oko 6\u20138 limeta)"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "mali ljubi\u010dasti luk, tanko narezan na trakice"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "svje\u017ea \u010dili papri\u010dica, npr. aji limo ili crveni \u010dili"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "re\u017enja \u010de\u0161njaka"
+    },
+    {
+      "name": "\u0111umbir, svje\u017e komadi\u0107 oko 1 cm"
+    },
+    {
+      "name": "korijander, par gran\u010dica + listi\u0107e za poslu\u017eivanje"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "kockice leda (za marinadu)"
+    },
+    {
+      "name": "sol i papar"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pripremite ribu",
+      "content": "Nare\u017eite riblje filete na kockice veli\u010dine oko 1,5\u20132 cm. Ostatke i nepravilne komadi\u0107e <strong>ribe</strong> (oko 2\u20133 \u017elice) sa\u010duvajte za marinadu. Kockice <strong>ribe</strong> stavite u hladnjak."
+    },
+    {
+      "title": "Napravite tigrovo mlijeko",
+      "content": "U blender stavite sa\u010duvane komadi\u0107e <strong>ribe</strong>, <strong>sok od limete</strong>, <strong>\u010de\u0161njak</strong>, <strong>\u0111umbir</strong>, par stabljika <strong>korijandera</strong>, komadi\u0107 <strong>\u010dilia</strong>, malo <strong>soli</strong> i 2 kockice <strong>leda</strong>. Kratko izblendajte pa sve procijedite kroz sitno cjedilo u \u010distu posudu. Dobit \u0107ete mlije\u010dnu teku\u0107inu."
+    },
+    {
+      "title": "Spojite sve zajedno",
+      "content": "Izvadite <strong>ribu</strong> iz hladnjaka, posolite je i popaprite. Dodajte tanko narezani <strong>ljubi\u010dasti luk</strong> i nasjeckane listi\u0107e <strong>korijandera</strong>."
+    },
+    {
+      "title": "Marinirajte",
+      "content": "Prelijte <strong>ribu</strong> proce\u0111enim tigrovim mlijekom. Lagano promije\u0161ajte i ostavite da odstoji u hladnjaku samo 3\u20135 minuta. Riblje meso \u0107e pobijeljeti od kiseline."
+    },
+    {
+      "title": "Poslu\u017eite",
+      "content": "Poslu\u017eite odmah. Po \u017eelji dodajte kovani kukuruz i kuhani slatki krumpir (batat) kako biste ubla\u017eili kiselinu."
+    }
+  ]
+}
