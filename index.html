@@ -105,8 +105,8 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
 <script>
 (function() {
   var all = [], cur = null, curSrv = 4, baseSrv = 4;
-  var view = 'home', prevView = 'home', curCat = null, _fromPop = false;
-  var CAT_ORDER = ['Hrvatska','Hawaii','Japan','Kina','Peru','Portugal','Thailand','Vietnam','Germany','*Slatko i kolači'];
+  var view = 'home', curCat = null, _fromPop = false;
+  var CAT_ORDER = ['Hrvatska','Hawaii','Japan','Kina','Peru','Portugal','Thailand','Vietnam','Germany','*Slatko i kola\u010di'];
 
   function $(id) { return document.getElementById(id); }
 
@@ -140,6 +140,7 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
     }).join('');
     $('home-view').style.display = 'block';
     $('search-input').value = '';
+    releaseWakeLock();
   }
 
   function renderCat(cat) {
@@ -166,6 +167,7 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
       });
     }
     container.style.display = 'block';
+    releaseWakeLock();
   }
 
   function renderSearch(q) {
@@ -204,7 +206,7 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
   }
 
   function openRecipe(recipe) {
-    prevView = view; cur = recipe;
+    cur = recipe;
     baseSrv = recipe.servings || 4; curSrv = baseSrv;
     $('r-title').textContent = recipe.title;
     var ph = $('r-photo');
@@ -218,22 +220,30 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
     renderIng(); renderSteps();
     hideAll(); $('recipe-view').style.display = 'block'; view = 'recipe';
     window.scrollTo(0, 0);
+    requestWakeLock();
   }
 
   function loadRecipe(id) {
     fetch('recipes/' + id + '.json?t=' + Date.now())
       .then(function(r) { return r.json(); })
-      .then(function(recipe) { openRecipe(recipe); if (!_fromPop) history.pushState({v:'recipe',id:id}, '', '#' + id); })
+      .then(function(recipe) { openRecipe(recipe); if (!_fromPop) history.pushState({v:'recipe',id:id,cat:curCat}, '', '#' + id); })
       .catch(function() { alert('Ne mogu učitati recept.'); });
   }
 
-  function goBack() {
-    history.back();
+  // Natrag s recepta → uvijek na kategoriju (ili home ako nema)
+  function goBackFromRecipe() {
+    if (curCat) {
+      renderCat(curCat);
+      history.replaceState({v:'cat',cat:curCat}, '', '#cat-' + curCat);
+    } else {
+      renderHome();
+      history.replaceState({v:'home'}, '', location.pathname);
+    }
   }
 
   $('logo').addEventListener('click', renderHome);
-  $('back-to-home').addEventListener('click', function() { renderHome(); location.hash = ''; });
-  $('back-btn').addEventListener('click', goBack);
+  $('back-to-home').addEventListener('click', function() { renderHome(); });
+  $('back-btn').addEventListener('click', goBackFromRecipe);
   $('print-btn').addEventListener('click', function() { window.print(); });
   $('srv-minus').addEventListener('click', function() { curSrv = Math.max(1, curSrv - 1); $('srv-count').textContent = curSrv; renderIng(); });
   $('srv-plus').addEventListener('click', function() { curSrv++; $('srv-count').textContent = curSrv; renderIng(); });
@@ -258,12 +268,15 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
       all = d;
       $('loading').style.display = 'none';
       var h = location.hash.replace('#', '');
-      if (h) loadRecipe(h); else renderHome();
+      if (h && h.startsWith('cat-')) { renderCat(decodeURIComponent(h.replace('cat-', ''))); }
+      else if (h) { loadRecipe(h); }
+      else { renderHome(); }
     })
     .catch(function(e) { $('loading').textContent = 'Greška pri učitavanju.'; console.error(e); });
 })();
 
-  // popstate — browser back/forward & swipe
+  // popstate — browser back/forward
+  // Swipe back na mobitelu interceptamo PRIJE nego browser izađe van stranice
   window.addEventListener('popstate', function(e) {
     _fromPop = true;
     var st = e.state;
@@ -273,37 +286,41 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
     _fromPop = false;
   });
 
-  // swipe left/right
+  // Swipe desno = natrag unutar stranice (ne dopuštamo izlaz van)
   (function() {
-    var tx = 0;
-    document.addEventListener('touchstart', function(e) { tx = e.touches[0].clientX; }, {passive:true});
+    var tx = 0, ty = 0;
+    document.addEventListener('touchstart', function(e) {
+      tx = e.touches[0].clientX;
+      ty = e.touches[0].clientY;
+    }, {passive:true});
     document.addEventListener('touchend', function(e) {
       var dx = e.changedTouches[0].clientX - tx;
-      if (Math.abs(dx) < 60) return;
-      if (dx < 0) history.forward();
-      else history.back();
+      var dy = e.changedTouches[0].clientY - ty;
+      // Samo horizontalni swipe (nije scroll)
+      if (Math.abs(dx) < 60 || Math.abs(dy) > Math.abs(dx)) return;
+      if (dx > 0) {
+        // Swipe desno = natrag
+        if (view === 'recipe') { goBackFromRecipe(); }
+        else if (view === 'cat') { renderHome(); history.replaceState({v:'home'}, '', location.pathname); }
+      }
     }, {passive:true});
   })();
 
-  // Wake Lock — spriječi gašenje ekrana dok je stranica otvorena
-  (function() {
-    var wakeLock = null;
-    async function requestWakeLock() {
-      if (!('wakeLock' in navigator)) return;
-      try {
-        wakeLock = await navigator.wakeLock.request('screen');
-      } catch(e) {}
-    }
-    function releaseWakeLock() {
-      if (wakeLock) { wakeLock.release(); wakeLock = null; }
-    }
-    requestWakeLock();
-    document.addEventListener('visibilitychange', function() {
-      if (document.visibilityState === 'visible') requestWakeLock();
-      else releaseWakeLock();
-    });
-  })();
-
+  // Wake Lock — ekran ostaje upaljen samo dok je recept otvoren
+  var wakeLock = null;
+  function requestWakeLock() {
+    if (!('wakeLock' in navigator)) return;
+    if (wakeLock) return;
+    navigator.wakeLock.request('screen').then(function(wl) { wakeLock = wl; }).catch(function() {});
+  }
+  function releaseWakeLock() {
+    if (wakeLock) { wakeLock.release(); wakeLock = null; }
+  }
+  // Reaktiviraj ako se vrati na stranicu dok je recept otvoren
+  document.addEventListener('visibilitychange', function() {
+    if (document.visibilityState === 'visible' && view === 'recipe') requestWakeLock();
+    else releaseWakeLock();
+  });
 
 </script>
 </body>
