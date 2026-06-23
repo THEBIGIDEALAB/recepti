@@ -1,0 +1,89 @@
+{
+  "id": "ceviche-od-lososa",
+  "title": "Ceviche od lososa",
+  "category": "Peru",
+  "servings": 4,
+  "photo": "https://sugarfreelondoner.com/wp-content/uploads/2024/10/salmon-ceviche-1200.jpg",
+  "youtube": "",
+  "notes": "Svje\u017e, citrusno i osvje\u017eavaju\u0107e predjelo gotovo za samo 5 minuta pripreme. Koristite sashimi-grade lososa \u2014 svje\u017eina ribe je klju\u010dna. Prep: 5 min + 30 min mariniranje.",
+  "ingredients": [
+    {
+      "amount": 400,
+      "unit": "g",
+      "name": "filet lososa, sashimi-grade, bez ko\u017ee \u2014 narezan na kockice 1 cm"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "limeta, iscijediti sok"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "svje\u017eo ribani \u0111umbir"
+    },
+    {
+      "amount": 130,
+      "unit": "g",
+      "name": "krastavac, narezan na kockice"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "mladi luk (vlasac), dijagonalno narezan"
+    },
+    {
+      "name": "\u0161aka listi\u0107a korijandera"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lagano maslinovo ulje"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sezamovo ulje"
+    },
+    {
+      "name": "sol i papar"
+    },
+    {
+      "group": "Za poslu\u017eivanje"
+    },
+    {
+      "name": "listi\u0107i salate (zelene ili romaine)"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sezamove sjemenke, pr\u017eene"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Zamrznite lososa",
+      "content": "Stavite <strong>lososa</strong> u zamrziva\u010d na 30 minuta \u2014 to \u0107e ga u\u010diniti lak\u0161im za rezanje na kockice. Zatim ga o\u0161trim no\u017eem nare\u017eite na kockice od oko 1 cm."
+    },
+    {
+      "title": "Napravite marinadu",
+      "content": "Iscijedite <strong>sok od limete</strong> i u njega umije\u0161ajte ribani <strong>\u0111umbir</strong>."
+    },
+    {
+      "title": "Marinirajte lososa",
+      "content": "Stavite kockice <strong>lososa</strong> u zdjelu i prelijte marinadom od <strong>limete i \u0111umbira</strong>. Pa\u017eljivo promije\u0161ajte da su sve kockice oblo\u017eene. Pokrijte i stavite u hladnjak na 30 minuta da se losos \u201ckuha\u201d u limunovoj kiselini."
+    },
+    {
+      "title": "Pr\u017eite sezam",
+      "content": "Dok se losos marinira, pr\u017eite <strong>sezamove sjemenke</strong> na su\u0161oj tavi na laganoj vatri dok ne postanu zlatne."
+    },
+    {
+      "title": "Sve spojite",
+      "content": "Nakon mariniranja dodajte u zdjelu <strong>krastavac</strong>, <strong>mladi luk</strong>, <strong>korijander</strong>, <strong>maslinovo</strong> i <strong>sezamovo ulje</strong>. Posolite i popaprite po ukusu te pa\u017eljivo promije\u0161ajte."
+    },
+    {
+      "title": "Poslu\u017eite",
+      "content": "Rasporedite ceviche u <strong>listi\u0107e salate</strong> i pospite pr\u017eenim <strong>sezamovim sjemenkama</strong>. Poslu\u017eite odmah."
+    }
+  ]
+}
