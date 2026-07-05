@@ -286,5 +286,26 @@
     "category": "Peru",
     "servings": 4,
     "photo": "https://www.allrecipes.com/thmb/_7_rx8zVf8ExNbIwf6epQ2F4Ux0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/9138961-bc4a08eb20ec466894f05b5a60979c95.jpg"
+  },
+  {
+    "id": "acorda-de-camarao",
+    "title": "A\u00e7orda de camar\u00e3o",
+    "category": "Portugal",
+    "servings": 4,
+    "photo": "https://eurofrozen.com/wp-content/uploads/2019/03/eurofrozen-acorda-de-gambas-300001-01-1-1024x1024.jpg"
+  },
+  {
+    "id": "caldo-verde-salteado-com-broa",
+    "title": "Caldo Verde salteado com broa",
+    "category": "Portugal",
+    "servings": 4,
+    "photo": "https://img-global.cpcdn.com/recipes/3648e5f60901e5c9/1360x1562cq80/foto-principal-da-receita-caldo-verde-salteado-com-broa.webp"
+  },
+  {
+    "id": "portugalska-krem-juha-od-skampi",
+    "title": "Portugalska krem juha od \u0161kampi",
+    "category": "Portugal",
+    "servings": 4,
+    "photo": "https://cdn.healthyrecipes101.com/recipes/images/shrimps/homemade-shrimp-soup-recipe-clc0ahfd6000oe11beordgwr6.jpg?w=1080&q=80"
   }
 ]
