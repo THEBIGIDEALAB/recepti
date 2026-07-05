@@ -1,0 +1,47 @@
+{
+  "id": "caldo-verde-salteado-com-broa",
+  "title": "Caldo Verde salteado com broa",
+  "category": "Portugal",
+  "servings": 4,
+  "photo": "https://img-global.cpcdn.com/recipes/3648e5f60901e5c9/1360x1562cq80/foto-principal-da-receita-caldo-verde-salteado-com-broa.webp",
+  "youtube": "",
+  "notes": "Brza verzija tradicionalne portugalske juhe caldo verde, popr\u017eena s kukuruznim kruhom (broa).",
+  "ingredients": [
+    {
+      "amount": 600,
+      "unit": "g",
+      "name": "kelj Galega, sitno rezan (mo\u017ee i gotova vre\u0107ica pripremljenog zelenog kupusa za juhu)"
+    },
+    {
+      "amount": 2,
+      "unit": "\u0161alica",
+      "name": "zdrobljenog kukuruznog kruha (12 kri\u0161ki)"
+    },
+    {
+      "name": "maslinovo ulje"
+    },
+    {
+      "name": "\u010de\u0161njak"
+    },
+    {
+      "name": "sol"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Kuhajte kelj u kipu\u0107oj vodi sa <strong>solju</strong> oko 5 minuta."
+    },
+    {
+      "content": "Nakon toga dobro ocijedite kako biste uklonili \u0161to vi\u0161e vode."
+    },
+    {
+      "content": "U tavu (mo\u017ee ista) ulijte dobru koli\u010dinu <strong>maslinovog ulja</strong> i dodajte nasjeckani <strong>\u010de\u0161njak</strong>."
+    },
+    {
+      "content": "\u010cim se ulje po\u010dne zagrijavati, dodajte <strong>kukuruzni kruh</strong>."
+    },
+    {
+      "content": "Kad kruh postane zlatniji, dodajte <strong>kelj</strong> i lagano promije\u0161ajte, kuhajte jo\u0161 nekoliko minuta."
+    }
+  ]
+}
