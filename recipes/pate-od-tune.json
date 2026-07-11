@@ -1,0 +1,55 @@
+{
+  "id": "pate-od-tune",
+  "title": "Pa\u010dte od tune",
+  "category": "Portugal",
+  "servings": 8,
+  "photo": "http://www.foodfromportugal.com/content/uploads/2013/05/tuna-pate-1.jpg",
+  "youtube": "",
+  "notes": "Kremasti pa\u010dte od tune gotov za samo 10 minuta - savr\u0161en za zabavu s prijateljima.",
+  "ingredients": [
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "tuna iz konzerve, ocije\u0111ena"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "luk, manji"
+    },
+    {
+      "name": "per\u0161in, po ukusu"
+    },
+    {
+      "amount": 1,
+      "unit": "tsp",
+      "name": "limunov sok"
+    },
+    {
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "majoneza"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "origano"
+    },
+    {
+      "amount": 1,
+      "unit": "re\u017enja",
+      "name": "\u010de\u0161njak"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "\u017euti senf"
+    }
+  ],
+  "steps": [
+    "Ocijedite <strong>tunu</strong> i rastresite je vilicom; stavite sa strane.",
+    "U mikseru stavite <strong>luk</strong> narezan na komade, olju\u0161teni <strong>\u010de\u0161njak</strong>, <strong>origano</strong> i <strong>per\u0161in</strong>. Miksajte dok se dobro ne usitni.",
+    "Prebacite smjesu u posudu i pomije\u0161ajte s <strong>tunom</strong>, <strong>majonezom</strong>, <strong>senfom</strong> i <strong>limunovim sokom</strong>.",
+    "Poslu\u017eite s kruhom ili tostom."
+  ]
+}
