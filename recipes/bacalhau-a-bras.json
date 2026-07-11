@@ -1,0 +1,66 @@
+{
+  "id": "bacalhau-a-bras",
+  "title": "Bacalhau \u00e0 Br\u00e1s",
+  "category": "Portugal",
+  "servings": 4,
+  "photo": "https://bourmet.pt/assets/recipes/147.jpg",
+  "youtube": "",
+  "notes": "Lisabonsko jelo koje definira portugalsku doma\u0107u kuhinju - bakalar pirjan s lukom, hrskavim krumpirovim \u0161tapi\u0107ima i kremastim jajima. Priprema: 35 min.",
+  "ingredients": [
+    {
+      "amount": 400,
+      "unit": "g",
+      "name": "bakalar, namo\u010den i nastrgan"
+    },
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "pr\u017eeni krumpirovi \u0161tapi\u0107i (batata palha)"
+    },
+    {
+      "amount": 6,
+      "unit": "kom",
+      "name": "jaja"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "luk"
+    },
+    {
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "maslinovo ulje"
+    },
+    {
+      "amount": 3,
+      "unit": "re\u017enja",
+      "name": "\u010de\u0161njak"
+    },
+    {
+      "name": "sol, po ukusu"
+    },
+    {
+      "name": "crni papar, po ukusu"
+    },
+    {
+      "amount": 1,
+      "unit": "\u0161aka",
+      "name": "svje\u017ei per\u0161in, sjeckan"
+    },
+    {
+      "amount": 12,
+      "unit": "kom",
+      "name": "crne masline"
+    }
+  ],
+  "steps": [
+    "Nastrgajte <strong>bakalar</strong> na tanke listi\u0107e, uklanjaju\u0107i sve kosti i ko\u017eu. Ako koristite suhi bakalar, namo\u010dite ga 24 sata, mijenjaju\u0107i vodu 3 puta.",
+    "Nare\u017eite <strong>luk</strong> na tanke polumjesece i sitno nasjeckajte <strong>\u010de\u0161njak</strong>.",
+    "Zagrijte <strong>maslinovo ulje</strong> u \u0161irokoj tavi na srednjoj vatri. Dodajte luk i \u010de\u0161njak i pirjajte dok ne omek\u0161aju i postanu prozirni (8 min).",
+    "Dodajte nastrgani <strong>bakalar</strong> luku i dobro promije\u0161ajte. Kuhajte, povremeno mije\u0161aju\u0107i (5 min).",
+    "Dodajte <strong>krumpirove \u0161tapi\u0107e</strong> i brzo promije\u0161ajte kako ne bi previ\u0161e omek\u0161ali.",
+    "Umutite <strong>jaja</strong> u posudi s prstohvatom <strong>soli</strong> i <strong>papra</strong>. Prelijte preko smjese s bakalarom i mije\u0161ajte na laganoj vatri dok jaja ne postanu kremasta - ne suha (3 min).",
+    "Poslu\u017eite odmah, ukra\u0161eno svje\u017eim <strong>per\u0161inom</strong> i <strong>crnim maslinama</strong>."
+  ]
+}
