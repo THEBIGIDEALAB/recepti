@@ -356,5 +356,19 @@
     "category": "Portugal",
     "servings": 4,
     "photo": "http://www.foodfromportugal.com/content/uploads/2024/09/homemade-cod-cream-10.jpg"
+  },
+  {
+    "id": "bakalar-s-vrhnjem-i-krumpirom",
+    "title": "Bakalar s vrhnjem i krumpirom",
+    "category": "Portugal",
+    "servings": 4,
+    "photo": ""
+  },
+  {
+    "id": "bakalar-s-pireom-lukom-i-zapecenom-majonezom",
+    "title": "Bakalar s pireom, lukom i zape\u010denom majonezom",
+    "category": "Portugal",
+    "servings": 4,
+    "photo": ""
   }
 ]
