@@ -328,5 +328,33 @@
     "category": "Portugal",
     "servings": 8,
     "photo": "http://www.foodfromportugal.com/content/uploads/2013/05/tuna-pate-1.jpg"
+  },
+  {
+    "id": "riblja-corba-s-kruhom",
+    "title": "Riblja \u010dorba s kruhom",
+    "category": "Portugal",
+    "servings": 4,
+    "photo": "http://www.foodfromportugal.com/content/uploads/2012/11/homemade-fish-bread-soup-1.jpg"
+  },
+  {
+    "id": "pita-s-bakalarom-i-skampima",
+    "title": "Pita s bakalarom i \u0161kampima",
+    "category": "Portugal",
+    "servings": 4,
+    "photo": "http://www.foodfromportugal.com/content/uploads/2014/03/cod-shrimp-pie-01.jpg"
+  },
+  {
+    "id": "gratinirani-bakalar",
+    "title": "Gratinirani bakalar",
+    "category": "Portugal",
+    "servings": 4,
+    "photo": "http://www.foodfromportugal.com/content/uploads/2019/03/cod-au-gratin-1.jpg"
+  },
+  {
+    "id": "domaci-bakalar-s-vrhnjem",
+    "title": "Doma\u0107i bakalar s vrhnjem",
+    "category": "Portugal",
+    "servings": 4,
+    "photo": "http://www.foodfromportugal.com/content/uploads/2024/09/homemade-cod-cream-10.jpg"
   }
 ]
