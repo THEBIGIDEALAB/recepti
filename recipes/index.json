@@ -314,5 +314,19 @@
     "category": "Portugal",
     "servings": 4,
     "photo": "https://www.portugalthings.com/wp-content/uploads/2025/07/feijoada-de-polvo-500x500.jpg"
+  },
+  {
+    "id": "bacalhau-a-bras",
+    "title": "Bacalhau \u00e0 Br\u00e1s",
+    "category": "Portugal",
+    "servings": 4,
+    "photo": "https://bourmet.pt/assets/recipes/147.jpg"
+  },
+  {
+    "id": "pate-od-tune",
+    "title": "Pa\u010dte od tune",
+    "category": "Portugal",
+    "servings": 8,
+    "photo": "http://www.foodfromportugal.com/content/uploads/2013/05/tuna-pate-1.jpg"
   }
 ]
