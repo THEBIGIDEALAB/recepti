@@ -1,0 +1,78 @@
+{
+  "id": "punjena-rakovica",
+  "title": "Punjena Rakovica",
+  "category": "Portugal",
+  "servings": 4,
+  "photo": "https://feed.continente.pt/media/olfmh3l2/sapaeteira-recheada.png",
+  "youtube": "",
+  "notes": "Tradicionalno portugalsko predjelo od rakovice (sapateira), \u010desto se poslu\u017euje za do\u010dek Nove godine. Priprema: 25 min.",
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "kuhana rakovica"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "kuhana jaja"
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "kiseli krastav\u010di\u0107i, sitno nasjeckani"
+    },
+    {
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "senf"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "ke\u010dap"
+    },
+    {
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "kru\u0161ne mrvice"
+    },
+    {
+      "amount": 50,
+      "unit": "ml",
+      "name": "pivo"
+    },
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "majoneza"
+    },
+    {
+      "name": "sok limuna, po ukusu"
+    },
+    {
+      "name": "per\u0161in, nasjeckan, po ukusu"
+    },
+    {
+      "name": "tost kruh, za poslu\u017eivanje"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Priprema rakovice",
+      "content": "Odvojite noge <strong>rakovice</strong> i izvadite meso iz oklopa, oklop sa\u010duvajte za poslu\u017eivanje. Meso rakovice, <strong>kuhana jaja</strong> i <strong>kisele krastav\u010di\u0107e</strong> sitno nasjeckajte."
+    },
+    {
+      "title": "Mije\u0161anje osnove",
+      "content": "U zdjelu stavite meso <strong>rakovice</strong>, nasjeckana <strong>jaja</strong>, <strong>kisele krastav\u010di\u0107e</strong>, <strong>senf</strong> i <strong>ke\u010dap</strong>."
+    },
+    {
+      "title": "Dodavanje teksture",
+      "content": "Dodajte <strong>kru\u0161ne mrvice</strong> i <strong>pivo</strong> te dobro promije\u0161ajte."
+    },
+    {
+      "title": "Zavr\u0161etak i poslu\u017eivanje",
+      "content": "Na kraju umije\u0161ajte <strong>majonezu</strong>, za\u010dinite solju i paprom te sve dobro sjedinite. Napunite oklop rakovice ovom smjesom i poslu\u017eite uz kuhane noge, <strong>sok limuna</strong>, <strong>per\u0161in</strong> i <strong>tost kruh</strong>."
+    }
+  ]
+}
