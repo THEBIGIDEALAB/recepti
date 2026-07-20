@@ -377,5 +377,12 @@
     "category": "Portugal",
     "servings": 4,
     "photo": "https://feed.continente.pt/media/olfmh3l2/sapaeteira-recheada.png"
+  },
+  {
+    "id": "feijao",
+    "title": "Feij\u00e3o",
+    "category": "Brazil",
+    "servings": 4,
+    "photo": "https://braziliankitchenabroad.com/wp-content/uploads/2019/09/brazilian-black-beans-1.jpg"
   }
 ]
