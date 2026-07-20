@@ -1,0 +1,76 @@
+{
+  "id": "feijao",
+  "title": "Feij\u00e3o",
+  "category": "Brazil",
+  "servings": 4,
+  "photo": "https://braziliankitchenabroad.com/wp-content/uploads/2019/09/brazilian-black-beans-1.jpg",
+  "youtube": "https://www.youtube.com/embed/9zYRte4zl18",
+  "notes": "Brz i kremast svakodnevni brazilski crni grah, gotov za otprilike sat vremena. Poslu\u017euje se uz ri\u017eu i idealan je za pripremu bogatog, zasitnog i utje\u0161nog jela. Za dodatnu upotpunu obroka mo\u017eete dodati sotiranu ra\u0161tiku ili svje\u017ei nasjeckani per\u0161in.",
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "kg",
+      "name": "suhi crni grah"
+    },
+    {
+      "amount": 400,
+      "unit": "g",
+      "name": "dimljena slanina ili kobasica, narezana na kockice"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "glavica luka, sitno sjeckana"
+    },
+    {
+      "amount": 9,
+      "unit": "re\u017enja",
+      "name": "\u010de\u0161njak, sitno sjeckan"
+    },
+    {
+      "amount": 4,
+      "unit": "kom",
+      "name": "lovorov list"
+    },
+    {
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "maslinovo ili biljno ulje"
+    },
+    {
+      "name": "sol i svje\u017ee mljeveni crni papar, po ukusu"
+    },
+    {
+      "amount": 2,
+      "unit": "tsp",
+      "name": "ocat"
+    },
+    {
+      "amount": 12,
+      "unit": "\u0161alica",
+      "name": "voda, za kuhanje graha"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Namakanje graha",
+      "content": "<strong>Grah</strong> operite i namo\u010dite u vodi ve\u010der prije kuhanja (ili ga kratko prokuhajte 5 minuta pa ostavite da odstoji sat vremena)."
+    },
+    {
+      "title": "Kuhanje graha",
+      "content": "Ocijedite <strong>grah</strong>, stavite u lonac, prelijte s oko 12 \u0161alica <strong>vode</strong>, dodajte <strong>lovorov list</strong> i kuhajte oko 45-60 minuta dok grah ne omek\u0161a."
+    },
+    {
+      "title": "Pr\u017eenje dodataka",
+      "content": "U zasebnoj tavi na <strong>ulju</strong> prepr\u017eite <strong>slaninu</strong> dok ne pusti masno\u0107u i postane hrskava. Zatim dodajte <strong>luk</strong> i pr\u017eite dok ne omek\u0161a, a na samom kraju umije\u0161ajte <strong>\u010de\u0161njak</strong> paze\u0107i da ne zagori."
+    },
+    {
+      "title": "Sjedinjavanje okusa",
+      "content": "Prepr\u017eeni luk, \u010de\u0161njak i slaninu dodajte u lonac s <strong>grahom</strong>. Za\u010dinite <strong>solju</strong>, <strong>paprom</strong> i <strong>octom</strong>."
+    },
+    {
+      "title": "Zgu\u0161njavanje",
+      "content": "Pustite da sve zajedno kuha jo\u0161 15-20 minuta na laganoj vatri bez poklopca kako bi se dobila fina, gusta ju\u0161na struktura. Nekoliko zrna <strong>graha</strong> mo\u017eete zgnje\u010diti vilicom direktno u loncu za dodatnu gusto\u0107u."
+    }
+  ]
+}
