@@ -3,98 +3,99 @@
   "title": "Feijoada de Polvo",
   "category": "Portugal",
   "servings": 4,
-  "photo": "https://www.portugalthings.com/wp-content/uploads/2025/07/feijoada-de-polvo-500x500.jpg",
-  "youtube": "",
-  "notes": "Priprema: 40 min, kuhanje: 40 min. Utje\u0161no i sitno jelo koje spaja okuse mora s nje\u017enim komadima hobotnice, bijelim grahom, mrkvom, pulpom raj\u010dice i svje\u017eim per\u0161inom ili korijanderom.",
+  "photo": "https://www.portugalthings.com/wp-content/uploads/2025/07/feijoada-de-polvo.jpg",
+  "youtube": "https://www.youtube.com/embed/IF0jHDxXfJs",
+  "notes": "Utje\u0161an gula\u0161 od hobotnice s grahom \u2013 tradicionalno portugalsko jelo s ne\u017enom, sporo kuhanom hobotnicom i so\u010dnim chouri\u00e7o kobasicama, kuhano u bogatom i aromati\u010dnom temeljcu od raj\u010dice i bijelog graha.",
   "ingredients": [
     {
       "amount": 1,
       "unit": "kom",
-      "name": "srednja hobotnica"
+      "name": "hobotnica (1,2\u20131,5 kg), svje\u017ea ili smrznuta i odmrznuta"
     },
     {
       "amount": 800,
       "unit": "g",
-      "name": "bijeli grah"
-    },
-    {
-      "amount": 2,
-      "unit": "kom",
-      "name": "luka"
-    },
-    {
-      "amount": 4,
-      "unit": "re\u017enja",
-      "name": "\u010de\u0161njaka"
-    },
-    {
-      "amount": 3,
-      "unit": "kom",
-      "name": "mrkve"
-    },
-    {
-      "amount": 400,
-      "unit": "g",
-      "name": "pulpe raj\u010dice"
-    },
-    {
-      "name": "maslinovo ulje, po ukusu"
-    },
-    {
-      "name": "sol, po ukusu"
-    },
-    {
-      "name": "bijeli papar, po ukusu"
+      "name": "kuhani bijeli ili crveni grah, ocije\u0111en"
     },
     {
       "amount": 1,
       "unit": "kom",
-      "name": "lovorov list"
+      "name": "veliki luk, sitno nasjeckan"
     },
     {
-      "name": "svje\u017ei per\u0161in ili korijander, po ukusu"
+      "amount": 5,
+      "unit": "re\u017enja",
+      "name": "\u010de\u0161njak, sitno nasjeckan"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "list lovora"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "velika mrkva, na kockice"
+    },
+    {
+      "amount": 2,
+      "unit": "kom",
+      "name": "velika zrela raj\u010dica, sjeckana"
+    },
+    {
+      "amount": 0.5,
+      "unit": "kom",
+      "name": "zelena ili crvena paprika, na kockice"
+    },
+    {
+      "amount": 1,
+      "unit": "kom",
+      "name": "portugalski chouri\u00e7o de carne (kobasica), narezan na koluti\u0107e"
+    },
+    {
+      "amount": 80,
+      "unit": "g",
+      "name": "slanina, na kockice"
+    },
+    {
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "koncentrat raj\u010dice"
+    },
+    {
+      "amount": 250,
+      "unit": "ml",
+      "name": "bijelo vino"
+    },
+    {
+      "amount": 300,
+      "unit": "ml",
+      "name": "temeljac od hobotnice (rezerviran) ili riblji temeljac"
+    },
+    {
+      "name": "svje\u017ei korijandar ili per\u0161in, maslinovo ulje, sol i ljuta \u010dili paprika (malagueta), po ukusu"
     }
   ],
   "steps": [
     {
       "title": "Kuhanje hobotnice",
-      "content": "Prokuhajte vodu i uronite <strong>hobotnicu</strong> u kipu\u0107u vodu na 3 sekunde, izvadite je, te ponovite postupak jo\u0161 dva puta."
+      "content": "Stavite <strong>hobotnicu</strong> u veliki lonac zajedno s oguljenim cijelim <strong>lukom</strong>. Poklopite i kuhajte na laganoj vatri 40 minuta (okrenite na pola vremena kuhanja). Ostavite da se malo prohladi, zatim nare\u017eite krakove na zalogaje. Sa\u010duvajte 300 ml tamne, aromati\u010dne vode od kuhanja."
     },
     {
-      "title": "Kuhanje hobotnice",
-      "content": "Zatim kuhajte <strong>hobotnicu</strong> u loncu pod tlakom s jednim narezanim <strong>lukom</strong>, <strong>lovorovim listom</strong> i dva re\u017enja <strong>\u010de\u0161njaka</strong> oko 30 minuta, dok hobotnica ne omek\u0161a toliko da je lako probosti vilicom."
+      "title": "Priprema baze za gula\u0161",
+      "content": "U drugom velikom loncu s debelim dnom zagrijte maslinovo ulje na srednjoj vatri. Popr\u017eite nasjeckani <strong>luk</strong>, <strong>\u010de\u0161njak</strong>, <strong>lovor</strong>, <strong>\u010dili papriku</strong>, <strong>slaninu</strong> na kockice i <strong>chouri\u00e7o</strong> dok luk ne postane proziran, a meso ne po\u010dne pu\u0161tati masno\u0107u."
     },
     {
-      "title": "Priprema variva",
-      "content": "Kad je hobotnica gotova, pripremite bazu za umak: propirjajte na <strong>maslinovom ulju</strong> jedan nasjeckani <strong>luk</strong> i dva re\u017enja <strong>\u010de\u0161njaka</strong> dok ne postanu zlatni."
+      "title": "Kuhanje umaka",
+      "content": "Dodajte na kockice narezanu <strong>papriku</strong>, <strong>raj\u010dicu</strong> i <strong>koncentrat raj\u010dice</strong>. Deglazirajte lonac <strong>bijelim vinom</strong> i pustite da se smanji 3 minute. Dodajte <strong>mrkvu</strong> na kockice i sa\u010duvani <strong>temeljac od hobotnice</strong>. Kuhajte poklopljeno 10 minuta."
     },
     {
-      "title": "Priprema variva",
-      "content": "Dodajte <strong>pulpu raj\u010dice</strong> i narezanu ili kockice <strong>mrkve</strong> te kuhajte dok mrkva ne omek\u0161a. Smanjite vatru na srednju."
+      "title": "Spajanje sastojaka",
+      "content": "Dodajte kuhani <strong>grah</strong> i narezanu <strong>hobotnicu</strong> u gula\u0161. Za\u010dinite solju i paprom. Poklopite i kuhajte na laganoj vatri jo\u0161 5 do 10 minuta dok se okusi ne sjedine u gustu, utje\u0161nu konzistenciju."
     },
     {
-      "title": "Priprema variva",
-      "content": "Za\u010dinite <strong>solju</strong> i <strong>paprom</strong> po ukusu."
-    },
-    {
-      "title": "Priprema variva",
-      "content": "U me\u0111uvremenu nare\u017eite <strong>hobotnicu</strong> na ve\u0107e komade."
-    },
-    {
-      "title": "Priprema variva",
-      "content": "Kad je mrkva gotova, dodajte <strong>hobotnicu</strong> i oko 100 ml (otprilike pola \u0161alice) teku\u0107ine u kojoj se hobotnica kuhala."
-    },
-    {
-      "title": "Priprema variva",
-      "content": "Dodajte <strong>grah</strong>, zajedno s teku\u0107inom iz konzerve ili staklenke, i pustite da sve kr\u010dka 5 do 10 minuta kako bi se okusi sjedinili."
-    },
-    {
-      "title": "Priprema variva",
-      "content": "Probajte i po potrebi doradite za\u010dine. Ako je potrebno, dodajte malo vi\u0161e temeljca od hobotnice kako biste dobili lijep, bogat umak, ali ne prerijedak."
-    },
-    {
-      "title": "Priprema variva",
-      "content": "Ugasite vatru i umije\u0161ajte svje\u017ee nasjeckani <strong>per\u0161in ili korijander</strong>, prema \u017eelji."
+      "title": "Poslu\u017eivanje",
+      "content": "Ugasite vatru i umije\u0161ajte veliku \u0161aku svje\u017ee nasjeckanog <strong>korijandra</strong>. Ostavite da odstoji 5 minuta i poslu\u017eite vru\u0107e uz pahuljasti bijeli ri\u017ea."
     }
   ]
 }
