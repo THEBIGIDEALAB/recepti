@@ -384,5 +384,13 @@
     "category": "Brazil",
     "servings": 4,
     "photo": "https://braziliankitchenabroad.com/wp-content/uploads/2019/09/brazilian-black-beans-1.jpg"
+  },
+  {
+    "id": "dagnje-na-buzaru",
+    "title": "Dagnje na buzaru po maminom starom receptu",
+    "category": "Hrvatska",
+    "servings": 4,
+    "photo": "https://piovariations.cdn.podravka.net/public/optimized/original/957779ce-6422-11eb-9e98-0242ac120058.webp",
+    "youtube": ""
   }
 ]
