@@ -48,6 +48,15 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
 .step-n { font-weight: bold; font-size: 1.2rem; min-width: 24px; flex-shrink: 0; }
 .print-btn { border: 1.5px solid #111; background: #fff; padding: 10px 20px; font-family: Georgia, serif; font-size: 0.95rem; cursor: pointer; width: 100%; margin-top: 8px; }
 #loading { text-align: center; padding: 60px 0; color: #888; }
+.shop-btn { border: 1.5px solid #111; background: #fff; padding: 8px 14px; font-family: Georgia, serif; font-size: 0.9rem; cursor: pointer; margin-bottom: 16px; }
+.shop-btn:active { background: #f5f5f5; }
+#shopping-view { display: none; padding-top: 16px; padding-bottom: 60px; }
+#shopping-view h2 { font-size: 1.25rem; margin-bottom: 16px; }
+.shop-group { font-size: 0.75rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; color: #666; padding: 14px 0 6px; border-bottom: 1px solid #ccc; }
+.shop-item { display: flex; align-items: center; gap: 12px; padding: 11px 0; border-bottom: 1px solid #eee; font-size: 1rem; cursor: pointer; }
+.shop-item input[type="checkbox"] { width: 20px; height: 20px; flex-shrink: 0; }
+.shop-item.checked span { text-decoration: line-through; color: #999; }
+#shop-empty, #shop-loading { padding: 40px 0; text-align: center; color: #888; display: none; }
   @media print {
     nav,.back-btn,.servings-bar,.print-btn,.yt-wrap{display:none!important;}
     #home-view,#cat-view,#search-view,#no-results,#loading{display:none!important;}
@@ -77,11 +86,19 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
 <div id="cat-view" style="display:none">
   <button class="back-btn" id="back-to-home">&#8592; Natrag</button>
   <div id="cat-title"></div>
+  <button class="shop-btn" id="shop-open-btn">&#128722; Popis za kupovinu</button>
 </div>
 <div id="search-view" style="display:none">
   <div id="search-results-title"></div>
 </div>
 <div id="no-results">Nema pronađenih recepata.</div>
+<div id="shopping-view">
+  <button class="back-btn" id="shop-back-btn">&#8592; Natrag</button>
+  <h2 id="shop-title"></h2>
+  <div id="shop-loading">Učitavam popis...</div>
+  <div id="shop-list"></div>
+  <div id="shop-empty">Nema stavki za popis u ovoj kategoriji.</div>
+</div>
 <div id="recipe-view" style="display:none">
   <button class="back-btn" id="back-btn">&#8592; Natrag</button>
   <h1 id="r-title"></h1>
@@ -111,8 +128,103 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
   function $(id) { return document.getElementById(id); }
 
   function hideAll() {
-    ['home-view','cat-view','recipe-view','search-view','no-results'].forEach(function(id) {
+    ['home-view','cat-view','recipe-view','search-view','no-results','shopping-view'].forEach(function(id) {
       $(id).style.display = 'none';
+    });
+  }
+
+  // --- Popis za kupovinu: klasifikacija sastojaka ---
+  // Napomena: heuristika po ključnim riječima. Svježe povrće/voće/začinsko bilje
+  // i sirovo meso/riba/školjkaši (tržnica, mesnica, ribarnica) se izostavljaju.
+  var CLASSIFY = (function() {
+    function has(name, arr) { return arr.some(function(k) { return name.indexOf(k) !== -1; }); }
+
+    var SKIP = ['voda', 'kockice leda'];
+    var FORCE_DETALJI = ['pržen luk', 'prženi luk', 'tuna iz konzerve', 'iz konzerve', 'konzervirana',
+      'bakalar', 'svinjska mast', 'temeljac', 'rakovo meso ili imitacija', 'kiseli kupus', 'kiseli krastavč'];
+    var FROZEN = ['smrznut', 'zamrznut', 'edamame', 'tempura'];
+    var ZACINI = ['bijeli papar', 'bijelog papra', 'crni papar', 'papar,', 'sol i papar', 'sol, fina',
+      'sol, po', 'soli', 'morska sol', 'sol s češnjakom', 'curry u prahu', 'cimet', 'klinčić', 'klinovi',
+      'kardamon', 'muškatni oraščić', 'origano', 'lovorov list', 'lovor', 'slatka mljevena paprika',
+      'slatka paprika', 'slatke mljevene paprike', 'prašak pet začina', 'sušene čili pahuljice',
+      'pahuljice čilija', 'sušeni čili', 'zrna pimenta', 'zvjezdasti aniš', 'đumbir u prahu', 'bobice kleke',
+      'sjemenke korijandera', 'pečeni korijander, sjemenke', 'pečeni kumin, sjemenke', 'kim,', 'kim ',
+      'petparaca'];
+    var PASTE = ['curry pasta', 'čili pasta', 'tamarind pasta', 'pasta od kozica', 'fermentirana pasta',
+      'pasta od limunovca', 'paste od limunove trave', 'koncentrat rajčice', 'senf', 'dijon gorčica',
+      'majoneza', 'spicy mayo', 'kečap', 'kečep', 'hoisin', 'umak od ostriga', 'soja umak', 'sojin umak',
+      'soja umaka', 'riblja omaka', 'riblji umak', 'riblja umak', 'ribljeg umaka', 'slatki čili umak',
+      'sriracha', 'piri piri', 'tabasco', 'golden mountain', 'rižin ocat', 'ocat', 'mirin', 'sake',
+      'rižino vino', 'shaoxing', 'unagi umak', 'bešamel umak', 'wasabi'];
+    var EXCLUDE = ['gove', 'svinj', 'pileć', 'piletina', 'janjetin', 'teletin', 'patk', 'guska', 'puretin',
+      'škamp', 'kozic', 'dagnj', 'riba, bijela', 'svježi filet bijele ribe', 'svježi losos', 'filet lososa',
+      'tuna sushi kvalitete', 'tuna, sushi-grade', 'hobotnica', 'avokado', 'ananas', 'cherry rajčic',
+      'rajčic', 'krastavac', 'krumpir', 'kupus', 'luk', 'vlasac', 'češnjak', 'đumbir', 'mrkva', 'paprika',
+      'patlidžan', 'tikvic', 'celer', 'peršin', 'korijandar', 'korijander', 'cilantro', 'bosiljak', 'menta',
+      'rikola', 'matovilac', 'zelena salata', 'lisnato povrće', 'limun', 'limeta', 'jabuka', 'mango',
+      'banana', 'daikon', 'galangal', 'šalota', 'čanjaka', 'klice graha', 'kličice graha', 'gljive',
+      'shiitake', 'bambusovi izdanci', 'zelena papaja', 'jalapeño', 'kelj galega', 'kineski vlasac',
+      'špinat', 'kosti', 'čili'];
+
+    return function classify(rawName) {
+      var name = (rawName || '').toLowerCase();
+      if (has(name, SKIP)) return null;
+      if (has(name, FORCE_DETALJI)) return 'Detalji';
+      if (has(name, FROZEN)) return 'Smrznuto';
+      if (has(name, ZACINI)) return 'Začini';
+      if (has(name, PASTE)) return 'Paste';
+      if (has(name, EXCLUDE)) return null;
+      return 'Detalji';
+    };
+  })();
+
+  function openShoppingList(cat) {
+    if (!_fromPop) history.pushState({v:'shopping', cat:cat}, '', '#shop-' + cat);
+    hideAll(); view = 'shopping'; curCat = cat;
+    $('shop-title').textContent = 'Popis za kupovinu \u2014 ' + cat;
+    $('shop-list').innerHTML = '';
+    $('shop-empty').style.display = 'none';
+    $('shop-loading').style.display = 'block';
+    $('shopping-view').style.display = 'block';
+    releaseWakeLock();
+
+    var recipes = all.filter(function(r) { return r.category === cat; });
+    Promise.all(recipes.map(function(r) {
+      return fetch('recipes/' + r.id + '.json?t=' + Date.now()).then(function(res) { return res.json(); }).catch(function() { return null; });
+    })).then(function(list) {
+      var seen = {};
+      var groups = { 'Začini': [], 'Paste': [], 'Smrznuto': [], 'Detalji': [] };
+      list.forEach(function(recipe) {
+        if (!recipe) return;
+        (recipe.ingredients || []).forEach(function(ing) {
+          if (ing.group) return;
+          var raw = ing.name || '';
+          var key = raw.split(',')[0].trim().toLowerCase();
+          if (!key || seen[key]) return;
+          var bucket = CLASSIFY(raw);
+          if (!bucket) return;
+          seen[key] = true;
+          groups[bucket].push(key.charAt(0).toUpperCase() + key.slice(1));
+        });
+      });
+      $('shop-loading').style.display = 'none';
+      var order = ['Začini', 'Paste', 'Smrznuto', 'Detalji'];
+      var html = '', total = 0;
+      order.forEach(function(g) {
+        var items = groups[g];
+        if (!items.length) return;
+        items.sort(function(a, b) { return a.localeCompare(b, 'hr'); });
+        total += items.length;
+        html += '<div class="shop-group">' + g + '</div>';
+        items.forEach(function(item) {
+          var storeKey = 'shop:' + cat + ':' + item.toLowerCase();
+          var checked = localStorage.getItem(storeKey) === '1';
+          html += '<label class="shop-item' + (checked ? ' checked' : '') + '" data-key="' + storeKey + '">' +
+            '<input type="checkbox"' + (checked ? ' checked' : '') + '><span>' + item + '</span></label>';
+        });
+      });
+      $('shop-list').innerHTML = html;
+      if (total === 0) $('shop-empty').style.display = 'block';
     });
   }
 
@@ -244,6 +356,18 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
   $('logo').addEventListener('click', renderHome);
   $('back-to-home').addEventListener('click', function() { renderHome(); });
   $('back-btn').addEventListener('click', goBackFromRecipe);
+  $('shop-open-btn').addEventListener('click', function() { openShoppingList(curCat); });
+  $('shop-back-btn').addEventListener('click', function() {
+    renderCat(curCat);
+    history.replaceState({v:'cat', cat:curCat}, '', '#cat-' + curCat);
+  });
+  $('shop-list').addEventListener('change', function(e) {
+    var label = e.target.closest('.shop-item');
+    if (!label) return;
+    var key = label.dataset.key;
+    if (e.target.checked) { localStorage.setItem(key, '1'); label.classList.add('checked'); }
+    else { localStorage.removeItem(key); label.classList.remove('checked'); }
+  });
   $('print-btn').addEventListener('click', function() { window.print(); });
   $('srv-minus').addEventListener('click', function() { curSrv = Math.max(1, curSrv - 1); $('srv-count').textContent = curSrv; renderIng(); });
   $('srv-plus').addEventListener('click', function() { curSrv++; $('srv-count').textContent = curSrv; renderIng(); });
@@ -283,6 +407,7 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
     if (!st || st.v === 'home') { renderHome(); }
     else if (st.v === 'cat') { renderCat(st.cat); }
     else if (st.v === 'recipe') { loadRecipe(st.id); }
+    else if (st.v === 'shopping') { openShoppingList(st.cat); }
     _fromPop = false;
   });
 
