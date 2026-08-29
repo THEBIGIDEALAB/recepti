@@ -56,6 +56,7 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
 .shop-item { display: flex; align-items: center; gap: 12px; padding: 11px 0; border-bottom: 1px solid #eee; font-size: 1rem; cursor: pointer; }
 .shop-item input[type="checkbox"] { width: 20px; height: 20px; flex-shrink: 0; }
 .shop-item.checked span { text-decoration: line-through; color: #999; }
+.shop-orig { font-size: 0.85em; color: #888; font-style: italic; }
 #shop-empty, #shop-loading { padding: 40px 0; text-align: center; color: #888; display: none; }
   @media print {
     nav,.back-btn,.servings-bar,.print-btn,.yt-wrap{display:none!important;}
@@ -178,6 +179,72 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
     };
   })();
 
+  // --- Kanonikalizacija sinonima (spaja iste namirnice pod jedan naziv) ---
+  var CANONICALIZE = (function() {
+    var RULES = [
+      // ulja
+      [['maslinovo ulje', 'maslinovog ulja', 'lagano maslinovo ulje'], 'Maslinovo ulje'],
+      [['sezamovo ulje', 'preprženo sezamovo ulje', 'tostirano sezamovo ulje'], 'Sezamovo ulje'],
+      [['biljno ulje', 'biljnog ulja', 'neutralno ulje', 'ulje za prženje'], 'Ulje'],
+      // sezam (sjemenke)
+      [['sezam', 'preprženi sezam'], 'Sezam'],
+      // papar
+      [['bijeli papar', 'bijelog papra'], 'Bijeli papar'],
+      [['crni papar'], 'Crni papar'],
+      [['papar,', 'papar '], 'Papar'],
+      // šećer
+      [['šećer u prahu'], 'Šećer u prahu'],
+      [['smeđi šećer', 'smeđeg šećera', 'svijetli smeđi šećer'], 'Smeđi šećer'],
+      [['palmini šećer'], 'Palmin šećer'],
+      [['kristal šećer', 'bijeli šećer', 'šećer'], 'Šećer'],
+      // sol
+      [['sol s češnjakom'], 'Sol s češnjakom'],
+      [['sol i papar', 'sol i svježe mljeveni'], 'Sol i papar'],
+      [['morska sol'], 'Morska sol'],
+      [['sol,', 'soli'], 'Sol'],
+      // ocat
+      [['rižin ocat', 'kineski rižin ocat'], 'Rižin ocat'],
+      [['ocat'], 'Ocat'],
+      // umaci
+      [['soja umak', 'sojin umak', 'soja umaka'], 'Soja umak'],
+      [['riblja omaka', 'riblji umak', 'riblja umak', 'ribljeg umaka'], 'Riblji umak'],
+      [['dijon gorčica'], 'Dijon gorčica'],
+      [['senf'], 'Senf'],
+      [['majoneza', 'spicy mayo'], 'Majoneza'],
+      [['kečap', 'kečep'], 'Kečap'],
+      [['piri piri', 'tabasco'], 'Piri piri / tabasco umak'],
+      [['rižino vino', 'shaoxing'], 'Rižino vino (Shaoxing)'],
+      [['pasta od kozica', 'fermentirana pasta'], 'Pasta od kozica (gapi)'],
+      [['crvena curry pasta'], 'Crvena curry pasta iz trgovine'],
+      [['zelena curry pasta'], 'Zelena curry pasta iz trgovine'],
+      // ostalo
+      [['maslac'], 'Maslac'],
+      [['indijski oraščići'], 'Indijski oraščići'],
+      [['kikiriki'], 'Kikiriki'],
+      [['krušne mrvice'], 'Krušne mrvice'],
+      [['muškatni oraščić'], 'Muškatni oraščić'],
+      [['đumbir u prahu'], 'Đumbir u prahu'],
+      [['cimet'], 'Cimet'],
+      [['klinčić'], 'Klinčić'],
+      [['kardamon'], 'Kardamon'],
+      [['origano'], 'Origano'],
+      [['lovorov list', 'lovor'], 'Lovorov list'],
+      [['slatka mljevena paprika', 'slatka paprika', 'slatke mljevene paprike'], 'Slatka mljevena paprika'],
+      [['sjemenke korijandera', 'pečeni korijander, sjemenke'], 'Sjemenke korijandera'],
+      [['pečeni kumin, sjemenke', 'kim,', 'kim '], 'Kim (kumin)']
+    ];
+    return function canonicalize(rawName) {
+      var name = (rawName || '').toLowerCase();
+      for (var i = 0; i < RULES.length; i++) {
+        var keys = RULES[i][0];
+        for (var j = 0; j < keys.length; j++) {
+          if (name.indexOf(keys[j]) !== -1) return RULES[i][1];
+        }
+      }
+      return null; // nema pravila — koristi originalni naziv
+    };
+  })();
+
   function openShoppingList(cat) {
     if (!_fromPop) history.pushState({v:'shopping', cat:cat}, '', '#shop-' + cat);
     hideAll(); view = 'shopping'; curCat = cat;
@@ -192,35 +259,42 @@ nav h1 { font-size: 1.4rem; font-weight: bold; cursor: pointer; display: inline-
     Promise.all(recipes.map(function(r) {
       return fetch('recipes/' + r.id + '.json?t=' + Date.now()).then(function(res) { return res.json(); }).catch(function() { return null; });
     })).then(function(list) {
-      var seen = {};
-      var groups = { 'Začini': [], 'Paste': [], 'Smrznuto': [], 'Detalji': [] };
+      // merged[bucket][canonicalKey] = { display: 'Naziv', originals: Set(...) }
+      var merged = { 'Začini': {}, 'Paste': {}, 'Smrznuto': {}, 'Detalji': {} };
       list.forEach(function(recipe) {
         if (!recipe) return;
         (recipe.ingredients || []).forEach(function(ing) {
           if (ing.group) return;
           var raw = ing.name || '';
-          var key = raw.split(',')[0].trim().toLowerCase();
-          if (!key || seen[key]) return;
+          if (!raw.trim()) return;
           var bucket = CLASSIFY(raw);
           if (!bucket) return;
-          seen[key] = true;
-          groups[bucket].push(key.charAt(0).toUpperCase() + key.slice(1));
+          var rawTitle = raw.split(',')[0].trim();
+          rawTitle = rawTitle.charAt(0).toUpperCase() + rawTitle.slice(1);
+          var canonical = CANONICALIZE(raw) || rawTitle;
+          var key = canonical.toLowerCase();
+          if (!merged[bucket][key]) merged[bucket][key] = { display: canonical, originals: {} };
+          if (rawTitle.toLowerCase() !== canonical.toLowerCase()) {
+            merged[bucket][key].originals[rawTitle] = true;
+          }
         });
       });
       $('shop-loading').style.display = 'none';
       var order = ['Začini', 'Paste', 'Smrznuto', 'Detalji'];
       var html = '', total = 0;
       order.forEach(function(g) {
-        var items = groups[g];
-        if (!items.length) return;
-        items.sort(function(a, b) { return a.localeCompare(b, 'hr'); });
-        total += items.length;
+        var entries = Object.keys(merged[g]).map(function(k) { return merged[g][k]; });
+        if (!entries.length) return;
+        entries.sort(function(a, b) { return a.display.localeCompare(b.display, 'hr'); });
+        total += entries.length;
         html += '<div class="shop-group">' + g + '</div>';
-        items.forEach(function(item) {
-          var storeKey = 'shop:' + cat + ':' + item.toLowerCase();
+        entries.forEach(function(entry) {
+          var origList = Object.keys(entry.originals).sort(function(a, b) { return a.localeCompare(b, 'hr'); });
+          var label = entry.display + (origList.length ? ' <span class="shop-orig">(' + origList.join(', ') + ')</span>' : '');
+          var storeKey = 'shop:' + cat + ':' + entry.display.toLowerCase();
           var checked = localStorage.getItem(storeKey) === '1';
           html += '<label class="shop-item' + (checked ? ' checked' : '') + '" data-key="' + storeKey + '">' +
-            '<input type="checkbox"' + (checked ? ' checked' : '') + '><span>' + item + '</span></label>';
+            '<input type="checkbox"' + (checked ? ' checked' : '') + '><span>' + label + '</span></label>';
         });
       });
       $('shop-list').innerHTML = html;
