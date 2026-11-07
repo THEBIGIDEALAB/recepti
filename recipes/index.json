@@ -400,5 +400,13 @@
     "servings": 4,
     "photo": "",
     "youtube": ""
+  },
+  {
+    "id": "coleslaw",
+    "title": "Klasi\u010dni kremasti Coleslaw sa sjemenkama celera",
+    "category": "USA",
+    "servings": 4,
+    "photo": "https://cdn.loveandlemons.com/wp-content/uploads/2026/03/coleslaw.jpg",
+    "youtube": ""
   }
 ]
